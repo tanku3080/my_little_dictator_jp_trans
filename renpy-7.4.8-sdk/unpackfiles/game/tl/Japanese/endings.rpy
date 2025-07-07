@@ -76,7 +76,7 @@ translate Japanese bad_ending1_ff7862d1:
 translate Japanese bad_ending1_f691c725:
 
     # gestapo "Don't you get it yet? This is it for you. Nobody turns down Adorofia Hitora and lives."
-    gestapo "まだ分からないのか？　お前はもう終わりだ。アドルフィア・ヒトラの命令に背いた者に未来はない。"
+    gestapo "まだ分からないのか？　お前はもう終わりだ。アドロフィア・ヒトラの命令に背いた者に未来はない。"
 
 # game/endings.rpy:27
 translate Japanese bad_ending1_1479d58c:
