@@ -8,7 +8,7 @@ translate Japanese strings:
 
     # game/map.rpy:140
     old "Geographic Map"
-    new "Geographic Map"
+    new "地理的地図"
 
     # game/map.rpy:141
     old "Oriasia Map"
@@ -16,9 +16,9 @@ translate Japanese strings:
 
     # game/map.rpy:142
     old "Mission Log"
-    new "Mission Log"
+    new "ミッションログ"
 
     # game/map.rpy:143
     old "Factions Log"
-    new "Factions Log"
+    new "派閥ログ"
 
