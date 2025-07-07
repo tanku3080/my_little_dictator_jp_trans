@@ -1596,7 +1596,7 @@ translate japanese strings:
 
     # renpy/common/00gui.rpy:387
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+    new "ロードすると未保存の進行状況が失われます。"
 
     # renpy/common/00gui.rpy:388
     old "Are you sure you want to quit?"

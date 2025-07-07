@@ -51,16 +51,16 @@ init -1 python hide:
     config.has_autosave = True
     config.autosave_on_quit = False
     
-    layout.ARE_YOU_SURE = "Are you sure?"
-    layout.DELETE_SAVE = "Are you sure you want to delete this save?"
-    layout.OVERWRITE_SAVE = "Are you sure you want to overwrite your save?"
-    layout.LOADING = "Loading will lose unsaved progress. Are you sure?"
-    layout.QUIT = "Are you sure you want to quit?"
-    layout.MAIN_MENU = "Are you sure you want to return to the main menu?"
-    layout.END_REPLAY = "Are you sure you want to end the replay?"
-    layout.SLOW_SKIP = "Are you sure you want to begin skipping?"
-    layout.FAST_SKIP_SEEN = "Are you sure you want to skip to the next choice?"
-    layout.FAST_SKIP_UNSEEN = "Are you sure you want to skip unseen dialogue?"
+    layout.ARE_YOU_SURE = "本当に実行しますか？"
+    layout.DELETE_SAVE = "本当にこのセーブを削除しますか？"
+    layout.OVERWRITE_SAVE = "本当に上書き保存しますか？"
+    layout.LOADING = "ロードすると未保存の進行状況が失われます。本当に実行しますか？"
+    layout.QUIT = "本当に終了しますか？"
+    layout.MAIN_MENU = "本当にメインメニューに戻りますか？"
+    layout.END_REPLAY = "本当にリプレイを終了しますか？"
+    layout.SLOW_SKIP = "本当にスキップしてもよろしいですか？"
+    layout.FAST_SKIP_SEEN = "次の選択肢に進んでよろしいですか？"
+    layout.FAST_SKIP_UNSEEN = "本当に未公開セリフをスキップしてもよろしいですか？"
     theme.bordered(
         mm_root = "menuback",
         gm_root = "gmroot",
