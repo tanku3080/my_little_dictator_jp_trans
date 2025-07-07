@@ -1,0 +1,52 @@
+{
+    "name": "Iraji Rebel",
+    "unit": "enemysection",
+    "image": "iraji_gunner_heer6_profile",
+
+    "walk_sprite": "iraji_gunner_heer6_walk",
+    "receive_sprite": "iraji_gunner_heer6_static",
+    "main1_attack_sprite": "iraji_gunner_heer6_main1_attack",
+    "main2_attack_sprite": "iraji_gunner_heer6_main2_attack",
+    "special1_attack_sprite": "iraji_gunner_heer6_special1_attack", 
+    "special2_attack_sprite": "iraji_gunner_heer6_special2_attack", 
+    "special3_attack_sprite": "iraji_gunner_heer6_special3_attack", 
+    "main1_powerup_sprite": "iraji_gunner_heer6_main1_powerup", 
+    "main2_powerup_sprite": "iraji_gunner_heer6_main2_powerup", 
+    "heal_sprite": "iraji_gunner_heer6_heal", 
+
+    "main1_attack_finalframe_sprite": "iraji_gunner_heer6_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "iraji_gunner_heer6_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "iraji_gunner_heer6_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "iraji_gunner_heer6_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "iraji_gunner_heer6_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "iraji_gunner_heer6_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "iraji_gunner_heer6_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "iraji_gunner_heer6_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_iraji.png",
+    "level": 65,
+    "cost": 640,
+    "hp": 6400,
+    "attack": 64,
+    "defense": 57,
+    "accuracy": 68,
+    "critical": 66,
+    "speed": 69,
+    "terrain": "desert",
+
+    "fullname": "Iraji Rebel",
+    "description": "Standard infantry unit.",
+    "primary_weapon": "Smelly Rifle",
+    "secondary_weapon": "Milly Bomb",
+    "motto": "Rule Britannia!",
+    
+    "perks": ["perk_slash", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_leeenfield", 
+        "main2_attack_millsbomb", 
+        "special1_attack_quickmarch",
+        "heal_medikit_heer6"
+    ],
+    "ai": "True"
+}

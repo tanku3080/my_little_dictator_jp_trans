@@ -1,0 +1,18 @@
+{
+    "id": "kwk40l48",
+    "kind": "attack",
+    "name": "UwU 40 L/48",
+    "desc": "The main cannon of the Panzy IV and other assault guns.",
+    "skilltype": "skilltype_fire",
+    "pp": 40,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_med.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1310,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

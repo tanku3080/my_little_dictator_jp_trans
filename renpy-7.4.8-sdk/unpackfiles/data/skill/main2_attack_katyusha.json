@@ -1,0 +1,20 @@
+{
+    "id": "katyusha",
+    "kind": "attack",
+    "name": "Starin's Organ",
+    "desc": "A fearsome, screaming rocket attack. {color=#F35F5F}(Burn / 10% Chance){/color}",
+    "skilltype": "skilltype_fire",
+    "pp": 100,
+    "image": "reaction_fire",
+    "sound": "battle/katyusha.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe",
+        "full_screen": ["fullscreen_katyusha", 0.01]
+    },
+    "base_hp": -750,
+    "status_enemy": "burn_status",
+    "osd": 3.2,
+    "line": "_name_ fires a round of deadly, screeching rockets, _skill_. _damage_"
+}

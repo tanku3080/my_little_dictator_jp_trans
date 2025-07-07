@@ -1,0 +1,19 @@
+{
+    "id": "heal_regeneration_starin",
+    "kind": "heal",
+    "name": "Regeneration",
+    "desc": "Regain total health.",
+    "skilltype": "skilltype_heal",
+    "pp": 2,
+    "image": "reaction_heal",
+    "sound": "battle/regeneration.ogg",
+    "animation": {
+        "kind": "self",
+        "listing": "heal",
+        "finalframe": "heal_finalframe",
+        "full_screen": ["fullscreen_regeneration", 0.01]
+    },
+    "base_hp": 12000,
+    "osd": 3.2,
+    "line": "_name_ uses _skill_ to heal completely. It's a miracle."
+}

@@ -1,0 +1,18 @@
+{
+    "id": "sa35",
+    "kind": "attack",
+    "name": "47mm SA 35",
+    "desc": "Capable of firing Armour Piercing High Explosive rounds.",
+    "skilltype": "skilltype_fire",
+    "pp": 30,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_small.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -810,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

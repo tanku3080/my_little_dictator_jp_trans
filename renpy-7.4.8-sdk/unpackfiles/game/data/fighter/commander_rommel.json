@@ -1,0 +1,54 @@
+{
+    "name": "Rommel",
+    "unit": "commander",
+    "image": "commander_rommel_profile",
+
+    "walk_sprite": "commander_rommel_walk",
+    "receive_sprite": "commander_rommel_static",
+    "main1_attack_sprite": "commander_rommel_main1_attack",
+    "main2_attack_sprite": "commander_rommel_main2_attack",
+    "special1_attack_sprite": "commander_rommel_special1_attack", 
+    "special2_attack_sprite": "commander_rommel_special2_attack", 
+    "special3_attack_sprite": "commander_rommel_special3_attack", 
+    "main1_powerup_sprite": "commander_rommel_main1_powerup", 
+    "main2_powerup_sprite": "commander_rommel_main2_powerup", 
+    "heal_sprite": "commander_rommel_heal", 
+
+    "main1_attack_finalframe_sprite": "commander_rommel_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "commander_rommel_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "commander_rommel_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "commander_rommel_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "commander_rommel_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "commander_rommel_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "commander_rommel_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "commander_rommel_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 52,
+    "cost": 1500,
+    "hp": 5000,
+    "attack": 57,
+    "defense": 60,
+    "accuracy": 50,
+    "critical": 50,
+    "speed": 45,
+    "terrain": "desert",
+
+    "fullname": "Commander Erwina Rommel",
+    "description": "A foxgirl with the power of the wind, her tornadoes and storms can rip enemies to shreds. Weak against ice types.",
+    "primary_weapon": "Mega Resister 9000",
+    "secondary_weapon": "Stylischhandgranate",
+    "motto": "Gott mit hund!",
+    
+    "perks": ["perk_wind", "perk_stealth", "perk_speed", "x"],
+    "skill": [
+        "main1_attack_megaresister", 
+        "main2_attack_stielhandgranate", 
+        "main1_powerup_xspeed", 
+        "main2_powerup_positivity",
+        "special1_attack_sandstorm", 
+        "special2_attack_desertfox",
+        "special3_attack_absorb"
+    ]
+}

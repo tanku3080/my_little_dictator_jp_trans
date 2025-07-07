@@ -1,0 +1,53 @@
+{
+    "name": "Panzy III",
+    "unit": "enemysection",
+    "image": "panzer_panzer3_profile",
+    
+    "walk_sprite": "panzer_panzer3_walk",
+    "receive_sprite": "panzer_panzer3_static",
+    "main1_attack_sprite": "panzer_panzer3_main1_attack",
+    "main2_attack_sprite": "panzer_panzer3_main2_attack",
+    "special1_attack_sprite": "panzer_panzer3_special1_attack", 
+    "special2_attack_sprite": "panzer_panzer3_special2_attack", 
+    "special3_attack_sprite": "panzer_panzer3_special3_attack", 
+    "main1_powerup_sprite": "panzer_panzer3_main1_powerup", 
+    "main2_powerup_sprite": "panzer_panzer3_main2_powerup", 
+    "heal_sprite": "panzer_panzer3_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_panzer3_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_panzer3_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_panzer3_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_panzer3_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_panzer3_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_panzer3_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_panzer3_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_panzer3_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 55,
+    "cost": 350,
+    "hp": 5500,
+    "attack": 55,
+    "defense": 35,
+    "accuracy": 25,
+    "critical": 25,
+    "speed": 25,
+    "terrain": "ground",
+
+    "fullname": "Panzykampfwagen III",
+    "description": "An ideal tank for providing infantry support as well as handling other tanks. A defective prototype, it was loaned to Commander Yamato free of charge.",
+    "primary_weapon": "50mm UwU 38 L/42",
+    "secondary_weapon": "7.92mm MG 34",
+    "motto": "That's what I'm talking about!",
+    
+    "perks": ["perk_firepower", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_kwk38l42", 
+        "main2_attack_mg34",
+        "special2_attack_breakthrough",
+        "main1_powerup_megapower",
+        "heal_maintenance_heer3"
+    ],
+    "ai": "True"
+}

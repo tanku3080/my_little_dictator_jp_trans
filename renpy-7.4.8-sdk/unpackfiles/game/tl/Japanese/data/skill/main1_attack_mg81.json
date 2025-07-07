@@ -1,0 +1,18 @@
+{
+    "id": "mgff",
+    "kind": "attack",
+    "name": "MG 81 Machine Gun",
+    "desc": "A Germanian belt-fed aircraft machine gun.",
+    "skilltype": "skilltype_metal",
+    "pp": 100,
+    "image": "reaction_hit",
+    "sound": "battle/mg34.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -650,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

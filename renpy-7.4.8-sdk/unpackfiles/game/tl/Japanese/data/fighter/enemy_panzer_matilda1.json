@@ -1,0 +1,51 @@
+{
+    "name": "Ducky I",
+    "unit": "enemysection",
+    "image": "panzer_matilda1_profile",
+    
+    "walk_sprite": "panzer_matilda1_walk",
+    "receive_sprite": "panzer_matilda1_static",
+    "main1_attack_sprite": "panzer_matilda1_main1_attack",
+    "main2_attack_sprite": "panzer_matilda1_main2_attack",
+    "special1_attack_sprite": "panzer_matilda1_special1_attack", 
+    "special2_attack_sprite": "panzer_matilda1_special2_attack", 
+    "special3_attack_sprite": "panzer_matilda1_special3_attack", 
+    "main1_powerup_sprite": "panzer_matilda1_main1_powerup", 
+    "main2_powerup_sprite": "panzer_matilda1_main2_powerup", 
+    "heal_sprite": "panzer_matilda1_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_matilda1_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_matilda1_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_matilda1_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_matilda1_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_matilda1_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_matilda1_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_matilda1_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_matilda1_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 39,
+    "cost": 350,
+    "hp": 3500,
+    "attack": 35,
+    "defense": 35,
+    "accuracy": 25,
+    "critical": 25,
+    "speed": 25,
+    "terrain": "ground",
+
+    "fullname": "Infantry Tank Mark I (Ducky)",
+    "description": "Though the turret and hull are well armored, the tracks are exposed to anti-tank weapons. Its nickname is due to the vehicle's tiny size and fowl-like shape.",
+    "primary_weapon": "Vicky MG",
+    "secondary_weapon": "-",
+    "motto": "Quack quack!",
+    
+    "perks": ["perk_lightweight", "perk_slash", "x", "x"],
+    "skill": [
+        "main1_attack_vickersmg",
+        "special2_attack_breakthrough",
+        "heal_maintenance_heer3"
+    ],
+    "ai": "True"
+}

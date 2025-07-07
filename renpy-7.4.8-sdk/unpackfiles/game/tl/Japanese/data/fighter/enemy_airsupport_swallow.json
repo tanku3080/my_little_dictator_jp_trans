@@ -1,0 +1,51 @@
+{
+    "name": "Swallow",
+    "unit": "enemysection",
+    "image": "airsupport_swallow_profile",
+
+    "walk_sprite": "airsupport_swallow_walk",
+    "receive_sprite": "airsupport_swallow_static",
+    "main1_attack_sprite": "airsupport_swallow_main1_attack",
+    "main2_attack_sprite": "airsupport_swallow_main2_attack", 
+    "special1_attack_sprite": "airsupport_swallow_special1_attack", 
+    "special2_attack_sprite": "airsupport_swallow_special2_attack", 
+    "special3_attack_sprite": "airsupport_swallow_special3_attack", 
+    "main1_powerup_sprite": "airsupport_swallow_main1_powerup", 
+    "main2_powerup_sprite": "airsupport_swallow_main2_powerup", 
+    "heal_sprite": "airsupport_swallow_heal", 
+
+    "main1_attack_finalframe_sprite": "airsupport_swallow_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "airsupport_swallow_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "airsupport_swallow_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "airsupport_swallow_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "airsupport_swallow_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "airsupport_swallow_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "airsupport_swallow_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "airsupport_swallow_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 80,
+    "cost": 850,
+    "hp": 8500,
+    "attack": 70,
+    "defense": 30,
+    "accuracy": 25,
+    "critical": 75,
+    "speed": 125,
+    "terrain": "sky",
+
+    "fullname": "Swallow",
+    "description": "The first ever jet-powered fighter aircraft, used by the Ruftwaffe.",
+    "primary_weapon": "MK 108 Cannon",
+    "secondary_weapon": "Hurricane Rockets",
+    "motto": "All hail moe!",
+    
+    "perks": ["perk_firepower", "perk_lightweight", "x", "x"],
+    "skill": [
+        "main1_attack_mk108cannon", 
+        "main2_attack_hurricane",
+        "heal_maintenance_heer8"
+    ],
+    "ai": "True"
+}

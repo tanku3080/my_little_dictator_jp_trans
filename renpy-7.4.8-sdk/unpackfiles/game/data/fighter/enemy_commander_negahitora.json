@@ -1,0 +1,55 @@
+{
+    "name": "Nega-Hitora",
+    "unit": "enemyboss",
+    "image": "commander_negahitora_profile",
+
+    "walk_sprite": "commander_negahitora_walk",
+    "receive_sprite": "commander_negahitora_static",
+    "main1_attack_sprite": "commander_negahitora_main1_attack",
+    "main2_attack_sprite": "commander_negahitora_main2_attack",
+    "special1_attack_sprite": "commander_negahitora_special1_attack", 
+    "special2_attack_sprite": "commander_negahitora_special2_attack", 
+    "special3_attack_sprite": "commander_negahitora_special3_attack", 
+    "main1_powerup_sprite": "commander_negahitora_main1_powerup", 
+    "main2_powerup_sprite": "commander_negahitora_main2_powerup", 
+    "heal_sprite": "commander_negahitora_heal", 
+
+    "main1_attack_finalframe_sprite": "commander_negahitora_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "commander_negahitora_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "commander_negahitora_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "commander_negahitora_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "commander_negahitora_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "commander_negahitora_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "commander_negahitora_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "commander_negahitora_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 70,
+    "cost": 690,
+    "hp": 14000,
+    "attack": 80,
+    "defense": 80,
+    "accuracy": 75,
+    "critical": 85,
+    "speed": 100,
+    "terrain": "ground",
+
+    "fullname": "Nega-Hitora",
+    "description": "A menacing looking cyborg...",
+    "primary_weapon": "Pistole Parabellum (Luger)",
+    "secondary_weapon": "Stylischhandgranate",
+    "motto": "Heil me!",
+    
+    "perks": ["perk_bruteforce", "perk_heal", "perk_firepower", "x"],
+    "skill": [
+        "main1_attack_luger", 
+        "main2_attack_stielhandgranate",
+        "main1_powerup_xpower",
+        "special1_attack_cyberstrike",
+        "special2_attack_nanoattack",
+        "special3_attack_doppelganger",
+        "heal_medikit_heer8"
+    ],
+    "ai": "True"
+}

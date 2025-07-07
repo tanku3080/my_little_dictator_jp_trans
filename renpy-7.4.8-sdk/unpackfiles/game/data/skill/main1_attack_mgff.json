@@ -1,0 +1,18 @@
+{
+    "id": "mgff",
+    "kind": "attack",
+    "name": "MG FF Cannon",
+    "desc": "A Germanian drum-fed aircraft autocannon.",
+    "skilltype": "skilltype_metal",
+    "pp": 100,
+    "image": "reaction_hit",
+    "sound": "battle/cannon_heavy.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1350,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "dshk",
+    "kind": "attack",
+    "name": "Dushka Machine Gun",
+    "desc": "A Sovian heavy machine gun with a butterfly trigger.",
+    "skilltype": "skilltype_metal",
+    "pp": 20,
+    "image": "reaction_hit",
+    "sound": "battle/mg34.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -410,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "desertfox",
+    "kind": "attack",
+    "name": "Desert Fox",
+    "desc": "An extremely powerful wind attack.",
+    "skilltype": "skilltype_wind",
+    "pp": 5,
+    "image": "reaction_wind",
+    "sound": "battle/desertfox.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special2_attack",
+        "finalframe": "special2_attack_finalframe",
+        "full_screen": ["fullscreen_desertfox", 0.01]
+    },
+    "base_hp": -1600,
+    "osd": 3.5,
+    "line": "The _skill_ awakens. A storm brews, in a desolate desert. _damage_"
+}

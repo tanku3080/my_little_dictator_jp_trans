@@ -1,0 +1,19 @@
+{
+    "id": "thousandyearstrike",
+    "kind": "attack",
+    "name": "Thousand Year Strike",
+    "desc": "A dark Germanian mana attack.",
+    "skilltype": "skilltype_dark",
+    "pp": 1,
+    "image": "reaction_reddark2",
+    "sound": "battle/thousandyearstrike.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special2_attack",
+        "finalframe": "special2_attack_finalframe",
+        "full_screen": ["fullscreen_thousandyearstrike", 0.01]
+    },
+    "base_hp": -2200,
+    "osd": 4,
+    "line": "Calling on her dark powers, _name_ uses a _skill_. _damage_"
+}

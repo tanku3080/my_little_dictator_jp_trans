@@ -1,0 +1,54 @@
+{
+    "name": "Sovia Koloss-2",
+    "unit": "enemysection",
+    "image": "panzer_kv2_profile",
+    
+    "walk_sprite": "panzer_kv2_walk",
+    "receive_sprite": "panzer_kv2_static",
+    "main1_attack_sprite": "panzer_kv2_main1_attack",
+    "main2_attack_sprite": "panzer_kv2_main2_attack",
+    "special1_attack_sprite": "panzer_kv2_special1_attack", 
+    "special2_attack_sprite": "panzer_kv2_special2_attack", 
+    "special3_attack_sprite": "panzer_kv2_special3_attack", 
+    "main1_powerup_sprite": "panzer_kv2_main1_powerup", 
+    "main2_powerup_sprite": "panzer_kv2_main2_powerup", 
+    "heal_sprite": "panzer_kv2_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_kv2_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_kv2_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_kv2_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_kv2_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_kv2_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_kv2_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_kv2_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_kv2_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_sovia.png",
+    "level": 76,
+    "cost": 760,
+    "hp": 7600,
+    "attack": 76,
+    "defense": 72,
+    "accuracy": 63,
+    "critical": 72,
+    "speed": 62,
+    "terrain": "snow",
+
+    "fullname": "Sovia Koloss-2 (KV Series)",
+    "description": "Intended as a bunker buster, this tank features a 152mm howitzer and is designated as a heavy artillery tank. However, its high profile makes it an obvious target.",
+    "primary_weapon": "M-10T howitzer",
+    "secondary_weapon": "Magnitofon-27",
+    "motto": "OLs of the world unite",
+    
+    "perks": ["perk_firepower", "perk_explosive", "perk_ice", "x"],
+    "skill": [
+        "main1_attack_m10thowitzer",
+        "main2_attack_dp27",
+        "special1_attack_soviaanthem",
+        "special2_attack_smush",
+        "main1_powerup_megapower",
+        "heal_maintenance_heer7"
+    ],
+    "ai": "True"
+}

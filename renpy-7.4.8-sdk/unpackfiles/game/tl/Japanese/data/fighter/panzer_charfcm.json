@@ -1,0 +1,52 @@
+{
+    "name": "Champagne",
+    "unit": "panzer",
+    "image": "panzer_charfcm_profile",
+    
+    "walk_sprite": "panzer_charfcm_walk",
+    "receive_sprite": "panzer_charfcm_static",
+    "main1_attack_sprite": "panzer_charfcm_main1_attack",
+    "main2_attack_sprite": "panzer_charfcm_main2_attack",
+    "special1_attack_sprite": "panzer_charfcm_special1_attack", 
+    "special2_attack_sprite": "panzer_charfcm_special2_attack", 
+    "special3_attack_sprite": "panzer_charfcm_special3_attack", 
+    "main1_powerup_sprite": "panzer_charfcm_main1_powerup", 
+    "main2_powerup_sprite": "panzer_charfcm_main2_powerup", 
+    "heal_sprite": "panzer_charfcm_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_charfcm_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_charfcm_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_charfcm_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_charfcm_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_charfcm_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_charfcm_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_charfcm_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_charfcm_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_franzolibre.png",
+    "level": 44,
+    "cost": 420,
+    "hp": 4200,
+    "attack": 42,
+    "defense": 43,
+    "accuracy": 21,
+    "critical": 22,
+    "speed": 20,
+    "terrain": "ground",
+
+    "fullname": "Char d'assaut de grand modèle (Champagne)",
+    "description": "A super-heavy tank from Franzo, perhaps the biggest operational tank ever built. A lot of extra room for ashtrays and cheese wheels.",
+    "primary_weapon": "75mm Canon de 75 modèle 1897",
+    "secondary_weapon": "8mm Mle 1914 Hotkiss",
+    "motto": "Ho ho ho!",
+    
+    "perks": ["perk_slash", "perk_bruteforce", "perk_flame", "x"],
+    "skill": [
+        "main1_attack_75modele", 
+        "main2_attack_hotchkissm1914",
+        "special1_attack_franzoanthem",
+        "main1_powerup_megaspeed",
+        "heal_maintenance_heer4"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "id": "brainwash",
+    "kind": "attack",
+    "name": "Brain Wash",
+    "desc": "A dark Germanian mana attack. {color=#F35F5F}(Stun / 50% Chance){/color}",
+    "skilltype": "skilltype_dark",
+    "pp": 500000,
+    "image": "reaction_hit",
+    "sound": "battle/brainwash.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_brainwash", 0.01]
+    },
+    "base_hp": -1500,
+    "status_enemy": "stun_status",
+    "osd": 4,
+    "line": "Using her skills of persuasion, _name_ tries to _skill_ her enemies. _damage_"
+}

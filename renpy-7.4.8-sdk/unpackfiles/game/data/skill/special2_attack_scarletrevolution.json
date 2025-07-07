@@ -1,0 +1,19 @@
+{
+    "id": "scarletrevolution",
+    "kind": "attack",
+    "name": "Scarlet Revolution",
+    "desc": "A dark xommunist mana attack.",
+    "skilltype": "skilltype_dark",
+    "pp": 500000,
+    "image": "reaction_dark",
+    "sound": "battle/scarletrevolution.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special2_attack",
+        "finalframe": "special2_attack_finalframe",
+        "full_screen": ["fullscreen_scarletrevolution", 0.01]
+    },
+    "base_hp": -2200,
+    "osd": 4,
+    "line": "_name_ uses her mana powers to cause a _skill_. _damage_"
+}

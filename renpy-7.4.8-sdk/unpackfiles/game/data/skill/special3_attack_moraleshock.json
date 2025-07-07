@@ -1,0 +1,21 @@
+{
+    "id": "moraleshock",
+    "kind": "attack",
+    "name": "Morale Shock",
+    "desc": "Damage enemy morale with propaganda. {color=#F35F5F}(Shock / 33% Chance){/color}",
+    "skilltype": "skilltype_wind",
+    "pp": 2,
+    "image": "reaction_hit",
+    "sound": "battle/moraleshock.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "walk",
+        "finalframe": "static",
+        "full_screen": ["fullscreen_superup", 0.01]
+    },
+    "base_hp": -1000,
+    "status_enemy": "morale_status",
+    "user_hp_change": 1000,
+    "osd": 3.5,
+    "line": "_name_ uses _skill_ to hurt enemy morale. _damage_"
+}

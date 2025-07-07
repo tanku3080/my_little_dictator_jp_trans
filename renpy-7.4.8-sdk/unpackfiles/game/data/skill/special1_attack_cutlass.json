@@ -1,0 +1,18 @@
+{
+    "id": "cutlass",
+    "kind": "attack",
+    "name": "Pirate Cutlass",
+    "desc": "A pirate sword.",
+    "skilltype": "skilltype_metal",
+    "pp": 5,
+    "image": "reaction_backslash",
+    "sound": "battle/sabre.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe"
+    },
+    "base_hp": -850,
+    "osd": 3.0,
+    "line": "_name_ uses their _skill_. _damage_"
+}

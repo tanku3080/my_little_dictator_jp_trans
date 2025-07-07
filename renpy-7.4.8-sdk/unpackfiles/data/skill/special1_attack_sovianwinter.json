@@ -1,0 +1,19 @@
+{
+    "id": "sovianwinter",
+    "kind": "attack",
+    "name": "Sovian Winter",
+    "desc": "An apocalyptic dark spell.",
+    "skilltype": "skilltype_dark",
+    "pp": 5,
+    "image": "reaction_dark",
+    "sound": "battle/sovianwinter.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_sovianwinter", 0.01]
+    },
+    "base_hp": -2000,
+    "osd": 3.5,
+    "line": "_name_ casts a dark spell. The _skill_ spreads across the land. _damage_"
+}

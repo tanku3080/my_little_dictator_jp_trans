@@ -1,0 +1,51 @@
+{
+    "name": "Bulldog Mech",
+    "unit": "enemysection",
+    "image": "panzer_mech_profile",
+    
+    "walk_sprite": "panzer_mech_walk",
+    "receive_sprite": "panzer_mech_static",
+    "main1_attack_sprite": "panzer_mech_main1_attack",
+    "main2_attack_sprite": "panzer_mech_main2_attack",
+    "special1_attack_sprite": "panzer_mech_special1_attack", 
+    "special2_attack_sprite": "panzer_mech_special2_attack", 
+    "special3_attack_sprite": "panzer_mech_special3_attack", 
+    "main1_powerup_sprite": "panzer_mech_main1_powerup", 
+    "main2_powerup_sprite": "panzer_mech_main2_powerup", 
+    "heal_sprite": "panzer_mech_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_mech_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_mech_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_mech_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_mech_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_mech_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_mech_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_mech_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_mech_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 61,
+    "cost": 670,
+    "hp": 6500,
+    "attack": 65,
+    "defense": 60,
+    "accuracy": 60,
+    "critical": 40,
+    "speed": 60,
+    "terrain": "ground",
+
+    "fullname": "Bulldog Mech S-Type",
+    "description": "A futuristic robot. Built with the codebreaking power of the Colossus computer and the might of a fleet of navy warships, forged from Amerikan money and Britannian ingenuity.",
+    "primary_weapon": "Mega Resister 9000",
+    "secondary_weapon": "EMP Mine",
+    "motto": "BEEP BOOP",
+    
+    "perks": ["perk_electric", "perk_bruteforce", "perk_slopedarmor", "x"],
+    "skill": [
+        "main1_attack_megaresister",
+        "main2_attack_emp",
+        "main1_powerup_xaccuracy"
+    ],
+    "ai": "True"
+}

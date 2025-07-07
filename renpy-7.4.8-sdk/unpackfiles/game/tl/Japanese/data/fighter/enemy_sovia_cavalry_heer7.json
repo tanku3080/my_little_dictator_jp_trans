@@ -1,0 +1,52 @@
+{
+    "name": "Sovia Cavalry",
+    "unit": "enemysection",
+    "image": "sovia_cavalry_heer7_profile",
+
+    "walk_sprite": "sovia_cavalry_heer7_walk",
+    "receive_sprite": "sovia_cavalry_heer7_static",
+    "main1_attack_sprite": "sovia_cavalry_heer7_main1_attack",
+    "main2_attack_sprite": "sovia_cavalry_heer7_main2_attack",
+    "special1_attack_sprite": "sovia_cavalry_heer7_special1_attack", 
+    "special2_attack_sprite": "sovia_cavalry_heer7_special2_attack", 
+    "special3_attack_sprite": "sovia_cavalry_heer7_special3_attack", 
+    "main1_powerup_sprite": "sovia_cavalry_heer7_main1_powerup", 
+    "main2_powerup_sprite": "sovia_cavalry_heer7_main2_powerup", 
+    "heal_sprite": "sovia_cavalry_heer7_heal", 
+
+    "main1_attack_finalframe_sprite": "sovia_cavalry_heer7_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "sovia_cavalry_heer7_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "sovia_cavalry_heer7_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "sovia_cavalry_heer7_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "sovia_cavalry_heer7_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "sovia_cavalry_heer7_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "sovia_cavalry_heer7_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "sovia_cavalry_heer7_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_sovia.png",
+    "level": 73,
+    "cost": 750,
+    "hp": 7500,
+    "attack": 75,
+    "defense": 72,
+    "accuracy": 71,
+    "critical": 75,
+    "speed": 75,
+    "terrain": "forest",
+
+    "fullname": "Sovia Cavalry",
+    "description": "Standard infantry unit.",
+    "primary_weapon": "Zhashka Sabre",
+    "secondary_weapon": "Limonka",
+    "motto": "Girls of the world unite!",
+    
+    "perks": ["perk_slash", "x", "x", "x"],
+    "skill": [
+        "main1_attack_zhashkasabre", 
+        "main2_attack_limonka", 
+        "special3_attack_battlecry",
+        "heal_medikit_heer7"
+    ],
+    "ai": "True"
+}

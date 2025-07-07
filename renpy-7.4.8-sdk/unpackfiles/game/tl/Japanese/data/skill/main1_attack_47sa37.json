@@ -1,0 +1,18 @@
+{
+    "id": "47sa37",
+    "kind": "attack",
+    "name": "SA 47mm Canon",
+    "desc": "A small calibre anti-tank weapon, designed to replace other field guns.",
+    "skilltype": "skilltype_fire",
+    "pp": 30,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_small.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -710,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

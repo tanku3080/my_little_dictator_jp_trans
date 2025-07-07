@@ -1,0 +1,53 @@
+{
+    "name": "Panzy II",
+    "unit": "panzer",
+    "image": "panzer_panzer2_profile",
+    
+    "walk_sprite": "panzer_panzer2_walk",
+    "receive_sprite": "panzer_panzer2_static",
+    "main1_attack_sprite": "panzer_panzer2_main1_attack",
+    "main2_attack_sprite": "panzer_panzer2_main2_attack",
+    "special1_attack_sprite": "panzer_panzer2_special1_attack", 
+    "special2_attack_sprite": "panzer_panzer2_special2_attack", 
+    "special3_attack_sprite": "panzer_panzer2_special3_attack", 
+    "main1_powerup_sprite": "panzer_panzer2_main1_powerup", 
+    "main2_powerup_sprite": "panzer_panzer2_main2_powerup", 
+    "heal_sprite": "panzer_panzer2_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_panzer2_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_panzer2_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_panzer2_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_panzer2_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_panzer2_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_panzer2_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_panzer2_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_panzer2_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 24,
+    "cost": 490,
+    "hp": 3200,
+    "attack": 28,
+    "defense": 21,
+    "accuracy": 25,
+    "critical": 15,
+    "speed": 15,
+    "terrain": "forest",
+
+    "fullname": "Panzykampfwagen II",
+    "description": "An important mechanized workhorse, this vulnerable light tank was the first among us. It was Guderian's starter tank, before it got evolved with a tank stone.",
+    "primary_weapon": "20mm UwU 30 L/55",
+    "secondary_weapon": "7.92mm MG 34",
+    "motto": "I think I can, I think I can...",
+    
+    "perks": ["perk_firepower", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_kwk30l55", 
+        "main2_attack_mg34",
+        "special2_attack_breakthrough",
+        "main1_powerup_megaarmor",
+        "main2_powerup_stukatablets",
+        "heal_maintenance_heer2"
+    ]
+}

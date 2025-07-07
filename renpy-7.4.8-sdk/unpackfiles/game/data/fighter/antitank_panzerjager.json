@@ -1,0 +1,49 @@
+{
+    "name": "Panzyjager",
+    "unit": "antitank",
+    "image": "antitank_panzerjager_profile",
+    
+    "walk_sprite": "antitank_panzerjager_walk",
+    "receive_sprite": "antitank_panzerjager_static",
+    "main1_attack_sprite": "antitank_panzerjager_main1_attack",
+    "main2_attack_sprite": "antitank_panzerjager_main2_attack",
+    "special1_attack_sprite": "antitank_panzerjager_special1_attack", 
+    "special2_attack_sprite": "antitank_panzerjager_special2_attack", 
+    "special3_attack_sprite": "antitank_panzerjager_special3_attack", 
+    "main1_powerup_sprite": "antitank_panzerjager_main1_powerup", 
+    "main2_powerup_sprite": "antitank_panzerjager_main2_powerup", 
+    "heal_sprite": "antitank_panzerjager_heal",
+
+    "main1_attack_finalframe_sprite": "antitank_panzerjager_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "antitank_panzerjager_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "antitank_panzerjager_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "antitank_panzerjager_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "antitank_panzerjager_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "antitank_panzerjager_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "antitank_panzerjager_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "antitank_panzerjager_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 33,
+    "cost": 400,
+    "hp": 3600,
+    "attack": 36,
+    "defense": 36,
+    "accuracy": 36,
+    "critical": 24,
+    "speed": 24,
+    "terrain": "ground",
+
+    "fullname": "Panzyjäger I",
+    "description": "Built on the chassis of a Panzy I, this tank hunter is the first of its kind. With a fixed shield and an anti-tank gun, its primary role is countering enemy heavy tanks in the field.",
+    "primary_weapon": "Panzyanklopfgerät 47",
+    "secondary_weapon": "-",
+    "motto": "True predator",
+    
+    "perks": ["perk_stealth", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_pak47",
+        "heal_maintenance_heer3"
+    ]
+}

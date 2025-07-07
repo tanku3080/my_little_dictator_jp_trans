@@ -1,0 +1,18 @@
+{
+    "id": "47sa35",
+    "kind": "attack",
+    "name": "SA 35 47mm Canon",
+    "desc": "Capable of firing armour-piercing, high-explosive rounds.",
+    "skilltype": "skilltype_fire",
+    "pp": 30,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_small.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -610,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

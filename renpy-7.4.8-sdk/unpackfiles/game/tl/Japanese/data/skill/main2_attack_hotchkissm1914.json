@@ -1,0 +1,18 @@
+{
+    "id": "hotchkissm1914",
+    "kind": "attack",
+    "name": "Hotkiss M1914",
+    "desc": "A gas-actuated, medium machine gun from Franzo.",
+    "skilltype": "skilltype_metal",
+    "pp": 150,
+    "image": "reaction_hit",
+    "sound": "battle/m1918bar.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -600,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

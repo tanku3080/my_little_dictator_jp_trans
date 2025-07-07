@@ -1,0 +1,18 @@
+{
+    "id": "47model1931",
+    "kind": "attack",
+    "name": "47mm Model 1931",
+    "desc": "A quick-firing field artillery cannon, capable of delivering fifteen rounds per minute.",
+    "skilltype": "skilltype_fire",
+    "pp": 47,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_small.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -860,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

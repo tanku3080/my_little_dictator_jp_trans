@@ -1,0 +1,19 @@
+{
+    "id": "strafe",
+    "kind": "attack",
+    "name": "空爆",
+    "desc": "ジパング航空部隊を呼び出し、敵を空爆する。",
+    "skilltype": "skilltype_wind",
+    "pp": 1,
+    "image": "reaction_strafe",
+    "sound": "battle/strafe.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_zipangustrafe", 0.01]
+    },
+    "base_hp": -1200,
+    "osd": 3.5,
+    "line": "_name_ は空軍に _skill_を要請した！ _damage_"
+}

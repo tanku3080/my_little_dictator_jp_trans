@@ -1,0 +1,54 @@
+{
+    "name": "Puma",
+    "unit": "enemysection",
+    "image": "panzer_panther_profile",
+    
+    "walk_sprite": "panzer_panther_walk",
+    "receive_sprite": "panzer_panther_static",
+    "main1_attack_sprite": "panzer_panther_main1_attack",
+    "main2_attack_sprite": "panzer_panther_main2_attack",
+    "special1_attack_sprite": "panzer_panther_special1_attack", 
+    "special2_attack_sprite": "panzer_panther_special2_attack", 
+    "special3_attack_sprite": "panzer_panther_special3_attack", 
+    "main1_powerup_sprite": "panzer_panther_main1_powerup", 
+    "main2_powerup_sprite": "panzer_panther_main2_powerup", 
+    "heal_sprite": "panzer_panther_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_panther_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_panther_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_panther_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_panther_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_panther_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_panther_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_panther_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_panther_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 81,
+    "cost": 880,
+    "hp": 8800,
+    "attack": 87,
+    "defense": 83,
+    "accuracy": 87,
+    "critical": 81,
+    "speed": 74,
+    "terrain": "ground",
+
+    "fullname": "Panzykampfwagen Puma",
+    "description": "Faster, with better frontal armor and a greater penetration rate, the Puma is a successor to the Panzy IV and the Tigerin I. However, its side armor is weak to flanking fire.",
+    "primary_weapon": "75mm UwU 42 L/70",
+    "secondary_weapon": "7.92mm MG 34",
+    "motto": "The biggest big cat",
+    
+    "perks": ["perk_bruteforce", "perk_firepower", "perk_speed", "x"],
+    "skill": [
+        "main1_attack_kwk42l70",
+        "main2_attack_mg34",
+        "special1_attack_germaniaanthem",
+        "special2_attack_flatten",
+        "main1_powerup_xcharm",
+        "heal_maintenance_heer8"
+    ],
+    "ai": "True"
+}

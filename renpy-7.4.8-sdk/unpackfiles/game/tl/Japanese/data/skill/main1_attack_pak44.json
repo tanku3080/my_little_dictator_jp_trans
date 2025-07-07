@@ -1,0 +1,19 @@
+{
+    "id": "pak44",
+    "kind": "attack",
+    "name": "Panzyanklopfgerät 44",
+    "desc": "A powerful Germanian anti-tank gun. {color=#F35F5F}(Burn / 10% Chance){/color}",
+    "skilltype": "skilltype_fire",
+    "pp": 35,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_big.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -950,
+    "osd": 3.2,
+    "status_enemy": "burn_status",
+    "line": "_name_ uses their _skill_. _damage_"
+}

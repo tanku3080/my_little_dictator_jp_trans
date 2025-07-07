@@ -1,0 +1,53 @@
+{
+    "name": "Object 138",
+    "unit": "enemysection",
+    "image": "panzer_su100_profile",
+    
+    "walk_sprite": "panzer_su100_walk",
+    "receive_sprite": "panzer_su100_static",
+    "main1_attack_sprite": "panzer_su100_main1_attack",
+    "main2_attack_sprite": "panzer_su100_main2_attack",
+    "special1_attack_sprite": "panzer_su100_special1_attack", 
+    "special2_attack_sprite": "panzer_su100_special2_attack", 
+    "special3_attack_sprite": "panzer_su100_special3_attack", 
+    "main1_powerup_sprite": "panzer_su100_main1_powerup", 
+    "main2_powerup_sprite": "panzer_su100_main2_powerup", 
+    "heal_sprite": "panzer_su100_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_su100_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_su100_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_su100_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_su100_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_su100_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_su100_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_su100_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_su100_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_sovia.png",
+    "level": 91,
+    "cost": 830,
+    "hp": 7300,
+    "attack": 86,
+    "defense": 72,
+    "accuracy": 51,
+    "critical": 52,
+    "speed": 72,
+    "terrain": "snow",
+
+    "fullname": "Object 138",
+    "description": "An advanced turretless prototype tank destroyer from Sovia. Its powerful cannon is capable of penetrating the armor of the best Germanian Panzys, including the Puma.",
+    "primary_weapon": "100mm D-10S gun",
+    "secondary_weapon": "-",
+    "motto": "Unto the breach",
+    
+    "perks": ["perk_slopedarmor", "perk_ice", "x", "x"],
+    "skill": [
+        "main1_attack_d10",
+        "special1_attack_soviaanthem",
+        "special2_attack_smush",
+        "main1_powerup_megapower",
+        "heal_maintenance_heer8"
+    ],
+    "ai": "True"
+}

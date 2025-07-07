@@ -1,0 +1,52 @@
+{
+    "name": "Coveter",
+    "unit": "panzer",
+    "image": "panzer_covenanter_profile",
+    
+    "walk_sprite": "panzer_covenanter_walk",
+    "receive_sprite": "panzer_covenanter_static",
+    "main1_attack_sprite": "panzer_covenanter_main1_attack",
+    "main2_attack_sprite": "panzer_covenanter_main2_attack",
+    "special1_attack_sprite": "panzer_covenanter_special1_attack", 
+    "special2_attack_sprite": "panzer_covenanter_special2_attack", 
+    "special3_attack_sprite": "panzer_covenanter_special3_attack", 
+    "main1_powerup_sprite": "panzer_covenanter_main1_powerup", 
+    "main2_powerup_sprite": "panzer_covenanter_main2_powerup", 
+    "heal_sprite": "panzer_covenanter_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_covenanter_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_covenanter_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_covenanter_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_covenanter_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_covenanter_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_covenanter_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_covenanter_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_covenanter_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 46,
+    "cost": 650,
+    "hp": 4000,
+    "attack": 40,
+    "defense": 41,
+    "accuracy": 27,
+    "critical": 21,
+    "speed": 25,
+    "terrain": "desert",
+
+    "fullname": "Cruiser Mk V (Coveter)",
+    "description": "A Britannian cruiser tank. It suffers from numerous design flaws, including poor engine cooling, thin armor and a steering system that reverses spontaneously.",
+    "primary_weapon": "QF 2-pounder",
+    "secondary_weapon": "Bisa MG",
+    "motto": "God save Britannia",
+    
+    "perks": ["perk_lightweight", "perk_slopedarmor", "x", "x"],
+    "skill": [
+        "main1_attack_qf2pounder", 
+        "main2_attack_besamg",
+        "special2_attack_rundown",
+        "main1_powerup_megaspeed",
+        "heal_maintenance_heer4"
+    ]
+}

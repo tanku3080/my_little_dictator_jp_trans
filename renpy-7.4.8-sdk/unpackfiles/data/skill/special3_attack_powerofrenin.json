@@ -1,0 +1,19 @@
+{
+    "id": "powerofrenin",
+    "kind": "attack",
+    "name": "Power of Renin",
+    "desc": "A dark xommunist mana attack.",
+    "skilltype": "skilltype_dark",
+    "pp": 2,
+    "image": "reaction_hit",
+    "sound": "battle/powerofrenin.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special3_attack",
+        "finalframe": "special3_attack_finalframe",
+        "full_screen": ["fullscreen_powerofrenin", 0.01]
+    },
+    "base_hp": -3000,
+    "osd": 3.5,
+    "line": "_name_ uses _skill_. The sky turns to red as Renin rises from her glass tomb."
+}

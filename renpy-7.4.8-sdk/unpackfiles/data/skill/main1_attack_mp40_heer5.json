@@ -1,0 +1,18 @@
+{
+    "id": "mp40_heer5",
+    "kind": "attack",
+    "name": "Schmeisser SMG",
+    "desc": "An open-bolt, blowback-operated submachine gun.",
+    "skilltype": "skilltype_metal",
+    "pp": 150,
+    "image": "reaction_hit",
+    "sound": "battle/mp40.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -950,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

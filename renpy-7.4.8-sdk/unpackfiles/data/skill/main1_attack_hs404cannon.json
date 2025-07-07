@@ -1,0 +1,18 @@
+{
+    "id": "hs404cannon",
+    "kind": "attack",
+    "name": "Hispana Mk I Cannon",
+    "desc": "An autocannon used in Britannian aircraft.",
+    "skilltype": "skilltype_fire",
+    "pp": 35,
+    "image": "reaction_hit",
+    "sound": "battle/cannon_heavy.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1310,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

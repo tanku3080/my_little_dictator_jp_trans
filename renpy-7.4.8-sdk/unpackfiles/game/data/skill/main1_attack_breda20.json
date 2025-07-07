@@ -1,0 +1,18 @@
+{
+    "id": "breda20",
+    "kind": "attack",
+    "name": "Brodo Modelo",
+    "desc": "A high-powered machine gun mounted on the Brodo tank.",
+    "skilltype": "skilltype_metal",
+    "pp": 25,
+    "image": "reaction_hit",
+    "sound": "battle/breda38.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -810,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

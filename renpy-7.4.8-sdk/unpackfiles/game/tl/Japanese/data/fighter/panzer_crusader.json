@@ -1,0 +1,52 @@
+{
+    "name": "Krusader",
+    "unit": "panzer",
+    "image": "panzer_crusader_profile",
+    
+    "walk_sprite": "panzer_crusader_walk",
+    "receive_sprite": "panzer_crusader_static",
+    "main1_attack_sprite": "panzer_crusader_main1_attack",
+    "main2_attack_sprite": "panzer_crusader_main2_attack",
+    "special1_attack_sprite": "panzer_crusader_special1_attack", 
+    "special2_attack_sprite": "panzer_crusader_special2_attack", 
+    "special3_attack_sprite": "panzer_crusader_special3_attack", 
+    "main1_powerup_sprite": "panzer_crusader_main1_powerup", 
+    "main2_powerup_sprite": "panzer_crusader_main2_powerup", 
+    "heal_sprite": "panzer_crusader_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_crusader_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_crusader_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_crusader_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_crusader_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_crusader_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_crusader_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_crusader_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_crusader_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 57,
+    "cost": 830,
+    "hp": 5300,
+    "attack": 58,
+    "defense": 48,
+    "accuracy": 50,
+    "critical": 57,
+    "speed": 56,
+    "terrain": "desert",
+
+    "fullname": "Cruiser Mk VI (Krusader)",
+    "description": "A Britannian cruiser tank, noted for its speed and manoeuvrability. However, its weak armor and lack of firepower make it an easy target for heavy tanks.",
+    "primary_weapon": "QF 2-pounder",
+    "secondary_weapon": "Bisa MG",
+    "motto": "Back in time for tea",
+    
+    "perks": ["perk_speed", "perk_slash", "perk_lightweight", "perk_slopedarmor"],
+    "skill": [
+        "main1_attack_qf2pounder", 
+        "main2_attack_besamg",
+        "special2_attack_rundown",
+        "main1_powerup_megaspeed",
+        "heal_maintenance_heer5"
+    ]
+}

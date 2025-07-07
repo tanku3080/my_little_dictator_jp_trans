@@ -1,0 +1,51 @@
+{
+    "name": "Guderian",
+    "unit": "commander",
+    "image": "commander_guderian_profile",
+
+    "walk_sprite": "commander_guderian_walk",
+    "receive_sprite": "commander_guderian_static",
+    "main1_attack_sprite": "commander_guderian_main1_attack",
+    "main2_attack_sprite": "commander_guderian_main2_attack",
+    "special1_attack_sprite": "commander_guderian_special1_attack", 
+    "special2_attack_sprite": "commander_guderian_special2_attack", 
+    "special3_attack_sprite": "commander_guderian_special3_attack", 
+    "main1_powerup_sprite": "commander_guderian_main1_powerup", 
+    "main2_powerup_sprite": "commander_guderian_main2_powerup", 
+    "heal_sprite": "commander_guderian_heal", 
+
+    "main1_attack_finalframe_sprite": "commander_guderian_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "commander_guderian_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "commander_guderian_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "commander_guderian_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "commander_guderian_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "commander_guderian_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "commander_guderian_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "commander_guderian_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 36,
+    "cost": 700,
+    "hp": 4100,
+    "attack": 49,
+    "defense": 50,
+    "accuracy": 50,
+    "critical": 70,
+    "speed": 45,
+    "terrain": "ground",
+
+    "fullname": "Commander Heinzia Guderian",
+    "description": "A tank nut, with a love for speed, power and surprise attacks. A ground type and a good all-rounder.",
+    "primary_weapon": "Pistole Parabellum (Luger)",
+    "secondary_weapon": "Stylischhandgranate",
+    "motto": "No tanks. No life.",
+    
+    "perks": ["perk_valkyrie", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_luger", 
+        "main2_attack_stielhandgranate", 
+        "main1_powerup_xspeed", 
+        "special1_attack_germanianstrafe"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "name": "Partisan Gunner",
+    "unit": "enemysection",
+    "image": "basic_infanterie_profile",
+
+    "walk_sprite": "partisan_gunner_heer4_walk",
+    "receive_sprite": "partisan_gunner_heer4_static",
+    "main1_attack_sprite": "partisan_gunner_heer4_main1_attack",
+    "main2_attack_sprite": "partisan_gunner_heer4_main2_attack",
+    "special1_attack_sprite": "partisan_gunner_heer4_special1_attack", 
+    "special2_attack_sprite": "partisan_gunner_heer4_special2_attack", 
+    "special3_attack_sprite": "partisan_gunner_heer4_special3_attack", 
+    "main1_powerup_sprite": "partisan_gunner_heer4_main1_powerup", 
+    "main2_powerup_sprite": "partisan_gunner_heer4_main2_powerup", 
+    "heal_sprite": "partisan_gunner_heer4_heal", 
+    
+    "main1_attack_finalframe_sprite": "partisan_gunner_heer4_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "partisan_gunner_heer4_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "partisan_gunner_heer4_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "partisan_gunner_heer4_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "partisan_gunner_heer4_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "partisan_gunner_heer4_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "partisan_gunner_heer4_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "partisan_gunner_heer4_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_serpana.png",
+    "level": 49,
+    "cost": 390,
+    "hp": 3900,
+    "attack": 40,
+    "defense": 40,
+    "accuracy": 40,
+    "critical": 40,
+    "speed": 40,
+    "terrain": "forest",
+
+    "fullname": "Partisan Gunner",
+    "description": "Standard infantry unit.",
+    "primary_weapon": "Tommy Gun",
+    "secondary_weapon": "Stylischhandgranate",
+    "motto": "Freedom or death",
+
+    "perks": ["x", "x", "x", "x"],
+    "skill": [
+        "main1_attack_thompson_heer3",
+        "main2_attack_stielhandgranate", 
+        "heal_medikit_heer4"
+    ],
+    "ai": "True"
+}

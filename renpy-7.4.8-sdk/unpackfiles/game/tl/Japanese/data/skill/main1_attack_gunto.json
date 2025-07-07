@@ -1,0 +1,18 @@
+{
+    "id": "gunto",
+    "kind": "attack",
+    "name": "新・軍刀ブレード",
+    "desc": "ジパングの軍刀です。",
+    "skilltype": "skilltype_metal",
+    "pp": 99,
+    "image": "reaction_slash",
+    "sound": "battle/gunto.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -760,
+    "osd": 3.0,
+    "line": "_name_ の _skill_！ _damage_"
+}

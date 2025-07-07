@@ -1,0 +1,50 @@
+{
+    "name": "SA 47mm Canon",
+    "unit": "enemysection",
+    "image": "panzer_47mmapx_profile",
+    
+    "walk_sprite": "panzer_47mmapx_walk",
+    "receive_sprite": "panzer_47mmapx_static",
+    "main1_attack_sprite": "panzer_47mmapx_main1_attack",
+    "main2_attack_sprite": "panzer_47mmapx_main2_attack",
+    "special1_attack_sprite": "panzer_47mmapx_special1_attack", 
+    "special2_attack_sprite": "panzer_47mmapx_special2_attack", 
+    "special3_attack_sprite": "panzer_47mmapx_special3_attack", 
+    "main1_powerup_sprite": "panzer_47mmapx_main1_powerup", 
+    "main2_powerup_sprite": "panzer_47mmapx_main2_powerup", 
+    "heal_sprite": "panzer_47mmapx_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_47mmapx_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_47mmapx_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_47mmapx_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_47mmapx_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_47mmapx_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_47mmapx_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_47mmapx_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_47mmapx_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 20,
+    "cost": 300,
+    "hp": 3000,
+    "attack": 20,
+    "defense": 13,
+    "accuracy": 25,
+    "critical": 20,
+    "speed": 20,
+    "terrain": "urban",
+
+    "fullname": "SA 47mm Canon",
+    "description": "A small calibre anti-tank weapon from Franzo, designed to replace the 75mm mle 1897 field gun.",
+    "primary_weapon": "47mm SA 37",
+    "secondary_weapon": "-",
+    "motto": "For Franzo!",
+    
+    "perks": ["perk_firepower", "x", "x", "x"],
+    "skill": [
+        "main1_attack_47sa37",
+        "heal_maintenance_heer2"
+    ],
+    "ai": "True"
+}

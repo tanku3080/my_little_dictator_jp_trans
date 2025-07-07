@@ -1,0 +1,56 @@
+{
+    "name": "Hitora",
+    "unit": "enemyboss",
+    "image": "commander_hitora_profile",
+
+    "walk_sprite": "commander_hitora_walk",
+    "receive_sprite": "commander_hitora_static",
+    "main1_attack_sprite": "commander_hitora_main1_attack",
+    "main2_attack_sprite": "commander_hitora_main2_attack",
+    "special1_attack_sprite": "commander_hitora_special1_attack", 
+    "special2_attack_sprite": "commander_hitora_special2_attack", 
+    "special3_attack_sprite": "commander_hitora_special3_attack", 
+    "main1_powerup_sprite": "commander_hitora_main1_powerup", 
+    "main2_powerup_sprite": "commander_hitora_main2_powerup", 
+    "heal_sprite": "commander_hitora_heal", 
+
+    "main1_attack_finalframe_sprite": "commander_hitora_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "commander_hitora_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "commander_hitora_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "commander_hitora_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "commander_hitora_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "commander_hitora_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "commander_hitora_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "commander_hitora_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 100,
+    "cost": 1200,
+    "hp": 12500,
+    "attack": 120,
+    "defense": 110,
+    "accuracy": 50,
+    "critical": 50,
+    "speed": 80,
+    "terrain": "ground",
+
+    "fullname": "Adorofia Hitora",
+    "description": "The Füühbar of Germania. Full of grand schemes and pent-up rage, this girl has been fighting all her life. A ground type fighter.",
+    "primary_weapon": "Pistole Parabellum (Luger)",
+    "secondary_weapon": "Strafe",
+    "motto": "Heil me!",
+    
+    "perks": ["perk_valkyrie", "perk_heal", "perk_firepower", "x"],
+    "skill": [
+        "main1_attack_luger", 
+        "main2_attack_enemygermanianstrafe", 
+        "main1_powerup_xarmor", 
+        "main2_powerup_blitz", 
+        "special1_attack_brainwash",
+        "special2_attack_thousandyearstrike",
+        "special3_attack_pureevil",
+        "heal_regeneration_starin"
+    ],
+    "ai": "True"
+}

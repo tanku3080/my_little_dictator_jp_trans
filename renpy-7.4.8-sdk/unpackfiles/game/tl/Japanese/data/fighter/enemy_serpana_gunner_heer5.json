@@ -1,0 +1,52 @@
+{
+    "name": "Serpana Gunner",
+    "unit": "enemysection",
+    "image": "serpana_gunner_heer5_profile",
+
+    "walk_sprite": "serpana_gunner_heer5_walk",
+    "receive_sprite": "serpana_gunner_heer5_static",
+    "main1_attack_sprite": "serpana_gunner_heer5_main1_attack",
+    "main2_attack_sprite": "serpana_gunner_heer5_main2_attack",
+    "special1_attack_sprite": "serpana_gunner_heer5_special1_attack", 
+    "special2_attack_sprite": "serpana_gunner_heer5_special2_attack", 
+    "special3_attack_sprite": "serpana_gunner_heer5_special3_attack", 
+    "main1_powerup_sprite": "serpana_gunner_heer5_main1_powerup", 
+    "main2_powerup_sprite": "serpana_gunner_heer5_main2_powerup", 
+    "heal_sprite": "serpana_gunner_heer5_heal", 
+
+    "main1_attack_finalframe_sprite": "serpana_gunner_heer5_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "serpana_gunner_heer5_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "serpana_gunner_heer5_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "serpana_gunner_heer5_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "serpana_gunner_heer5_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "serpana_gunner_heer5_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "serpana_gunner_heer5_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "serpana_gunner_heer5_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_serpana.png",
+    "level": 59,
+    "cost": 490,
+    "hp": 5900,
+    "attack": 49,
+    "defense": 49,
+    "accuracy": 49,
+    "critical": 49,
+    "speed": 49,
+    "terrain": "ground",
+
+    "fullname": "Serpana Gunner",
+    "description": "Footsoldier for the Serpana army.",
+    "primary_weapon": "Erma MPE",
+    "secondary_weapon": "Stylischhandgranate (Captured)",
+    "motto": "Go go go!",
+    
+    "perks": ["perk_slash", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_emp", 
+        "main2_attack_stielhandgranate", 
+        "special1_attack_quickmarch",
+        "heal_medikit_heer5"
+    ],
+    "ai": "True"
+}

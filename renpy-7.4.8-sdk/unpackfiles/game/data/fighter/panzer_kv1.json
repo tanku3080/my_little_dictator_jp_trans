@@ -1,0 +1,52 @@
+{
+    "name": "Sovia Koloss-1",
+    "unit": "panzer",
+    "image": "panzer_kv1_profile",
+    
+    "walk_sprite": "panzer_kv1_walk",
+    "receive_sprite": "panzer_kv1_static",
+    "main1_attack_sprite": "panzer_kv1_main1_attack",
+    "main2_attack_sprite": "panzer_kv1_main2_attack",
+    "special1_attack_sprite": "panzer_kv1_special1_attack", 
+    "special2_attack_sprite": "panzer_kv1_special2_attack", 
+    "special3_attack_sprite": "panzer_kv1_special3_attack", 
+    "main1_powerup_sprite": "panzer_kv1_main1_powerup", 
+    "main2_powerup_sprite": "panzer_kv1_main2_powerup", 
+    "heal_sprite": "panzer_kv1_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_kv1_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_kv1_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_kv1_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_kv1_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_kv1_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_kv1_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_kv1_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_kv1_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_sovia.png",
+    "level": 60,
+    "cost": 1010,
+    "hp": 6000,
+    "attack": 61,
+    "defense": 52,
+    "accuracy": 51,
+    "critical": 30,
+    "speed": 50,
+    "terrain": "urban",
+
+    "fullname": "Sovia Koloss-1 (KV Series)",
+    "description": "With heavy armor that's proven extremely resistant to anti-tank fire, this tank is adept at halting enemy advances. However, it's difficult to steer and has limited maneuverability.",
+    "primary_weapon": "M1941 ZiS-5 gun",
+    "secondary_weapon": "Magnitofon-27",
+    "motto": "Schoolgirls of the world unite",
+    
+    "perks": ["perk_ice", "x", "x", "x"],
+    "skill": [
+        "main1_attack_zis5",
+        "main2_attack_dp27",
+        "special2_attack_flatten",
+        "main1_powerup_megaspeed",
+        "heal_maintenance_heer6"
+    ]
+}

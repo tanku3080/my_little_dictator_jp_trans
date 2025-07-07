@@ -1,0 +1,53 @@
+{
+    "name": "Roussanne R35S",
+    "unit": "enemysection",
+    "image": "panzer_renaultr35serpana_profile",
+    
+    "walk_sprite": "panzer_renaultr35serpana_walk",
+    "receive_sprite": "panzer_renaultr35serpana_static",
+    "main1_attack_sprite": "panzer_renaultr35serpana_main1_attack",
+    "main2_attack_sprite": "panzer_renaultr35serpana_main2_attack",
+    "special1_attack_sprite": "panzer_renaultr35serpana_special1_attack", 
+    "special2_attack_sprite": "panzer_renaultr35serpana_special2_attack", 
+    "special3_attack_sprite": "panzer_renaultr35serpana_special3_attack", 
+    "main1_powerup_sprite": "panzer_renaultr35serpana_main1_powerup", 
+    "main2_powerup_sprite": "panzer_renaultr35serpana_main2_powerup", 
+    "heal_sprite": "panzer_renaultr35serpana_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_renaultr35serpana_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_renaultr35serpana_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_renaultr35serpana_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_renaultr35serpana_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_renaultr35serpana_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_renaultr35serpana_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_renaultr35serpana_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_renaultr35serpana_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_serpana.png",
+    "level": 48,
+    "cost": 440,
+    "hp": 5400,
+    "attack": 54,
+    "defense": 45,
+    "accuracy": 29,
+    "critical": 49,
+    "speed": 32,
+    "terrain": "ground",
+
+    "fullname": "Roussanne R35S",
+    "description": "Intended as an infantry support tank, this model is well-armored, but slow and poorly prepared for anti-tank warfare. This upgunned version includes a 40mm QF 2-pounder gun.",
+    "primary_weapon": "QF 2-pounder",
+    "secondary_weapon": "Mitrailleuse 31 MG",
+    "motto": "She is like a fine wine",
+    
+    "perks": ["perk_firepower", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_qf2pounder",
+        "main2_attack_reibelmg",
+        "special2_attack_rundown",
+        "main1_powerup_megaspeed",
+        "heal_maintenance_heer4"
+    ],
+    "ai": "True"
+}

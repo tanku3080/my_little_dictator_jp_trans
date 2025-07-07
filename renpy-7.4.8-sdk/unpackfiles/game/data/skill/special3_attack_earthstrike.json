@@ -1,0 +1,19 @@
+{
+    "id": "earthstrike",
+    "kind": "attack",
+    "name": "Earth Strike",
+    "desc": "A ground-based special attack.",
+    "skilltype": "skilltype_ground",
+    "pp": 1,
+    "image": "reaction_hit",
+    "sound": "battle/earthstrike.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special3_attack",
+        "finalframe": "special3_attack_finalframe",
+        "full_screen": ["fullscreen_earthstrike", 0.01]
+    },
+    "base_hp": -2000,
+    "osd": 3.5,
+    "line": "_name_ uses _skill_. The ground splits in two as boulders crash. _damage_"
+}

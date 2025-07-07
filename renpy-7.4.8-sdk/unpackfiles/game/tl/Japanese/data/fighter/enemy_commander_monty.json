@@ -1,0 +1,55 @@
+{
+    "name": "Monty",
+    "unit": "enemyboss",
+    "image": "commander_monty_profile",
+
+    "walk_sprite": "commander_monty_walk",
+    "receive_sprite": "commander_monty_static",
+    "main1_attack_sprite": "commander_monty_main1_attack",
+    "main2_attack_sprite": "commander_monty_main2_attack",
+    "special1_attack_sprite": "commander_monty_special1_attack", 
+    "special2_attack_sprite": "commander_monty_special2_attack", 
+    "special3_attack_sprite": "commander_monty_special3_attack", 
+    "main1_powerup_sprite": "commander_monty_main1_powerup", 
+    "main2_powerup_sprite": "commander_monty_main2_powerup", 
+    "heal_sprite": "commander_monty_heal", 
+
+    "main1_attack_finalframe_sprite": "commander_monty_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "commander_monty_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "commander_monty_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "commander_monty_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "commander_monty_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "commander_monty_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "commander_monty_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "commander_monty_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 58,
+    "cost": 1100,
+    "hp": 12000,
+    "attack": 85,
+    "defense": 97,
+    "accuracy": 70,
+    "critical": 40,
+    "speed": 55,
+    "terrain": "desert",
+
+    "fullname": "Ben Monty",
+    "description": "A powerful electric-type fighter, this rogue stalks the deserts with pure malice. Weak against ice types.",
+    "primary_weapon": "Mega Resister 9000",
+    "secondary_weapon": "Fists of Fury",
+    "motto": "No good dirty rat",
+    
+    "perks": ["perk_electric", "perk_bruteforce", "perk_firepower", "x"],
+    "skill": [
+        "main1_attack_megaresister", 
+        "main2_attack_fistsoffury", 
+        "main1_powerup_xarmor", 
+        "special1_attack_electricstorm", 
+        "special2_attack_shockwave",
+        "special3_attack_drain",
+        "heal_medikit_heer7"
+    ],
+    "ai": "True"
+}

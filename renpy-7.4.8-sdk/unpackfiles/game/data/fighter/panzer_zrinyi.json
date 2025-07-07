@@ -1,0 +1,50 @@
+{
+    "name": "Zrinski",
+    "unit": "panzer",
+    "image": "panzer_zrinyi_profile",
+    
+    "walk_sprite": "panzer_zrinyi_walk",
+    "receive_sprite": "panzer_zrinyi_static",
+    "main1_attack_sprite": "panzer_zrinyi_main1_attack",
+    "main2_attack_sprite": "panzer_zrinyi_main2_attack",
+    "special1_attack_sprite": "panzer_zrinyi_special1_attack", 
+    "special2_attack_sprite": "panzer_zrinyi_special2_attack", 
+    "special3_attack_sprite": "panzer_zrinyi_special3_attack", 
+    "main1_powerup_sprite": "panzer_zrinyi_main1_powerup", 
+    "main2_powerup_sprite": "panzer_zrinyi_main2_powerup", 
+    "heal_sprite": "panzer_zrinyi_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_zrinyi_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_zrinyi_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_zrinyi_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_zrinyi_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_zrinyi_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_zrinyi_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_zrinyi_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_zrinyi_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_hang.png",
+    "level": 64,
+    "cost": 930,
+    "hp": 7300,
+    "attack": 73,
+    "defense": 65,
+    "accuracy": 73,
+    "critical": 50,
+    "speed": 71,
+    "terrain": "forest",
+
+    "fullname": "43M Zrinski",
+    "description": "This anti-tank assault gun from Hang is based on the chassis of the Tûrõ tank, keeping the drivetrain, engine and hull. It's intended to replicate the successes of Germanian tank hunters.",
+    "primary_weapon": "MAGNYÚL 40/43M 105mm",
+    "secondary_weapon": "-",
+    "motto": "Try and stop me",
+    
+    "perks": ["perk_firepower", "perk_spacedarmor", "x", "x"],
+    "skill": [
+        "main1_attack_mavag105mm",
+        "special2_attack_flatten",
+        "heal_maintenance_heer7"
+    ]
+}

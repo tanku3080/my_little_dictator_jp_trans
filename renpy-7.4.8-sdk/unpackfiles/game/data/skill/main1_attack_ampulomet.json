@@ -1,0 +1,19 @@
+{
+    "id": "ampulomet",
+    "kind": "attack",
+    "name": "Ampulomyot",
+    "desc": "A Sovian anti-tank weapon that launches glass incendiary projectiles. {color=#F35F5F}(Burn / 10% Chance){/color}",
+    "skilltype": "skilltype_fire",
+    "pp": 15,
+    "image": "reaction_explo_small",
+    "sound": "battle/piat.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -880,
+    "status_enemy": "burn_status",
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. The heat burns. _damage_"
+}

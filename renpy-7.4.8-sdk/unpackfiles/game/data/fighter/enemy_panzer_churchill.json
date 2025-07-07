@@ -1,0 +1,53 @@
+{
+    "name": "Chinchilla",
+    "unit": "enemysection",
+    "image": "panzer_churchill_profile",
+    
+    "walk_sprite": "panzer_churchill_walk",
+    "receive_sprite": "panzer_churchill_static",
+    "main1_attack_sprite": "panzer_churchill_main1_attack",
+    "main2_attack_sprite": "panzer_churchill_main2_attack",
+    "special1_attack_sprite": "panzer_churchill_special1_attack", 
+    "special2_attack_sprite": "panzer_churchill_special2_attack", 
+    "special3_attack_sprite": "panzer_churchill_special3_attack", 
+    "main1_powerup_sprite": "panzer_churchill_main1_powerup", 
+    "main2_powerup_sprite": "panzer_churchill_main2_powerup", 
+    "heal_sprite": "panzer_churchill_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_churchill_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_churchill_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_churchill_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_churchill_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_churchill_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_churchill_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_churchill_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_churchill_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 68,
+    "cost": 650,
+    "hp": 6500,
+    "attack": 75,
+    "defense": 70,
+    "accuracy": 60,
+    "critical": 70,
+    "speed": 60,
+    "terrain": "desert",
+
+    "fullname": "Churchill Tank (Chinchilla)",
+    "description": "Named for the First Minister and one of the heaviest Britannian tanks of the war, this versatile tank can mount steep slopes and cross difficult terrain.",
+    "primary_weapon": "QF 75mm",
+    "secondary_weapon": "Bisa MG",
+    "motto": "It's coming home!",
+    
+    "perks": ["perk_bruteforce", "perk_electric", "perk_firepower", "x"],
+    "skill": [
+        "main1_attack_qf75mm",
+        "main2_attack_besamg",
+        "special1_attack_britanniaanthem",
+        "main1_powerup_megaarmor",
+        "heal_maintenance_heer6"
+    ],
+    "ai": "True"
+}

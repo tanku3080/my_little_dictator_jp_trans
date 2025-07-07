@@ -1,0 +1,49 @@
+{
+    "name": "Overvalwagen",
+    "unit": "panzer",
+    "image": "panzer_braatovervalwagen_profile",
+    
+    "walk_sprite": "panzer_braatovervalwagen_walk",
+    "receive_sprite": "panzer_braatovervalwagen_static",
+    "main1_attack_sprite": "panzer_braatovervalwagen_main1_attack",
+    "main2_attack_sprite": "panzer_braatovervalwagen_main2_attack",
+    "special1_attack_sprite": "panzer_braatovervalwagen_special1_attack", 
+    "special2_attack_sprite": "panzer_braatovervalwagen_special2_attack", 
+    "special3_attack_sprite": "panzer_braatovervalwagen_special3_attack", 
+    "main1_powerup_sprite": "panzer_braatovervalwagen_main1_powerup", 
+    "main2_powerup_sprite": "panzer_braatovervalwagen_main2_powerup", 
+    "heal_sprite": "panzer_braatovervalwagen_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_braatovervalwagen_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_braatovervalwagen_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_braatovervalwagen_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_braatovervalwagen_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_braatovervalwagen_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_braatovervalwagen_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_braatovervalwagen_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_braatovervalwagen_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_zipangu.png",
+    "level": 20,
+    "cost": 220,
+    "hp": 3000,
+    "attack": 29,
+    "defense": 20,
+    "accuracy": 15,
+    "critical": 16,
+    "speed": 26,
+    "terrain": "forest",
+
+    "fullname": "Bratty Overvalwagen",
+    "description": "A Batavian armored car, built to defend territories in the far east. With a well-sloped hull and wheel armor plates, it can house a dozen soldiers.",
+    "primary_weapon": "Vicky MG",
+    "secondary_weapon": "-",
+    "motto": "Fight like a tulip",
+    
+    "perks": ["perk_lightweight", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_vickersmg",
+        "heal_maintenance_heer2"
+    ]
+}

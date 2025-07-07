@@ -1,0 +1,50 @@
+{
+    "name": "Sharpshooter",
+    "unit": "infantry",
+    "image": "infantry_sovia_marksman_heer7_profile",
+
+    "walk_sprite": "sovia_marksman_heer7_walk",
+    "receive_sprite": "sovia_marksman_heer7_static",
+    "main1_attack_sprite": "sovia_marksman_heer7_main1_attack",
+    "main2_attack_sprite": "sovia_marksman_heer7_main2_attack", 
+    "special1_attack_sprite": "sovia_marksman_heer7_special1_attack", 
+    "special2_attack_sprite": "sovia_marksman_heer7_special2_attack", 
+    "special3_attack_sprite": "sovia_marksman_heer7_special3_attack", 
+    "main1_powerup_sprite": "sovia_marksman_heer7_main1_powerup", 
+    "main2_powerup_sprite": "sovia_marksman_heer7_main2_powerup", 
+    "heal_sprite": "sovia_marksman_heer7_heal", 
+
+    "main1_attack_finalframe_sprite": "sovia_marksman_heer7_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "sovia_marksman_heer7_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "sovia_marksman_heer7_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "sovia_marksman_heer7_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "sovia_marksman_heer7_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "sovia_marksman_heer7_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "sovia_marksman_heer7_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "sovia_marksman_heer7_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_sovia.png",
+    "level": 77,
+    "cost": 610,
+    "hp": 7100,
+    "attack": 70,
+    "defense": 65,
+    "accuracy": 72,
+    "critical": 73,
+    "speed": 75,
+    "terrain": "snow",
+
+    "fullname": "Sovia Sharpshooter",
+    "description": "A specialist soldier of the Union of Sovia, a marksman, this unit assists in stealth operations.",
+    "primary_weapon": "Muss-Nuga Rifle",
+    "secondary_weapon": "Limonka",
+    "motto": "Girls of the world, unite!",
+    
+    "perks": ["perk_firepower", "perk_lightweight", "x", "x"],
+    "skill": [
+        "main1_attack_mosinnagant", 
+        "main2_attack_limonka", 
+        "heal_medikit_heer7"
+    ]
+}

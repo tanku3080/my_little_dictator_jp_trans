@@ -1,0 +1,18 @@
+{
+    "id": "beretta38",
+    "kind": "attack",
+    "name": "Burrata 38 SMG",
+    "desc": "A Vitalian submachine gun.",
+    "skilltype": "skilltype_metal",
+    "pp": 150,
+    "image": "reaction_hit",
+    "sound": "battle/thompson.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -550,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

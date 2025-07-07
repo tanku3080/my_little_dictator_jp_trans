@@ -1,0 +1,18 @@
+{
+    "id": "mas36",
+    "kind": "attack",
+    "name": "Beaufierte Rifle",
+    "desc": "A Franzo bolt-action rifle.",
+    "skilltype": "skilltype_metal",
+    "pp": 150,
+    "image": "reaction_hit",
+    "sound": "battle/kar98k.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -750,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

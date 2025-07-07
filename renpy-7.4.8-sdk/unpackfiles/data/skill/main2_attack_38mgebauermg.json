@@ -1,0 +1,18 @@
+{
+    "id": "38mgebauermg",
+    "kind": "attack",
+    "name": "38M Gebauer MG",
+    "desc": "Used on tanks, gunboats and patrol boats for air defense.",
+    "skilltype": "skilltype_metal",
+    "pp": 100,
+    "image": "reaction_hit",
+    "sound": "battle/mg34.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -900,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

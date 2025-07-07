@@ -1,0 +1,19 @@
+{
+    "id": "sandstorm",
+    "kind": "attack",
+    "name": "Sandstorm",
+    "desc": "A unique wind attack.",
+    "skilltype": "skilltype_wind",
+    "pp": 5,
+    "image": "reaction_wind",
+    "sound": "battle/sandstorm.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_sandstorm", 0.01]
+    },
+    "base_hp": -1300,
+    "osd": 3.5,
+    "line": "Using the wind, _name_ causes a dusty _skill_. _damage_"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "pureevil",
+    "kind": "attack",
+    "name": "Pure Evil",
+    "desc": "A dark Germanian mana attack.",
+    "skilltype": "skilltype_dark",
+    "pp": 5,
+    "image": "reaction_reddark",
+    "sound": "battle/pureevil.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special3_attack",
+        "finalframe": "special3_attack_finalframe",
+        "full_screen": ["fullscreen_pureevil", 0.01]
+    },
+    "base_hp": -1900,
+    "osd": 4,
+    "line": "_name_ wipes out all in her path, the symbol of _skill_. _damage_"
+}

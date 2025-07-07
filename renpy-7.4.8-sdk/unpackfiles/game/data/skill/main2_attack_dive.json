@@ -1,0 +1,18 @@
+{
+    "id": "dive",
+    "kind": "attack",
+    "name": "Dive",
+    "desc": "A sudden manouevre to catch the enemy off-guard.",
+    "skilltype": "skilltype_wind",
+    "pp": 15,
+    "image": "reaction_hit",
+    "sound": "battle/dive.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -1750,
+    "osd": 3.2,
+    "line": "_name_ begins to _skill_, outmanouevring the enemy. _damage_"
+}

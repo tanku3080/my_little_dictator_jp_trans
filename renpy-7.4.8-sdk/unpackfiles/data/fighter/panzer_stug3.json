@@ -1,0 +1,53 @@
+{
+    "name": "Sturmi III",
+    "unit": "panzer",
+    "image": "panzer_stug3_profile",
+    
+    "walk_sprite": "panzer_stug3_walk",
+    "receive_sprite": "panzer_stug3_static",
+    "main1_attack_sprite": "panzer_stug3_main1_attack",
+    "main2_attack_sprite": "panzer_stug3_main2_attack",
+    "special1_attack_sprite": "panzer_stug3_special1_attack", 
+    "special2_attack_sprite": "panzer_stug3_special2_attack", 
+    "special3_attack_sprite": "panzer_stug3_special3_attack", 
+    "main1_powerup_sprite": "panzer_stug3_main1_powerup", 
+    "main2_powerup_sprite": "panzer_stug3_main2_powerup", 
+    "heal_sprite": "panzer_stug3_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_stug3_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_stug3_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_stug3_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_stug3_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_stug3_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_stug3_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_stug3_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_stug3_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 43,
+    "cost": 690,
+    "hp": 4700,
+    "attack": 47,
+    "defense": 48,
+    "accuracy": 23,
+    "critical": 22,
+    "speed": 27,
+    "terrain": "ground",
+
+    "fullname": "Sturmi III",
+    "description": "The Sturmi are deployed as part of the artillery arm, to assist infantry operations in destroying minor fortifications. They camouflage well due to their low silhouette.",
+    "primary_weapon": "75mm UwU 40 L/48",
+    "secondary_weapon": "-",
+    "motto": "StuG in the middle with you",
+    
+    "perks": ["perk_lightweight", "perk_firepower", "x", "x"],
+    "skill": [
+        "main1_attack_kwk40l48",
+        "special1_attack_germaniaanthem",
+        "special2_attack_flatten",
+        "main1_powerup_megapower",
+        "main2_powerup_stukatablets",
+        "heal_maintenance_heer4"
+    ]
+}

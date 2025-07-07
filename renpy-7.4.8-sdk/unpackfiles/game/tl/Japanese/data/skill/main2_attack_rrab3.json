@@ -1,0 +1,20 @@
+{
+    "id": "rrab3",
+    "kind": "attack",
+    "name": "RRAB-3",
+    "desc": "A Sovian cluster bomb. Also known as Molotov's bread basket. {color=#F35F5F}(Stun / 50% Chance){/color}",
+    "skilltype": "skilltype_fire",
+    "pp": 15,
+    "image": "reaction_fire",
+    "sound": "battle/airbomb.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe",
+        "full_screen": ["fullscreen_bombardment", 0.01]
+    },
+    "base_hp": -1550,
+    "status_enemy": "stun_status",
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

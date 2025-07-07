@@ -1,0 +1,19 @@
+{
+    "id": "soviaanthem",
+    "kind": "attack",
+    "name": "Sovian Anthem",
+    "desc": "A patriotic song to strike fear into the enemy.",
+    "skilltype": "skilltype_wind",
+    "pp": 1,
+    "image": "reaction_hit",
+    "sound": "battle/soviaanthem.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_polka", 0.01]
+    },
+    "base_hp": -2400,
+    "osd": 4.0,
+    "line": "_name_ plays a patriotic _skill_. _damage_"
+}

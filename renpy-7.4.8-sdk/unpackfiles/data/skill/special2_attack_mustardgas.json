@@ -1,0 +1,20 @@
+{
+    "id": "mustardgas",
+    "kind": "attack",
+    "name": "Mustard Gas",
+    "desc": "An extremely deadly gas attack. {color=#F35F5F}(Stun / 50% Chance){/color}",
+    "skilltype": "skilltype_wind",
+    "pp": 5,
+    "image": "reaction_gas",
+    "sound": "battle/mustardgas.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special2_attack",
+        "finalframe": "special2_attack_finalframe",
+        "full_screen": ["fullscreen_mustardgas", 0.01]
+    },
+    "base_hp": -1000,
+    "status_enemy": "stun_status",
+    "osd": 3.5,
+    "line": "_name_ sets off _skill_. A toxic yellow haze clouds the air."
+}

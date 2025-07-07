@@ -1,0 +1,18 @@
+{
+    "id": "panzerbuchse",
+    "kind": "attack",
+    "name": "Panzybüchse",
+    "desc": "A Germanian manually-loaded, single-shot, anti-tank rifle ",
+    "skilltype": "skilltype_fire",
+    "pp": 55,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_small.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -600,
+    "osd": 3.2,
+    "line": "_name_ fires a round at the enemy. _damage_"
+}

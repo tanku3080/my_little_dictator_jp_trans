@@ -1,0 +1,51 @@
+{
+    "name": "Rumanum Cavalry",
+    "unit": "enemysection",
+    "image": "specialgroup_rumanum_cavalry_heer7_profile",
+
+    "walk_sprite": "specialgroup_rumanum_cavalry_heer7_walk",
+    "receive_sprite": "specialgroup_rumanum_cavalry_heer7_static",
+    "main1_attack_sprite": "specialgroup_rumanum_cavalry_heer7_main1_attack",
+    "main2_attack_sprite": "specialgroup_rumanum_cavalry_heer7_main2_attack", 
+    "special1_attack_sprite": "specialgroup_rumanum_cavalry_heer7_special1_attack", 
+    "special2_attack_sprite": "specialgroup_rumanum_cavalry_heer7_special2_attack", 
+    "special3_attack_sprite": "specialgroup_rumanum_cavalry_heer7_special3_attack", 
+    "main1_powerup_sprite": "specialgroup_rumanum_cavalry_heer7_main1_powerup", 
+    "main2_powerup_sprite": "specialgroup_rumanum_cavalry_heer7_main2_powerup", 
+    "heal_sprite": "specialgroup_rumanum_cavalry_heer7_heal", 
+
+    "main1_attack_finalframe_sprite": "specialgroup_rumanum_cavalry_heer7_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "specialgroup_rumanum_cavalry_heer7_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "specialgroup_rumanum_cavalry_heer7_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "specialgroup_rumanum_cavalry_heer7_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "specialgroup_rumanum_cavalry_heer7_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "specialgroup_rumanum_cavalry_heer7_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "specialgroup_rumanum_cavalry_heer7_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "specialgroup_rumanum_cavalry_heer7_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_rumanum.png",
+    "level": 66,
+    "cost": 730,
+    "hp": 7300,
+    "attack": 69,
+    "defense": 50,
+    "accuracy": 50,
+    "critical": 50,
+    "speed": 90,
+    "terrain": "forest",
+
+    "fullname": "Rumanum Cavalry",
+    "description": "The mounted division.",
+    "primary_weapon": "Szabla Sabre",
+    "secondary_weapon": "Stylischhandgranate",
+    "motto": "God with us!",
+    
+    "perks": ["perk_firepower", "perk_lightweight", "x", "x"],
+    "skill": [
+        "main1_attack_szablasabre", 
+        "main2_attack_stielhandgranate", 
+        "heal_medikit_heer7"
+    ],
+    "ai": "True"
+}

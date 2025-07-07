@@ -1,0 +1,52 @@
+{
+    "name": "Britannia Gunner",
+    "unit": "enemysection",
+    "image": "britannia_gunner_heer6_profile",
+
+    "walk_sprite": "britannia_gunner_heer6_walk",
+    "receive_sprite": "britannia_gunner_heer6_static",
+    "main1_attack_sprite": "britannia_gunner_heer6_main1_attack",
+    "main2_attack_sprite": "britannia_gunner_heer6_main2_attack",
+    "special1_attack_sprite": "britannia_gunner_heer6_special1_attack", 
+    "special2_attack_sprite": "britannia_gunner_heer6_special2_attack", 
+    "special3_attack_sprite": "britannia_gunner_heer6_special3_attack", 
+    "main1_powerup_sprite": "britannia_gunner_heer6_main1_powerup", 
+    "main2_powerup_sprite": "britannia_gunner_heer6_main2_powerup", 
+    "heal_sprite": "britannia_gunner_heer6_heal", 
+
+    "main1_attack_finalframe_sprite": "britannia_gunner_heer6_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "britannia_gunner_heer6_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "britannia_gunner_heer6_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "britannia_gunner_heer6_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "britannia_gunner_heer6_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "britannia_gunner_heer6_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "britannia_gunner_heer6_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "britannia_gunner_heer6_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 64,
+    "cost": 600,
+    "hp": 6000,
+    "attack": 60,
+    "defense": 55,
+    "accuracy": 65,
+    "critical": 65,
+    "speed": 65,
+    "terrain": "desert",
+
+    "fullname": "Britannia Gunner",
+    "description": "Standard infantry unit.",
+    "primary_weapon": "Smelly Rifle",
+    "secondary_weapon": "Milly Bomb",
+    "motto": "Rule Britannia!",
+    
+    "perks": ["perk_slash", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_leeenfield", 
+        "main2_attack_millsbomb", 
+        "special3_attack_teacup",
+        "heal_medikit_heer6"
+    ],
+    "ai": "True"
+}

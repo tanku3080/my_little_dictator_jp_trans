@@ -1,0 +1,52 @@
+{
+    "name": "Betushka-42",
+    "unit": "panzer",
+    "image": "panzer_bt42_profile",
+    
+    "walk_sprite": "panzer_bt42_walk",
+    "receive_sprite": "panzer_bt42_static",
+    "main1_attack_sprite": "panzer_bt42_main1_attack",
+    "main2_attack_sprite": "panzer_bt42_main2_attack",
+    "special1_attack_sprite": "panzer_bt42_special1_attack", 
+    "special2_attack_sprite": "panzer_bt42_special2_attack", 
+    "special3_attack_sprite": "panzer_bt42_special3_attack", 
+    "main1_powerup_sprite": "panzer_bt42_main1_powerup", 
+    "main2_powerup_sprite": "panzer_bt42_main2_powerup", 
+    "heal_sprite": "panzer_bt42_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_bt42_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_bt42_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_bt42_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_bt42_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_bt42_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_bt42_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_bt42_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_bt42_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_finbard.png",
+    "level": 25,
+    "cost": 450,
+    "hp": 5500,
+    "attack": 26,
+    "defense": 21,
+    "accuracy": 15,
+    "critical": 24,
+    "speed": 29,
+    "terrain": "snow",
+
+    "fullname": "Betushka-42 (Barbaarinen Tankki)",
+    "description": "A prototype assault gun from Finbard, built from captured Sovian light tanks. Its high profile gives the tank extra weight, piling a lot of stress on the suspension.",
+    "primary_weapon": "QF 4.5-inch howitzer",
+    "secondary_weapon": "-",
+    "motto": "Silent but deadly",
+    
+    "perks": ["perk_firepower", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_qf45howitzer",
+        "special1_attack_polka",
+        "special2_attack_rundown",
+        "main1_powerup_megapower",
+        "heal_maintenance_heer3"
+    ]
+}

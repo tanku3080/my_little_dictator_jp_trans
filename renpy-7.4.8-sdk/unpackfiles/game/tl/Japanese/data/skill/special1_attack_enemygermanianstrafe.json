@@ -1,0 +1,19 @@
+{
+    "id": "enemygermanianstrafe",
+    "kind": "attack",
+    "name": "Strafe",
+    "desc": "Call on your air force to strafe the enemy.",
+    "skilltype": "skilltype_wind",
+    "pp": 3,
+    "image": "reaction_enemystrafe",
+    "sound": "battle/strafe.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_enemygermanianstrafe", 0.01]
+    },
+    "base_hp": -1300,
+    "osd": 3.5,
+    "line": "_name_ calls in the air force for a _skill_. _damage_"
+}

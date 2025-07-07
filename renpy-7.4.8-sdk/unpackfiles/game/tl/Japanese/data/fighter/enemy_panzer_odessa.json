@@ -1,0 +1,51 @@
+{
+    "name": "Khazhibei",
+    "unit": "enemysection",
+    "image": "panzer_odessa_profile",
+    
+    "walk_sprite": "panzer_odessa_walk",
+    "receive_sprite": "panzer_odessa_static",
+    "main1_attack_sprite": "panzer_odessa_main1_attack",
+    "main2_attack_sprite": "panzer_odessa_main2_attack",
+    "special1_attack_sprite": "panzer_odessa_special1_attack", 
+    "special2_attack_sprite": "panzer_odessa_special2_attack", 
+    "special3_attack_sprite": "panzer_odessa_special3_attack", 
+    "main1_powerup_sprite": "panzer_odessa_main1_powerup", 
+    "main2_powerup_sprite": "panzer_odessa_main2_powerup", 
+    "heal_sprite": "panzer_odessa_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_odessa_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_odessa_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_odessa_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_odessa_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_odessa_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_odessa_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_odessa_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_odessa_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_sovia.png",
+    "level": 52,
+    "cost": 480,
+    "hp": 4800,
+    "attack": 48,
+    "defense": 50,
+    "accuracy": 45,
+    "critical": 54,
+    "speed": 30,
+    "terrain": "urban",
+
+    "fullname": "Khazhibei Tank",
+    "description": "An improvised Sovian armored vehicle, built on the base of a farming tractor.",
+    "primary_weapon": "Dushka Heavy Machine Gun",
+    "secondary_weapon": "Magnitofon-27",
+    "motto": "Death to Nappism",
+    
+    "perks": ["perk_lightweight", "x", "x", "x"],
+    "skill": [
+        "main1_attack_dshk", 
+        "main2_attack_dp27",
+        "heal_maintenance_heer5"
+    ],
+    "ai": "True"
+}

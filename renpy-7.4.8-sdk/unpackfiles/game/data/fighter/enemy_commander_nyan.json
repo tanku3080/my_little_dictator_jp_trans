@@ -1,0 +1,55 @@
+{
+    "name": "Nyan Katshex",
+    "unit": "enemyboss",
+    "image": "commander_nyan_profile",
+
+    "walk_sprite": "commander_nyan_walk",
+    "receive_sprite": "commander_nyan_static",
+    "main1_attack_sprite": "commander_nyan_main1_attack",
+    "main2_attack_sprite": "commander_nyan_main2_attack",
+    "special1_attack_sprite": "commander_nyan_special1_attack", 
+    "special2_attack_sprite": "commander_nyan_special2_attack", 
+    "special3_attack_sprite": "commander_nyan_special3_attack", 
+    "main1_powerup_sprite": "commander_nyan_main1_powerup", 
+    "main2_powerup_sprite": "commander_nyan_main2_powerup", 
+    "heal_sprite": "commander_nyan_heal", 
+
+    "main1_attack_finalframe_sprite": "commander_nyan_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "commander_nyan_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "commander_nyan_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "commander_nyan_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "commander_nyan_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "commander_nyan_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "commander_nyan_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "commander_nyan_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_zhina.png",
+    "level": 87,
+    "cost": 900,
+    "hp": 12000,
+    "attack": 89,
+    "defense": 90,
+    "accuracy": 90,
+    "critical": 90,
+    "speed": 91,
+    "terrain": "urban",
+
+    "fullname": "Nyan Katshex",
+    "description": "Full of nationalist zeal and the leader of the Kittentang Faction. Sometimes likes to dress up and pretend she's a cat.",
+    "primary_weapon": "Type 24 MG",
+    "secondary_weapon": "Stylischhandgranate",
+    "motto": "Nyan?",
+    
+    "perks": ["perk_explosive", "perk_stealth", "perk_dark", "x"],
+    "skill": [ 
+        "main1_attack_type24maxim", 
+        "main2_attack_stielhandgranate",
+        "main1_powerup_xpower", 
+        "special1_attack_quickattack", 
+        "special2_attack_redgeneralissima",
+        "special3_attack_northexpedition",
+        "heal_regeneration_nyan"
+    ],
+    "ai": "True"
+}

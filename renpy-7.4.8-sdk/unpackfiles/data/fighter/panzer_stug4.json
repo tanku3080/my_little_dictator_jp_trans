@@ -1,0 +1,53 @@
+{
+    "name": "Sturmi IV",
+    "unit": "panzer",
+    "image": "panzer_stug4_profile",
+    
+    "walk_sprite": "panzer_stug4_walk",
+    "receive_sprite": "panzer_stug4_static",
+    "main1_attack_sprite": "panzer_stug4_main1_attack",
+    "main2_attack_sprite": "panzer_stug4_main2_attack",
+    "special1_attack_sprite": "panzer_stug4_special1_attack", 
+    "special2_attack_sprite": "panzer_stug4_special2_attack", 
+    "special3_attack_sprite": "panzer_stug4_special3_attack", 
+    "main1_powerup_sprite": "panzer_stug4_main1_powerup", 
+    "main2_powerup_sprite": "panzer_stug4_main2_powerup", 
+    "heal_sprite": "panzer_stug4_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_stug4_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_stug4_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_stug4_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_stug4_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_stug4_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_stug4_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_stug4_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_stug4_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 64,
+    "cost": 1190,
+    "hp": 6200,
+    "attack": 62,
+    "defense": 60,
+    "accuracy": 61,
+    "critical": 57,
+    "speed": 63,
+    "terrain": "ground",
+
+    "fullname": "Sturmi IV",
+    "description": "The successor to the Sturmi III. An effective tank destroyer with a pig-snout gun mantlet and a shielded MG 34 on the roof.",
+    "primary_weapon": "75mm UwU 40 L/48",
+    "secondary_weapon": "7.92mm MG 34",
+    "motto": "Don't stare at my skirt, dummy!",
+    
+    "perks": ["perk_firepower", "perk_slopedarmor", "perk_spacedarmor", "x"],
+    "skill": [
+        "main1_attack_kwk40l48",
+        "main2_attack_mg34",
+        "special2_attack_flatten",
+        "main1_powerup_megapower",
+        "main2_powerup_stukatablets",
+        "heal_maintenance_heer6"
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "name": "Mauschen",
+    "unit": "enemysection",
+    "image": "panzer_maus_profile",
+    
+    "walk_sprite": "panzer_maus_walk",
+    "receive_sprite": "panzer_maus_static",
+    "main1_attack_sprite": "panzer_maus_main1_attack",
+    "main2_attack_sprite": "panzer_maus_main2_attack",
+    "special1_attack_sprite": "panzer_maus_special1_attack", 
+    "special2_attack_sprite": "panzer_maus_special2_attack", 
+    "special3_attack_sprite": "panzer_maus_special3_attack", 
+    "main1_powerup_sprite": "panzer_maus_main1_powerup", 
+    "main2_powerup_sprite": "panzer_maus_main2_powerup", 
+    "heal_sprite": "panzer_maus_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_maus_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_maus_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_maus_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_maus_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_maus_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_maus_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_maus_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_maus_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 87,
+    "cost": 910,
+    "hp": 10100,
+    "attack": 135,
+    "defense": 115,
+    "accuracy": 50,
+    "critical": 100,
+    "speed": 20,
+    "terrain": "urban",
+
+    "fullname": "Panzykampfwagen VIII Mäuschen",
+    "description": "A prototype super-heavy tank, this wonder weapon is still undergoing testing, due to its inadequate drivetrain. The immense weight means it can't gain any speed or cross bridges.",
+    "primary_weapon": "128mm UwU 44 gun L/55",
+    "secondary_weapon": "-",
+    "motto": "SQUEAK!",
+    
+    "perks": ["perk_firepower", "perk_flame", "perk_bruteforce", "x"],
+    "skill": [
+        "main1_attack_kwk44l55",
+        "special1_attack_germaniaanthem",
+        "special2_attack_smush",
+        "heal_maintenance_heer8"
+    ],
+    "ai": "True"
+}

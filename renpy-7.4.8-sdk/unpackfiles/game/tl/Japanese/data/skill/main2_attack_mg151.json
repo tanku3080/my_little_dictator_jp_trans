@@ -1,0 +1,18 @@
+{
+    "id": "mg151",
+    "kind": "attack",
+    "name": "MG 151 Cannon",
+    "desc": "A heavy machine gun used in Germanian aircraft.",
+    "skilltype": "skilltype_metal",
+    "pp": 10,
+    "image": "reaction_hit",
+    "sound": "battle/cannon_heavy.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -1610,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

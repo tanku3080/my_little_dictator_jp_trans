@@ -1,0 +1,18 @@
+{
+    "id": "type99arisaka",
+    "kind": "attack",
+    "name": "成章銃",
+    "desc": "ジパングの標準的な軍用ボルトアクション・ライフル。",
+    "skilltype": "skilltype_metal",
+    "pp": 100,
+    "image": "reaction_hit",
+    "sound": "battle/kar98k.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -550,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

@@ -1,0 +1,50 @@
+{
+    "name": "Jagdpuma",
+    "unit": "antitank",
+    "image": "antitank_jagdpanther_profile",
+    
+    "walk_sprite": "antitank_jagdpanther_walk",
+    "receive_sprite": "antitank_jagdpanther_static",
+    "main1_attack_sprite": "antitank_jagdpanther_main1_attack",
+    "main2_attack_sprite": "antitank_jagdpanther_main2_attack",
+    "special1_attack_sprite": "antitank_jagdpanther_special1_attack", 
+    "special2_attack_sprite": "antitank_jagdpanther_special2_attack", 
+    "special3_attack_sprite": "antitank_jagdpanther_special3_attack", 
+    "main1_powerup_sprite": "antitank_jagdpanther_main1_powerup", 
+    "main2_powerup_sprite": "antitank_jagdpanther_main2_powerup", 
+    "heal_sprite": "antitank_jagdpanther_heal",
+
+    "main1_attack_finalframe_sprite": "antitank_jagdpanther_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "antitank_jagdpanther_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "antitank_jagdpanther_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "antitank_jagdpanther_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "antitank_jagdpanther_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "antitank_jagdpanther_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "antitank_jagdpanther_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "antitank_jagdpanther_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 75,
+    "cost": 1470,
+    "hp": 7700,
+    "attack": 77,
+    "defense": 77,
+    "accuracy": 72,
+    "critical": 78,
+    "speed": 55,
+    "terrain": "forest",
+
+    "fullname": "Jagdpuma",
+    "description": "A tank destroyer built on the chassis of the Puma tank, it has a spacious interior thanks to its sloped hull sides and glacis plate, helping to integrate the high calibre gun.",
+    "primary_weapon": "Panzyanklopfgerät 43",
+    "secondary_weapon": "7.92mm MG 34",
+    "motto": "Good luck getting it serviced!",
+    
+    "perks": ["perk_explosive", "perk_slopedarmor", "x", "x"],
+    "skill": [
+        "main1_attack_pak43",
+        "main2_attack_mg34",
+        "heal_maintenance_heer7"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "name": "Sharpshooter",
+    "unit": "special group",
+    "image": "specialgroup_nord_marksman_heer2_profile",
+
+    "walk_sprite": "specialgroup_nord_marksman_heer2_walk",
+    "receive_sprite": "specialgroup_nord_marksman_heer2_static",
+    "main1_attack_sprite": "specialgroup_nord_marksman_heer2_main1_attack",
+    "main2_attack_sprite": "specialgroup_nord_marksman_heer2_main2_attack", 
+    "special1_attack_sprite": "specialgroup_nord_marksman_heer2_special1_attack", 
+    "special2_attack_sprite": "specialgroup_nord_marksman_heer2_special2_attack", 
+    "special3_attack_sprite": "specialgroup_nord_marksman_heer2_special3_attack", 
+    "main1_powerup_sprite": "specialgroup_nord_marksman_heer2_main1_powerup", 
+    "main2_powerup_sprite": "specialgroup_nord_marksman_heer2_main2_powerup", 
+    "heal_sprite": "specialgroup_nord_marksman_heer2_heal", 
+
+    "main1_attack_finalframe_sprite": "specialgroup_nord_marksman_heer2_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "specialgroup_nord_marksman_heer2_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "specialgroup_nord_marksman_heer2_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "specialgroup_nord_marksman_heer2_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "specialgroup_nord_marksman_heer2_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "specialgroup_nord_marksman_heer2_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "specialgroup_nord_marksman_heer2_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "specialgroup_nord_marksman_heer2_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 29,
+    "cost": 250,
+    "hp": 2500,
+    "attack": 32,
+    "defense": 17,
+    "accuracy": 57,
+    "critical": 27,
+    "speed": 27,
+    "terrain": "snow",
+
+    "fullname": "Mountain Sharpshooter",
+    "description": "A specialist soldier of the Vehrmaxt, a marksman, this unit assists in stealth operations.",
+    "primary_weapon": "Kars Rifle",
+    "secondary_weapon": "Stylischhandgranate",
+    "motto": "God with us!",
+    
+    "perks": ["perk_firepower", "perk_stealth", "x", "x"],
+    "skill": [
+        "main1_attack_kar98k_heer1", 
+        "main2_attack_stielhandgranate", 
+        "special3_attack_moraleshock",
+        "heal_medikit_heer2"
+    ]
+}

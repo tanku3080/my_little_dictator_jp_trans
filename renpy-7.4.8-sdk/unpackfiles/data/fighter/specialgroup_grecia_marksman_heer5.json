@@ -1,0 +1,51 @@
+{
+    "name": "Sharpshooter",
+    "unit": "special group",
+    "image": "specialgroup_grecia_marksman_heer5_profile",
+
+    "walk_sprite": "grecia_marksman_heer5_walk",
+    "receive_sprite": "grecia_marksman_heer5_static",
+    "main1_attack_sprite": "grecia_marksman_heer5_main1_attack",
+    "main2_attack_sprite": "grecia_marksman_heer5_main2_attack",
+    "special1_attack_sprite": "grecia_marksman_heer5_special1_attack", 
+    "special2_attack_sprite": "grecia_marksman_heer5_special2_attack", 
+    "special3_attack_sprite": "grecia_marksman_heer5_special3_attack", 
+    "main1_powerup_sprite": "grecia_marksman_heer5_main1_powerup", 
+    "main2_powerup_sprite": "grecia_marksman_heer5_main2_powerup", 
+    "heal_sprite": "grecia_marksman_heer5_heal", 
+
+    "main1_attack_finalframe_sprite": "grecia_marksman_heer5_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "grecia_marksman_heer5_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "grecia_marksman_heer5_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "grecia_marksman_heer5_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "grecia_marksman_heer5_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "grecia_marksman_heer5_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "grecia_marksman_heer5_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "grecia_marksman_heer5_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_grecia.png",
+    "level": 54,
+    "cost": 510,
+    "hp": 5100,
+    "attack": 55,
+    "defense": 50,
+    "accuracy": 45,
+    "critical": 45,
+    "speed": 45,
+    "terrain": "mountain",
+
+    "fullname": "Grecia Sharpshooter",
+    "description": "A specialist marksman of Grecia, fighting to free their country from occupation",
+    "primary_weapon": "Smelly Rifle",
+    "secondary_weapon": "Milly Bomb",
+    "motto": "Glory to Grecia!",
+    
+    "perks": ["perk_stealth", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_leeenfield", 
+        "main2_attack_millsbomb", 
+        "special3_attack_moraleshock",
+        "heal_medikit_heer5"
+    ]
+}

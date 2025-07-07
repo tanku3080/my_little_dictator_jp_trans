@@ -1,0 +1,51 @@
+{
+    "name": "Turo",
+    "unit": "panzer",
+    "image": "panzer_turan_profile",
+    
+    "walk_sprite": "panzer_turan_walk",
+    "receive_sprite": "panzer_turan_static",
+    "main1_attack_sprite": "panzer_turan_main1_attack",
+    "main2_attack_sprite": "panzer_turan_main2_attack",
+    "special1_attack_sprite": "panzer_turan_special1_attack", 
+    "special2_attack_sprite": "panzer_turan_special2_attack", 
+    "special3_attack_sprite": "panzer_turan_special3_attack", 
+    "main1_powerup_sprite": "panzer_turan_main1_powerup", 
+    "main2_powerup_sprite": "panzer_turan_main2_powerup", 
+    "heal_sprite": "panzer_turan_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_turan_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_turan_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_turan_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_turan_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_turan_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_turan_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_turan_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_turan_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_hang.png",
+    "level": 52,
+    "cost": 810,
+    "hp": 5100,
+    "attack": 51,
+    "defense": 51,
+    "accuracy": 45,
+    "critical": 49,
+    "speed": 50,
+    "terrain": "ground",
+
+    "fullname": "41M Tûrõ",
+    "description": "A medium tank with an improved 75mm gun, mounted in a riveted turret. However, it's unable to pierce the frontal armor of tanks like the Sotka, due to its low velocity projectiles.",
+    "primary_weapon": "41M L/25 75mm Gun",
+    "secondary_weapon": "38M Gebauer MG",
+    "motto": "Goulash or death",
+    
+    "perks": ["perk_lightweight", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_41m75mm",
+        "main2_attack_38mgebauermg",
+        "special2_attack_flatten",
+        "heal_maintenance_heer5"
+    ]
+}

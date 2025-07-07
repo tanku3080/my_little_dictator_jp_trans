@@ -1,0 +1,18 @@
+{
+    "id": "m10thowitzer",
+    "kind": "attack",
+    "name": "M-10T howitzer",
+    "desc": "A heavy Sovian howitzer, used on the Sovia Koloss-2.",
+    "skilltype": "skilltype_fire",
+    "pp": 20,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_big.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1500,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

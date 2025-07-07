@@ -1,0 +1,49 @@
+{
+    "name": "Panzy AK",
+    "unit": "antitank",
+    "image": "antitank_pak36_profile",
+    
+    "walk_sprite": "antitank_pak36_walk",
+    "receive_sprite": "antitank_pak36_static",
+    "main1_attack_sprite": "antitank_pak36_main1_attack",
+    "main2_attack_sprite": "antitank_pak36_main2_attack",
+    "special1_attack_sprite": "antitank_pak36_special1_attack", 
+    "special2_attack_sprite": "antitank_pak36_special2_attack", 
+    "special3_attack_sprite": "antitank_pak36_special3_attack", 
+    "main1_powerup_sprite": "antitank_pak36_main1_powerup", 
+    "main2_powerup_sprite": "antitank_pak36_main2_powerup", 
+    "heal_sprite": "antitank_pak36_heal",
+
+    "main1_attack_finalframe_sprite": "antitank_pak36_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "antitank_pak36_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "antitank_pak36_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "antitank_pak36_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "antitank_pak36_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "antitank_pak36_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "antitank_pak36_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "antitank_pak36_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 22,
+    "cost": 350,
+    "hp": 3500,
+    "attack": 20,
+    "defense": 13,
+    "accuracy": 25,
+    "critical": 20,
+    "speed": 20,
+    "terrain": "forest",
+
+    "fullname": "Panzyabwehrkanone 36",
+    "description": "A 37mm caliber anti-tank gun deployed by the Germanian army. Usually requires a crew of five to operate.",
+    "primary_weapon": "Panzyanklopfgerät 36",
+    "secondary_weapon": "-",
+    "motto": "Let's boogie!",
+    
+    "perks": ["perk_firepower", "x", "x", "x"],
+    "skill": [
+        "main1_attack_pak36",
+        "heal_maintenance_heer2"
+    ]
+}

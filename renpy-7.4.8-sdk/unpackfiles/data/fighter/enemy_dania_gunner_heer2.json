@@ -1,0 +1,50 @@
+{
+    "name": "Dania Gunner",
+    "unit": "enemysection",
+    "image": "dania_gunner_heer2_profile",
+
+    "walk_sprite": "dania_gunner_heer2_walk",
+    "receive_sprite": "dania_gunner_heer2_static",
+    "main1_attack_sprite": "dania_gunner_heer2_main1_attack",
+    "main2_attack_sprite": "dania_gunner_heer2_main2_attack", 
+    "special1_attack_sprite": "dania_gunner_heer2_special1_attack", 
+    "special2_attack_sprite": "dania_gunner_heer2_special2_attack", 
+    "special3_attack_sprite": "dania_gunner_heer2_special3_attack", 
+    "main1_powerup_sprite": "dania_gunner_heer2_main1_powerup", 
+    "main2_powerup_sprite": "dania_gunner_heer2_main2_powerup", 
+    "heal_sprite": "dania_gunner_heer2_heal", 
+
+    "main1_attack_finalframe_sprite": "dania_gunner_heer2_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "dania_gunner_heer2_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "dania_gunner_heer2_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "dania_gunner_heer2_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "dania_gunner_heer2_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "dania_gunner_heer2_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "dania_gunner_heer2_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "dania_gunner_heer2_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_dania.png",
+    "level": 21,
+    "cost": 280,
+    "hp": 2800,
+    "attack": 23,
+    "defense": 18,
+    "accuracy": 25,
+    "critical": 26,
+    "speed": 27,
+    "terrain": "ground",
+
+    "fullname": "Dania Gunner",
+    "description": "Standard infantry unit.",
+    "primary_weapon": "Jomfru LMG",
+    "secondary_weapon": "-",
+    "motto": "It's time to go!",
+    
+    "perks": ["perk_firepower", "perk_lightweight", "x", "x"],
+    "skill": [
+        "main1_attack_madsen", 
+        "heal_medikit_heer2"
+    ],
+    "ai": "True"
+}

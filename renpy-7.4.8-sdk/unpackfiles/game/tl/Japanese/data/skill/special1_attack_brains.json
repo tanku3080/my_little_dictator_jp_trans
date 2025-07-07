@@ -1,0 +1,19 @@
+{
+    "id": "brains",
+    "kind": "attack",
+    "name": "Brains",
+    "desc": "A deadly zombie attack.",
+    "skilltype": "skilltype_ground",
+    "pp": 2,
+    "image": "reaction_hit",
+    "sound": "battle/brains.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "walk",
+        "finalframe": "static",
+        "full_screen": ["fullscreen_brains", 0.01]
+    },
+    "base_hp": -1450,
+    "osd": 3.5,
+    "line": "_name_ attacks and tries to eat some enemy _skill_. _damage_"
+}

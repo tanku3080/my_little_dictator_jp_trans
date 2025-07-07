@@ -1,0 +1,18 @@
+{
+    "id": "zis5",
+    "kind": "attack",
+    "name": "ZiS-5 Gun",
+    "desc": "A Sovian tank gun.",
+    "skilltype": "skilltype_fire",
+    "pp": 35,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_med.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1250,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

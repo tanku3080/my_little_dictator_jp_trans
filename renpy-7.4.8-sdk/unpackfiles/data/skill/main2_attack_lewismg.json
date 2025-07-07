@@ -1,0 +1,18 @@
+{
+    "id": "lewismg",
+    "kind": "attack",
+    "name": "Louisa MG",
+    "desc": "A light machine gun of Amerikan design.",
+    "skilltype": "skilltype_metal",
+    "pp": 60,
+    "image": "reaction_hit",
+    "sound": "battle/cannon_heavy.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -460,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

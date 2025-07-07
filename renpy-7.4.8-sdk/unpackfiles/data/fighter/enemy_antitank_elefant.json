@@ -1,0 +1,51 @@
+{
+    "name": "Mammut",
+    "unit": "enemysection",
+    "image": "antitank_elefant_profile",
+
+    "walk_sprite": "antitank_elefant_walk",
+    "receive_sprite": "antitank_elefant_static",
+    "main1_attack_sprite": "antitank_elefant_main1_attack",
+    "main2_attack_sprite": "antitank_elefant_main2_attack",
+    "special1_attack_sprite": "antitank_elefant_special1_attack", 
+    "special2_attack_sprite": "antitank_elefant_special2_attack", 
+    "special3_attack_sprite": "antitank_elefant_special3_attack", 
+    "main1_powerup_sprite": "antitank_elefant_main1_powerup", 
+    "main2_powerup_sprite": "antitank_elefant_main2_powerup", 
+    "heal_sprite": "antitank_elefant_heal",
+
+    "main1_attack_finalframe_sprite": "antitank_elefant_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "antitank_elefant_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "antitank_elefant_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "antitank_elefant_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "antitank_elefant_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "antitank_elefant_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "antitank_elefant_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "antitank_elefant_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 79,
+    "cost": 780,
+    "hp": 7800,
+    "attack": 78,
+    "defense": 75,
+    "accuracy": 76,
+    "critical": 72,
+    "speed": 46,
+    "terrain": "ground",
+
+    "fullname": "Panzyjäger Tigerin (Mammut)",
+    "description": "The Mammut is a prototype heavy tank destroyer used by the Germanian Vehrmaxt, rushed through production.",
+    "primary_weapon": "Panzyanklopfgerät 43",
+    "secondary_weapon": "7.92mm MG 34",
+    "motto": "Noot! Noot!",
+    
+    "perks": ["perk_firepower", "perk_slopedarmor", "perk_explosive", "x"],
+    "skill": [
+        "main1_attack_pak43", 
+        "main2_attack_mg34",
+        "heal_maintenance_heer7"
+    ],
+    "ai": "True"
+}

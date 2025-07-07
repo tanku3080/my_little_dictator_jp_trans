@@ -1,0 +1,51 @@
+{
+    "name": "Knight",
+    "unit": "panzer",
+    "image": "panzer_toldi_profile",
+    
+    "walk_sprite": "panzer_toldi_walk",
+    "receive_sprite": "panzer_toldi_static",
+    "main1_attack_sprite": "panzer_toldi_main1_attack",
+    "main2_attack_sprite": "panzer_toldi_main2_attack",
+    "special1_attack_sprite": "panzer_toldi_special1_attack", 
+    "special2_attack_sprite": "panzer_toldi_special2_attack", 
+    "special3_attack_sprite": "panzer_toldi_special3_attack", 
+    "main1_powerup_sprite": "panzer_toldi_main1_powerup", 
+    "main2_powerup_sprite": "panzer_toldi_main2_powerup", 
+    "heal_sprite": "panzer_toldi_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_toldi_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_toldi_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_toldi_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_toldi_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_toldi_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_toldi_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_toldi_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_toldi_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_hang.png",
+    "level": 51,
+    "cost": 700,
+    "hp": 5000,
+    "attack": 50,
+    "defense": 52,
+    "accuracy": 50,
+    "critical": 50,
+    "speed": 55,
+    "terrain": "forest",
+
+    "fullname": "Knight Light Tank (Miklós)",
+    "description": "A light tank named after a medieval knight. Its frontal armor has been improved, and the main armament replaced with a more accurate gun, with better muzzle velocity.",
+    "primary_weapon": "42M 40mm Gun",
+    "secondary_weapon": "38M Gebauer MG",
+    "motto": "Fly like an eagle",
+    
+    "perks": ["perk_lightweight", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_42m40mm",
+        "main2_attack_38mgebauermg",
+        "special2_attack_flatten",
+        "heal_maintenance_heer5"
+    ]
+}

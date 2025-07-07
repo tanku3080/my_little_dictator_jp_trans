@@ -1,0 +1,52 @@
+{
+    "name": "Iosefina Starin-2",
+    "unit": "panzer",
+    "image": "panzer_is2_profile",
+    
+    "walk_sprite": "panzer_is2_walk",
+    "receive_sprite": "panzer_is2_static",
+    "main1_attack_sprite": "panzer_is2_main1_attack",
+    "main2_attack_sprite": "panzer_is2_main2_attack",
+    "special1_attack_sprite": "panzer_is2_special1_attack", 
+    "special2_attack_sprite": "panzer_is2_special2_attack", 
+    "special3_attack_sprite": "panzer_is2_special3_attack", 
+    "main1_powerup_sprite": "panzer_is2_main1_powerup", 
+    "main2_powerup_sprite": "panzer_is2_main2_powerup", 
+    "heal_sprite": "panzer_is2_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_is2_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_is2_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_is2_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_is2_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_is2_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_is2_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_is2_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_is2_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_sovia.png",
+    "level": 89,
+    "cost": 1680,
+    "hp": 8500,
+    "attack": 88,
+    "defense": 61,
+    "accuracy": 44,
+    "critical": 83,
+    "speed": 75,
+    "terrain": "snow",
+
+    "fullname": "Iosefina Starin-2",
+    "description": "Named for the Mother of Nations, this heavy tank is a successor to the KV-series. The high explosive power of its shells can blow apart enemy tank turrets and treads.",
+    "primary_weapon": "D-25 122mm tank gun",
+    "secondary_weapon": "-",
+    "motto": "Urah!",
+    
+    "perks": ["perk_firepower", "perk_ice", "perk_dark", "x"],
+    "skill": [
+        "main1_attack_d25122mm",
+        "special1_attack_soviaanthem",
+        "special2_attack_smush",
+        "main1_powerup_megaarmor",
+        "heal_maintenance_heer8"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "id": "drain",
+    "kind": "attack",
+    "name": "Drain",
+    "desc": "Drain energy from your enemies.",
+    "skilltype": "skilltype_mana",
+    "pp": 5,
+    "image": "reaction_hit",
+    "sound": "battle/absorb.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special3_attack",
+        "finalframe": "special3_attack_finalframe",
+        "full_screen": ["fullscreen_absorb", 0.01]
+    },
+    "base_hp": -2000,
+    "user_hp_change": 99999,
+    "osd": 3.5,
+    "line": "_name_ uses _skill_ to drain life from the enemy. _damage_"
+}

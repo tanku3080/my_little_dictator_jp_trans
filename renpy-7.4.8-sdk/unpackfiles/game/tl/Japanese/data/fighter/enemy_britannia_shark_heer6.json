@@ -1,0 +1,52 @@
+{
+    "name": "Britannia Shark",
+    "unit": "enemysection",
+    "image": "britannia_shark_heer6_profile",
+
+    "walk_sprite": "britannia_shark_heer6_walk",
+    "receive_sprite": "britannia_shark_heer6_static",
+    "main1_attack_sprite": "britannia_shark_heer6_main1_attack",
+    "main2_attack_sprite": "britannia_shark_heer6_main2_attack",
+    "special1_attack_sprite": "britannia_shark_heer6_special1_attack", 
+    "special2_attack_sprite": "britannia_shark_heer6_special2_attack", 
+    "special3_attack_sprite": "britannia_shark_heer6_special3_attack", 
+    "main1_powerup_sprite": "britannia_shark_heer6_main1_powerup", 
+    "main2_powerup_sprite": "britannia_shark_heer6_main2_powerup", 
+    "heal_sprite": "britannia_shark_heer6_heal", 
+
+    "main1_attack_finalframe_sprite": "britannia_shark_heer6_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "britannia_shark_heer6_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "britannia_shark_heer6_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "britannia_shark_heer6_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "britannia_shark_heer6_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "britannia_shark_heer6_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "britannia_shark_heer6_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "britannia_shark_heer6_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 67,
+    "cost": 650,
+    "hp": 6500,
+    "attack": 65,
+    "defense": 35,
+    "accuracy": 25,
+    "critical": 30,
+    "speed": 55,
+    "terrain": "water",
+
+    "fullname": "Britannia Shark",
+    "description": "Created by Churchill in her secret lab, a mad-science human-shark hybrid, built for fighting at sea. Cute but very dangerous.",
+    "primary_weapon": "Langchester SMG",
+    "secondary_weapon": "Limpet Mine",
+    "motto": "Chomp chomp chomp chomp!",
+    
+    "perks": ["perk_slash", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_lanchester", 
+        "main2_attack_limpetmine", 
+        "special1_attack_chomp",
+        "heal_medikit_heer6"
+    ],
+    "ai": "True"
+}

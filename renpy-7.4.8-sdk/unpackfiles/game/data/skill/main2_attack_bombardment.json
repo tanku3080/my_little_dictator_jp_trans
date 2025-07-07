@@ -1,0 +1,20 @@
+{
+    "id": "bombardment",
+    "kind": "attack",
+    "name": "Bombardment",
+    "desc": "A heavy bombardment of shells. {color=#F35F5F}(Stun / 50% Chance){/color}",
+    "skilltype": "skilltype_fire",
+    "pp": 2,
+    "image": "reaction_fire",
+    "sound": "battle/bombardment.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe",
+        "full_screen": ["fullscreen_bombardment", 0.01]
+    },
+    "base_hp": -2000,
+    "status_enemy": "stun_status",
+    "osd": 3.0,
+    "line": "_name_ used _skill_. _damage_"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "typhoon",
+    "kind": "attack",
+    "name": "Typhoon",
+    "desc": "A powerful wind attack.",
+    "skilltype": "skilltype_wind",
+    "pp": 2,
+    "image": "reaction_wind",
+    "sound": "battle/typhoon.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special3_attack",
+        "finalframe": "special3_attack_finalframe",
+        "full_screen": ["fullscreen_typhoon", 0.01]
+    },
+    "base_hp": -2000,
+    "osd": 3.5,
+    "line": "_name_ uses _skill_. A powerful storm is whipped up. _damage_"
+}

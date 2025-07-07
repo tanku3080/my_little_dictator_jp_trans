@@ -1,0 +1,18 @@
+{
+    "id": "shkas",
+    "kind": "attack",
+    "name": "ShKAS Machine Gun",
+    "desc": "A machine gun used in Sovian aircraft.",
+    "skilltype": "skilltype_metal",
+    "pp": 100,
+    "image": "reaction_hit",
+    "sound": "battle/mg34.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1510,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

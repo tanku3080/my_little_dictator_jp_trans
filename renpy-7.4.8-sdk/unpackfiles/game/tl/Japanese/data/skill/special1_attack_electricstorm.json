@@ -1,0 +1,19 @@
+{
+    "id": "electricstorm",
+    "kind": "attack",
+    "name": "Electric Storm",
+    "desc": "A deadly thunder attack.",
+    "skilltype": "skilltype_electric",
+    "pp": 5,
+    "image": "reaction_lightning",
+    "sound": "battle/electricstorm.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_electricstorm", 0.01]
+    },
+    "base_hp": -1500,
+    "osd": 3.5,
+    "line": "Clouds roll in as _name_ causes an _skill_. _damage_"
+}

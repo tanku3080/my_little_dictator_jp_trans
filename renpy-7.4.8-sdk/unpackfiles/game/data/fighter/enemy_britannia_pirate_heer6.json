@@ -1,0 +1,52 @@
+{
+    "name": "Britannia Pirate",
+    "unit": "enemysection",
+    "image": "britannia_pirate_heer6_profile",
+
+    "walk_sprite": "britannia_pirate_heer6_walk",
+    "receive_sprite": "britannia_pirate_heer6_static",
+    "main1_attack_sprite": "britannia_pirate_heer6_main1_attack",
+    "main2_attack_sprite": "britannia_pirate_heer6_main2_attack",
+    "special1_attack_sprite": "britannia_pirate_heer6_special1_attack", 
+    "special2_attack_sprite": "britannia_pirate_heer6_special2_attack", 
+    "special3_attack_sprite": "britannia_pirate_heer6_special3_attack", 
+    "main1_powerup_sprite": "britannia_pirate_heer6_main1_powerup", 
+    "main2_powerup_sprite": "britannia_pirate_heer6_main2_powerup", 
+    "heal_sprite": "britannia_pirate_heer6_heal", 
+
+    "main1_attack_finalframe_sprite": "britannia_pirate_heer6_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "britannia_pirate_heer6_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "britannia_pirate_heer6_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "britannia_pirate_heer6_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "britannia_pirate_heer6_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "britannia_pirate_heer6_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "britannia_pirate_heer6_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "britannia_pirate_heer6_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 64,
+    "cost": 650,
+    "hp": 6000,
+    "attack": 65,
+    "defense": 55,
+    "accuracy": 15,
+    "critical": 60,
+    "speed": 65,
+    "terrain": "water",
+
+    "fullname": "Britannia Pirate",
+    "description": "Ahoy~! We be pirates! Yarrrr!",
+    "primary_weapon": "Langchester SMG",
+    "secondary_weapon": "Limpet Mine",
+    "motto": "Rule Britannia!",
+    
+    "perks": ["perk_slash", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_lanchester", 
+        "main2_attack_limpetmine", 
+        "special1_attack_cutlass",
+        "heal_medikit_heer6"
+    ],
+    "ai": "True"
+}

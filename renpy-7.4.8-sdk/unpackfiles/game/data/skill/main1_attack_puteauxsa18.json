@@ -1,0 +1,18 @@
+{
+    "id": "puteauxsa18",
+    "kind": "attack",
+    "name": "Poutine SA 18 gun",
+    "desc": "A single-shot, breech-loading cannon from Franzo.",
+    "skilltype": "skilltype_fire",
+    "pp": 15,
+    "image": "reaction_fire",
+    "sound": "battle/puteauxl21.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -990,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

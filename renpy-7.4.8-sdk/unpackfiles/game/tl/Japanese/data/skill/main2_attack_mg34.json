@@ -1,0 +1,18 @@
+{
+    "id": "mg34",
+    "kind": "attack",
+    "name": "MG 34 Panzylauf",
+    "desc": "A common secondary armament for Germanian Panzys.",
+    "skilltype": "skilltype_metal",
+    "pp": 100,
+    "image": "reaction_hit",
+    "sound": "battle/mg34.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -950,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

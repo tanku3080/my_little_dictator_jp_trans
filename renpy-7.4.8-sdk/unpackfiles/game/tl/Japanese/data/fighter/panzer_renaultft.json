@@ -1,0 +1,51 @@
+{
+    "name": "Victory",
+    "unit": "panzer",
+    "image": "panzer_renaultft_profile",
+    
+    "walk_sprite": "panzer_renaultft_walk",
+    "receive_sprite": "panzer_renaultft_static",
+    "main1_attack_sprite": "panzer_renaultft_main1_attack",
+    "main2_attack_sprite": "panzer_renaultft_main2_attack",
+    "special1_attack_sprite": "panzer_renaultft_special1_attack", 
+    "special2_attack_sprite": "panzer_renaultft_special2_attack", 
+    "special3_attack_sprite": "panzer_renaultft_special3_attack", 
+    "main1_powerup_sprite": "panzer_renaultft_main1_powerup", 
+    "main2_powerup_sprite": "panzer_renaultft_main2_powerup", 
+    "heal_sprite": "panzer_renaultft_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_renaultft_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_renaultft_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_renaultft_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_renaultft_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_renaultft_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_renaultft_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_renaultft_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_renaultft_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_franzolibre.png",
+    "level": 38,
+    "cost": 970,
+    "hp": 3700,
+    "attack": 37,
+    "defense": 37,
+    "accuracy": 23,
+    "critical": 21,
+    "speed": 22,
+    "terrain": "ground",
+
+    "fullname": "Char de la Victoire (Victory Tank)",
+    "description": "The first tank in the world to include a fully rotating turret. Its layout, comprising an engine in the rear and a frontal compartment, has become a standard in tank design.",
+    "primary_weapon": "Poutine L/21 gun",
+    "secondary_weapon": "-",
+    "motto": "Who ate garlic in here?!",
+    
+    "perks": ["perk_lightweight", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_puteauxl21",
+        "main1_powerup_megaspeed",
+        "special2_attack_breakthrough",
+        "heal_maintenance_heer3"
+    ]
+}

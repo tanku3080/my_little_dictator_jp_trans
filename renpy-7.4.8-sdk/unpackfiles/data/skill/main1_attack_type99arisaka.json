@@ -1,0 +1,18 @@
+{
+    "id": "type99arisaka",
+    "kind": "attack",
+    "name": "Nariakira Rifle",
+    "desc": "A Zipanguese standard service bolt-action rifle.",
+    "skilltype": "skilltype_metal",
+    "pp": 100,
+    "image": "reaction_hit",
+    "sound": "battle/kar98k.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -550,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

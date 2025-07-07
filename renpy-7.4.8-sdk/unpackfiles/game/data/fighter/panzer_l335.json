@@ -1,0 +1,51 @@
+{
+    "name": "CV-35",
+    "unit": "panzer",
+    "image": "panzer_l335_profile",
+    
+    "walk_sprite": "panzer_l335_walk",
+    "receive_sprite": "panzer_l335_static",
+    "main1_attack_sprite": "panzer_l335_main1_attack",
+    "main2_attack_sprite": "panzer_l335_main2_attack",
+    "special1_attack_sprite": "panzer_l335_special1_attack", 
+    "special2_attack_sprite": "panzer_l335_special2_attack", 
+    "special3_attack_sprite": "panzer_l335_special3_attack", 
+    "main1_powerup_sprite": "panzer_l335_main1_powerup", 
+    "main2_powerup_sprite": "panzer_l335_main2_powerup", 
+    "heal_sprite": "panzer_l335_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_l335_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_l335_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_l335_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_l335_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_l335_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_l335_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_l335_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_l335_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_vitalia.png",
+    "level": 54,
+    "cost": 770,
+    "hp": 5000,
+    "attack": 48,
+    "defense": 36,
+    "accuracy": 40,
+    "critical": 48,
+    "speed": 70,
+    "terrain": "desert",
+
+    "fullname": "Caciocavallo CV-35",
+    "description": "A tankette of the Vitalian army. It's a generally inadequate tank, but I guess it'll do.",
+    "primary_weapon": "Solothurn Rifle",
+    "secondary_weapon": "-",
+    "motto": "La la la la!",
+    
+    "perks": ["perk_firepower", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_solothurn20mm",
+        "special1_attack_vitaliaanthem",
+        "special2_attack_breakthrough",
+        "main1_powerup_megaspeed"
+    ]
+}

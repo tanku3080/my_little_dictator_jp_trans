@@ -1,0 +1,19 @@
+{
+    "id": "prismblast",
+    "kind": "attack",
+    "name": "Prism Blast",
+    "desc": "An ancient Britannian mana attack.",
+    "skilltype": "skilltype_mana",
+    "pp": 100,
+    "image": "reaction_prism",
+    "sound": "battle/prismblast.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe",
+        "full_screen": ["fullscreen_prismblast", 0.01]
+    },
+    "base_hp": -850,
+    "osd": 3.5,
+    "line": "_name_ casts an ancient spell and fires a _skill_. _damage_"
+}

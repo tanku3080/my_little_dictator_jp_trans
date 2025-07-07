@@ -1,0 +1,52 @@
+{
+    "name": "Enemy Panzy 38(t)",
+    "unit": "enemysection",
+    "image": "panzer_panzer38t_profile",
+    
+    "walk_sprite": "panzer_panzer38t_walk",
+    "receive_sprite": "panzer_panzer38t_static",
+    "main1_attack_sprite": "panzer_panzer38t_main1_attack",
+    "main2_attack_sprite": "panzer_panzer38t_main2_attack",
+    "special1_attack_sprite": "panzer_panzer38t_special1_attack", 
+    "special2_attack_sprite": "panzer_panzer38t_special2_attack", 
+    "special3_attack_sprite": "panzer_panzer38t_special3_attack", 
+    "main1_powerup_sprite": "panzer_panzer38t_main1_powerup", 
+    "main2_powerup_sprite": "panzer_panzer38t_main2_powerup", 
+    "heal_sprite": "panzer_panzer38t_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_panzer38t_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_panzer38t_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_panzer38t_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_panzer38t_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_panzer38t_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_panzer38t_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_panzer38t_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_panzer38t_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_czexa.png",
+    "level": 14,
+    "cost": 230,
+    "hp": 2300,
+    "attack": 16,
+    "defense": 13,
+    "accuracy": 4,
+    "critical": 5,
+    "speed": 8,
+    "terrain": "forest",
+
+    "fullname": "Panzykampfwagen 38(t)",
+    "description": "This interwar tank was originally developed in Czexa. It has riveted armor, a centrally located two-man turret and carries over 2,600 rounds of ammunition.",
+    "primary_weapon": "37mm UwU 38(t) L/47.8",
+    "secondary_weapon": "7.92mm ZB-53 (MG 37(t))",
+    "motto": "Ja, das ist tschechisch . . .",
+    
+    "perks": ["perk_lightweight", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_kwk38l47", 
+        "main2_attack_mg34",
+        "special2_attack_rundown",
+        "heal_maintenance_heer1"
+    ],
+    "ai": "True"
+}

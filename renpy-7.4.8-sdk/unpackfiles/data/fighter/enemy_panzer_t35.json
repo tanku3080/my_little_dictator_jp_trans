@@ -1,0 +1,54 @@
+{
+    "name": "Land Battleship",
+    "unit": "enemysection",
+    "image": "panzer_t35_profile",
+    
+    "walk_sprite": "panzer_t35_walk",
+    "receive_sprite": "panzer_t35_static",
+    "main1_attack_sprite": "panzer_t35_main1_attack",
+    "main2_attack_sprite": "panzer_t35_main2_attack",
+    "special1_attack_sprite": "panzer_t35_special1_attack", 
+    "special2_attack_sprite": "panzer_t35_special2_attack", 
+    "special3_attack_sprite": "panzer_t35_special3_attack", 
+    "main1_powerup_sprite": "panzer_t35_main1_powerup", 
+    "main2_powerup_sprite": "panzer_t35_main2_powerup", 
+    "heal_sprite": "panzer_t35_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_t35_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_t35_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_t35_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_t35_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_t35_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_t35_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_t35_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_t35_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_sovia.png",
+    "level": 74,
+    "cost": 630,
+    "hp": 6300,
+    "attack": 63,
+    "defense": 60,
+    "accuracy": 60,
+    "critical": 60,
+    "speed": 60,
+    "terrain": "ground",
+
+    "fullname": "Land Battleship (T-35)",
+    "description": "A multi-turreted Sovian heavy tank, known as the 'land battleship'. Unreliable and slow, it's the only mass-produced tank of its kind in the world.",
+    "primary_weapon": "76.2mm KT-28",
+    "secondary_weapon": "Panzyanklopfgerät 184",
+    "motto": "Four turrets? Why not five?",
+    
+    "perks": ["perk_firepower", "perk_dark", "perk_bruteforce", "x"],
+    "skill": [
+        "main1_attack_kt28",
+        "main2_attack_pak184",
+        "special1_attack_soviaanthem",
+        "special2_attack_smush",
+        "main1_powerup_xpower",
+        "heal_maintenance_heer6"
+    ],
+    "ai": "True"
+}

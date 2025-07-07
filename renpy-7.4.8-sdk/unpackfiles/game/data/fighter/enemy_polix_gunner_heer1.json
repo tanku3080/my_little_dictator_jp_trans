@@ -1,0 +1,52 @@
+{
+    "name": "Polix Gunner",
+    "unit": "enemysection",
+    "image": "polix_gunner_heer1_profile",
+
+    "walk_sprite": "polix_gunner_heer1_walk",
+    "receive_sprite": "polix_gunner_heer1_static",
+    "main1_attack_sprite": "polix_gunner_heer1_main1_attack",
+    "main2_attack_sprite": "polix_gunner_heer1_main2_attack",
+    "special1_attack_sprite": "polix_gunner_heer1_special1_attack", 
+    "special2_attack_sprite": "polix_gunner_heer1_special2_attack", 
+    "special3_attack_sprite": "polix_gunner_heer1_special3_attack", 
+    "main1_powerup_sprite": "polix_gunner_heer1_main1_powerup", 
+    "main2_powerup_sprite": "polix_gunner_heer1_main2_powerup", 
+    "heal_sprite": "polix_gunner_heer1_heal", 
+
+    "main1_attack_finalframe_sprite": "polix_gunner_heer1_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "polix_gunner_heer1_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "polix_gunner_heer1_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "polix_gunner_heer1_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "polix_gunner_heer1_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "polix_gunner_heer1_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "polix_gunner_heer1_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "polix_gunner_heer1_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_polix.png",
+    "level": 17,
+    "cost": 85,
+    "hp": 1250,
+    "attack": 15,
+    "defense": 15,
+    "accuracy": 15,
+    "critical": 11,
+    "speed": 11,
+    "terrain": "forest",
+
+    "fullname": "Polix Gunner",
+    "description": "Standard infantry unit.",
+    "primary_weapon": "Karabinowy 29",
+    "secondary_weapon": "Granat Defensywny",
+    "motto": "For Smigly and the gang!",
+    
+    "perks": ["perk_speed", "x", "x", "x"],
+    "skill": [
+        "main1_attack_karabinek29", 
+        "main2_attack_granatobronny", 
+        "special1_attack_quickmarch",
+        "heal_medikit_heer1"
+    ],
+    "ai": "True"
+}

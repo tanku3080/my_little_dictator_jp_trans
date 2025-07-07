@@ -1,0 +1,19 @@
+{
+    "id": "samurai",
+    "kind": "attack",
+    "name": "Samurai",
+    "desc": "An extremely powerful sword attack.",
+    "skilltype": "skilltype_metal",
+    "pp": 1,
+    "image": "reaction_slash",
+    "sound": "battle/samurai.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special2_attack",
+        "finalframe": "special2_attack_finalframe",
+        "full_screen": ["fullscreen_samurai", 0.01]
+    },
+    "base_hp": -1500,
+    "osd": 3.5,
+    "line": "_name_ calls upon the ghosts of the _skill_. _damage_"
+}

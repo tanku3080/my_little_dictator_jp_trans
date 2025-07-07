@@ -1,0 +1,19 @@
+{
+    "id": "bolognese",
+    "kind": "attack",
+    "name": "Bolognese",
+    "desc": "A jar of pasta sauce. {color=#F35F5F}(Stun / 50% Chance){/color}",
+    "skilltype": "skilltype_ground",
+    "pp": 1,
+    "image": "reaction_hit",
+    "sound": "battle/molotovcocktail.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special2_attack",
+        "finalframe": "special2_attack_finalframe"
+    },
+    "base_hp": -1300,
+    "status_enemy": "stun_status",
+    "osd": 3.5,
+    "line": "_name_ throws a jar of _skill_. The sauce gets everywhere."
+}

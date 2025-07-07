@@ -1,0 +1,19 @@
+{
+    "id": "xspeed",
+    "kind": "boost",
+    "name": "X-Speed",
+    "desc": "Quadruple boost your Speed for up to 8 Turns. {color=#F35F5F}(Boost / 40% Chance){/color}",
+    "skilltype": "skilltype_boost",
+    "pp": 1,
+    "image": "reaction_none",
+    "sound": "battle/xmove.ogg",
+    "animation": {
+        "kind": "self",
+        "listing": "main1_powerup",
+        "finalframe": "main1_powerup_finalframe",
+        "full_screen": ["fullscreen_superup", 0.01]
+    },
+    "status_enemy": "xspeed_status",
+    "osd": 3.0,
+    "line": "_name_ uses _skill_ to increase their speed."
+}

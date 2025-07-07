@@ -1,0 +1,18 @@
+{
+    "id": "dp27",
+    "kind": "attack",
+    "name": "Magnitofon-27",
+    "desc": "A Sovian light machine gun equipped in most Sovian tanks.",
+    "skilltype": "skilltype_metal",
+    "pp": 100,
+    "image": "reaction_hit",
+    "sound": "battle/m1918bar.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -950,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

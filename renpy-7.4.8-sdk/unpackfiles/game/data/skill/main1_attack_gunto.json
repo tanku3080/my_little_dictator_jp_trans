@@ -1,0 +1,18 @@
+{
+    "id": "gunto",
+    "kind": "attack",
+    "name": "Shingunto Blade",
+    "desc": "A Zipanguese military sword.",
+    "skilltype": "skilltype_metal",
+    "pp": 99,
+    "image": "reaction_slash",
+    "sound": "battle/gunto.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -760,
+    "osd": 3.0,
+    "line": "_name_ uses their _skill_. _damage_"
+}

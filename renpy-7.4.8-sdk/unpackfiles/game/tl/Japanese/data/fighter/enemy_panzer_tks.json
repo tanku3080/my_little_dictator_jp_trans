@@ -1,0 +1,52 @@
+{
+    "name": "Tank Killer S",
+    "unit": "enemysection",
+    "image": "panzer_tks_profile",
+    
+    "walk_sprite": "panzer_tks_walk",
+    "receive_sprite": "panzer_tks_static",
+    "main1_attack_sprite": "panzer_tks_main1_attack",
+    "main2_attack_sprite": "panzer_tks_main2_attack",
+    "special1_attack_sprite": "panzer_tks_special1_attack", 
+    "special2_attack_sprite": "panzer_tks_special2_attack", 
+    "special3_attack_sprite": "panzer_tks_special3_attack", 
+    "main1_powerup_sprite": "panzer_tks_main1_powerup", 
+    "main2_powerup_sprite": "panzer_tks_main2_powerup", 
+    "heal_sprite": "panzer_tks_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_tks_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_tks_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_tks_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_tks_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_tks_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_tks_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_tks_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_tks_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_polix.png",
+    "level": 16,
+    "cost": 210,
+    "hp": 2100,
+    "attack": 15,
+    "defense": 15,
+    "accuracy": 5,
+    "critical": 5,
+    "speed": 18,
+    "terrain": "ground",
+
+    "fullname": "Tank Killer S (TKS)",
+    "description": "Primarily suited for infantry support and reconnaissance, this Polix-design tankette comes with a free motorcycle.",
+    "primary_weapon": "Nkm Heaviest MG",
+    "secondary_weapon": "-",
+    "motto": "Lil' Slugger",
+    
+    "perks": ["perk_lightweight", "x", "x", "x"],
+    "skill": [
+        "main1_attack_nkmwz38fk",
+        "main2_attack_granatobronny",
+        "special2_attack_breakthrough",
+        "heal_maintenance_heer1"
+    ],
+    "ai": "True"
+}

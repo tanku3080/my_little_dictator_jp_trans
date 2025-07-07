@@ -1,0 +1,18 @@
+{
+    "id": "qf75mm",
+    "kind": "attack",
+    "name": "QF 75mm",
+    "desc": "A Britannian quick-firing tank gun.",
+    "skilltype": "skilltype_fire",
+    "pp": 110,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_small.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1870,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

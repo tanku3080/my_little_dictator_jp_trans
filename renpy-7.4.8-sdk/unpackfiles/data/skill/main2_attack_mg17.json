@@ -1,0 +1,18 @@
+{
+    "id": "mg17",
+    "kind": "attack",
+    "name": "MG 17 Machine Gun",
+    "desc": "A fixed machine gun in Germanian aircraft.",
+    "skilltype": "skilltype_metal",
+    "pp": 15,
+    "image": "reaction_hit",
+    "sound": "battle/mg34.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -1000,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

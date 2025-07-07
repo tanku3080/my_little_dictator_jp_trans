@@ -1,0 +1,18 @@
+{
+    "id": "qf25pounder",
+    "kind": "attack",
+    "name": "QF 25-pounder",
+    "desc": "A Britannian howitzer, with an 87.6mm calibre.",
+    "skilltype": "skilltype_fire",
+    "pp": 32,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_med.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1570,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

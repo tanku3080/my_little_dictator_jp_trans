@@ -1,0 +1,52 @@
+{
+    "name": "Yamato",
+    "unit": "commander",
+    "image": "commander_yamato_heer0_profile",
+
+    "walk_sprite": "commander_yamato_walk",
+    "receive_sprite": "commander_yamato_static",
+    "main1_attack_sprite": "commander_yamato_main1_attack",
+    "main2_attack_sprite": "commander_yamato_main2_attack",
+    "special1_attack_sprite": "commander_yamato_special1_attack", 
+    "special2_attack_sprite": "commander_yamato_special2_attack", 
+    "special3_attack_sprite": "commander_yamato_special3_attack", 
+    "main1_powerup_sprite": "commander_yamato_main1_powerup", 
+    "main2_powerup_sprite": "commander_yamato_main2_powerup", 
+    "heal_sprite": "commander_yamato_heal", 
+
+    "main1_attack_finalframe_sprite": "commander_yamato_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "commander_yamato_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "commander_yamato_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "commander_yamato_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "commander_yamato_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "commander_yamato_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "commander_yamato_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "commander_yamato_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_zipangu.png",
+    "level": 15,
+    "cost": 180,
+    "hp": 2500,
+    "attack": 15,
+    "defense": 11,
+    "accuracy": 11,
+    "critical": 15,
+    "speed": 11,
+    "terrain": "ground",
+
+    "fullname": "Commander Yamato Yamamoto",
+    "description": "A brave warrior, armed with a deadly sword that's been folded a thousand times. A ground type and a good all-rounder.",
+    "primary_weapon": "Shingunto Blade",
+    "secondary_weapon": "Nariakira Rifle",
+    "motto": "Bonsai!",
+    
+    "perks": ["perk_stealth", "perk_speed", "perk_slash", "x"],
+    "skill": [
+        "main1_attack_gunto", 
+        "main2_attack_type99arisaka", 
+        "main2_powerup_blitz",
+        "special1_attack_strafe",
+        "special2_attack_truebalance"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "name": "Gunner",
+    "unit": "special group",
+    "image": "specialgroup_finbard_gunner_heer2_profile",
+
+    "walk_sprite": "specialgroup_finbard_gunner_heer2_walk",
+    "receive_sprite": "specialgroup_finbard_gunner_heer2_static",
+    "main1_attack_sprite": "specialgroup_finbard_gunner_heer2_main1_attack",
+    "main2_attack_sprite": "specialgroup_finbard_gunner_heer2_main2_attack", 
+    "special1_attack_sprite": "specialgroup_finbard_gunner_heer2_special1_attack", 
+    "special2_attack_sprite": "specialgroup_finbard_gunner_heer2_special2_attack", 
+    "special3_attack_sprite": "specialgroup_finbard_gunner_heer2_special3_attack", 
+    "main1_powerup_sprite": "specialgroup_finbard_gunner_heer2_main1_powerup", 
+    "main2_powerup_sprite": "specialgroup_finbard_gunner_heer2_main2_powerup", 
+    "heal_sprite": "specialgroup_finbard_gunner_heer2_heal", 
+
+    "main1_attack_finalframe_sprite": "specialgroup_finbard_gunner_heer2_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "specialgroup_finbard_gunner_heer2_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "specialgroup_finbard_gunner_heer2_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "specialgroup_finbard_gunner_heer2_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "specialgroup_finbard_gunner_heer2_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "specialgroup_finbard_gunner_heer2_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "specialgroup_finbard_gunner_heer2_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "specialgroup_finbard_gunner_heer2_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_finbard.png",
+    "level": 24,
+    "cost": 200,
+    "hp": 2600,
+    "attack": 23,
+    "defense": 18,
+    "accuracy": 23,
+    "critical": 23,
+    "speed": 23,
+    "terrain": "snow",
+
+    "fullname": "Finbard Gunner",
+    "description": "Standard infantry unit of the Finbardish Army. These brave soldiers will defend their homeland to the last girl.",
+    "primary_weapon": "Tommy Gun",
+    "secondary_weapon": "Makeshift Grenade",
+    "motto": "It's time to go!",
+    
+    "perks": ["perk_firepower", "perk_lightweight", "x", "x"],
+    "skill": [
+        "main1_attack_thompson_heer1", 
+        "main2_attack_grenade", 
+        "heal_medikit_heer2"
+    ]
+}

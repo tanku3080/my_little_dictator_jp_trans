@@ -1,0 +1,51 @@
+{
+    "name": "Medio",
+    "unit": "panzer",
+    "image": "panzer_carroarmato_profile",
+    
+    "walk_sprite": "panzer_carroarmato_walk",
+    "receive_sprite": "panzer_carroarmato_static",
+    "main1_attack_sprite": "panzer_carroarmato_main1_attack",
+    "main2_attack_sprite": "panzer_carroarmato_main2_attack",
+    "special1_attack_sprite": "panzer_carroarmato_special1_attack", 
+    "special2_attack_sprite": "panzer_carroarmato_special2_attack", 
+    "special3_attack_sprite": "panzer_carroarmato_special3_attack", 
+    "main1_powerup_sprite": "panzer_carroarmato_main1_powerup", 
+    "main2_powerup_sprite": "panzer_carroarmato_main2_powerup", 
+    "heal_sprite": "panzer_carroarmato_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_carroarmato_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_carroarmato_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_carroarmato_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_carroarmato_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_carroarmato_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_carroarmato_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_carroarmato_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_carroarmato_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_vitalia.png",
+    "level": 52,
+    "cost": 950,
+    "hp": 5200,
+    "attack": 52,
+    "defense": 50,
+    "accuracy": 40,
+    "critical": 58,
+    "speed": 55,
+    "terrain": "desert",
+
+    "fullname": "Carmasciano Armato (Medio)",
+    "description": "A small and delightful Vitalian tank, with an efficient gun and a reliable diesel engine.",
+    "primary_weapon": "47mm Cannone da 47/32 M35",
+    "secondary_weapon": "8mm Brodo-38 machine guns",
+    "motto": "It's a me! Armato!",
+    
+    "perks": ["perk_firepower", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_cannoneda47", 
+        "main2_attack_breda38",
+        "main1_powerup_megaspeed",
+        "heal_maintenance_heer5"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "id": "quickattack",
+    "kind": "attack",
+    "name": "Quick Attack",
+    "desc": "A speed-type attack.",
+    "skilltype": "skilltype_ground",
+    "pp": 35,
+    "image": "reaction_hit",
+    "sound": "battle/quickattack.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_quickattack", 0.01]
+    },
+    "base_hp": -1200,
+    "osd": 3.1,
+    "line": "With great speed, _name_ uses _skill_. _damage_"
+}

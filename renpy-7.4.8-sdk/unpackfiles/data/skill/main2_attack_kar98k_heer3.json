@@ -1,0 +1,18 @@
+{
+    "id": "kar98k_heer3",
+    "kind": "attack",
+    "name": "Kars Rifle",
+    "desc": "A Germanian standard service bolt-action rifle.",
+    "skilltype": "skilltype_metal",
+    "pp": 100,
+    "image": "reaction_hit",
+    "sound": "battle/kar98k.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -750,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

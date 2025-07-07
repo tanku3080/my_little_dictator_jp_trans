@@ -1,0 +1,18 @@
+{
+    "id": "thompson_heer5",
+    "kind": "attack",
+    "name": "Tommy Gun",
+    "desc": "A blowback-operated submachine gun.",
+    "skilltype": "skilltype_metal",
+    "pp": 150,
+    "image": "reaction_hit",
+    "sound": "battle/thompson.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -850,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

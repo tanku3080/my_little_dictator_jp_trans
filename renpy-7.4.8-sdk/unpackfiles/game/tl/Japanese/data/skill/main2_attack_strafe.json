@@ -1,0 +1,19 @@
+{
+    "id": "strafe",
+    "kind": "attack",
+    "name": "空爆",
+    "desc": "航空部隊を呼び出し、敵を空爆する。",
+    "skilltype": "skilltype_wind",
+    "pp": 99,
+    "image": "reaction_strafe",
+    "sound": "battle/strafe.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe",
+        "full_screen": ["fullscreen_strafe", 0.01]
+    },
+    "base_hp": -800,
+    "osd": 3.5,
+    "line": "_name_ は _skill_を要請した！ _damage_"
+}

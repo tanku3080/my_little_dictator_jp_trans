@@ -1,0 +1,52 @@
+{
+    "name": "Meowist Sharpshooter",
+    "unit": "enemysection",
+    "image": "meowist_marksman_heer1_profile",
+
+    "walk_sprite": "meowist_marksman_heer1_walk",
+    "receive_sprite": "meowist_marksman_heer1_static",
+    "main1_attack_sprite": "meowist_marksman_heer1_main1_attack",
+    "main2_attack_sprite": "meowist_marksman_heer1_main2_attack", 
+    "special1_attack_sprite": "meowist_marksman_heer1_special1_attack", 
+    "special2_attack_sprite": "meowist_marksman_heer1_special2_attack", 
+    "special3_attack_sprite": "meowist_marksman_heer1_special3_attack", 
+    "main1_powerup_sprite": "meowist_marksman_heer1_main1_powerup", 
+    "main2_powerup_sprite": "meowist_marksman_heer1_main2_powerup", 
+    "heal_sprite": "meowist_marksman_heer1_heal", 
+
+    "main1_attack_finalframe_sprite": "meowist_marksman_heer1_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "meowist_marksman_heer1_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "meowist_marksman_heer1_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "meowist_marksman_heer1_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "meowist_marksman_heer1_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "meowist_marksman_heer1_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "meowist_marksman_heer1_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "meowist_marksman_heer1_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_zhina.png",
+    "level": 17,
+    "cost": 98,
+    "hp": 980,
+    "attack": 10,
+    "defense": 5,
+    "accuracy": 15,
+    "critical": 15,
+    "speed": 17,
+    "terrain": "ground",
+
+    "fullname": "Meowist Sharpshooter",
+    "description": "Standard infantry unit.",
+    "primary_weapon": "Kars Rifle",
+    "secondary_weapon": "Stylischhandgranate",
+    "motto": "Red revolution!",
+    
+    "perks": ["perk_firepower", "perk_lightweight", "x", "x"],
+    "skill": [
+        "main1_attack_kar98k_heer1", 
+        "main2_attack_stielhandgranate", 
+        "special3_attack_moraleshock",
+        "heal_medikit_heer1"
+    ],
+    "ai": "True"
+}

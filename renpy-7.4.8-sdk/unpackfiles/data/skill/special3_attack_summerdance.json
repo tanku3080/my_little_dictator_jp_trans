@@ -1,0 +1,19 @@
+{
+    "id": "summerdance",
+    "kind": "attack",
+    "name": "Summer Dance",
+    "desc": "A heavy-footed festival dance, deadly yet beautiful.",
+    "skilltype": "skilltype_ground",
+    "pp": 1,
+    "image": "reaction_hit",
+    "sound": "battle/summerdance.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special3_attack",
+        "finalframe": "special3_attack_finalframe",
+        "full_screen": ["fullscreen_summerdance", 0.01]
+    },
+    "base_hp": -1600,
+    "osd": 3.5,
+    "line": "_name_ begins to perform a _skill_, honoring their ancestors. _damage_"
+}

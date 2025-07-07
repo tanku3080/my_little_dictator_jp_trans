@@ -1,0 +1,18 @@
+{
+    "id": "megaresister",
+    "kind": "attack",
+    "name": "Mega Resister 9000",
+    "desc": "A futuristic supergun invented by Alliance scientists.",
+    "skilltype": "skilltype_electric",
+    "pp": 150,
+    "image": "reaction_hit",
+    "sound": "battle/megaresister.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1090,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

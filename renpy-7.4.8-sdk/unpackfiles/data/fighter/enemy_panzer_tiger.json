@@ -1,0 +1,54 @@
+{
+    "name": "Tigerin",
+    "unit": "enemysection",
+    "image": "panzer_tiger_profile",
+    
+    "walk_sprite": "panzer_tiger_walk",
+    "receive_sprite": "panzer_tiger_static",
+    "main1_attack_sprite": "panzer_tiger_main1_attack",
+    "main2_attack_sprite": "panzer_tiger_main2_attack",
+    "special1_attack_sprite": "panzer_tiger_special1_attack", 
+    "special2_attack_sprite": "panzer_tiger_special2_attack", 
+    "special3_attack_sprite": "panzer_tiger_special3_attack", 
+    "main1_powerup_sprite": "panzer_tiger_main1_powerup", 
+    "main2_powerup_sprite": "panzer_tiger_main2_powerup", 
+    "heal_sprite": "panzer_tiger_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_tiger_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_tiger_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_tiger_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_tiger_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_tiger_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_tiger_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_tiger_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_tiger_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 65,
+    "cost": 560,
+    "hp": 7000,
+    "attack": 66,
+    "defense": 57,
+    "accuracy": 45,
+    "critical": 51,
+    "speed": 52,
+    "terrain": "ground",
+
+    "fullname": "Panzykampfwagen Tigerin I",
+    "description": "A remarkable tank, unmatched in the field. Unfortunately, it's vulnerable to breakdowns, track failures, and immobilisation in ice and mud. It's expensive and hard to transport too...",
+    "primary_weapon": "88mm UwU 36 L/56",
+    "secondary_weapon": "7.92mm MG 34",
+    "motto": "Rawr! Don't mess with the Tigerin!",
+    
+    "perks": ["perk_slopedarmor", "perk_firepower", "perk_explosive", "x"],
+    "skill": [
+        "main1_attack_kwk36l56",
+        "main2_attack_mg34",
+        "special1_attack_germaniaanthem",
+        "special2_attack_flatten",
+        "main1_powerup_megaarmor",
+        "heal_maintenance_heer5"
+    ],
+    "ai": "True"
+}

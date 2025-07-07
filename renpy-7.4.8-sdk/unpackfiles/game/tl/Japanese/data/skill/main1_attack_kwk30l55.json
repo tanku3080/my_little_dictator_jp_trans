@@ -1,0 +1,18 @@
+{
+    "id": "kwk30l55",
+    "kind": "attack",
+    "name": "UwU 30 L/55",
+    "desc": "An extremely accurate and high-powered gun.",
+    "skilltype": "skilltype_fire",
+    "pp": 28,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_med.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -910,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

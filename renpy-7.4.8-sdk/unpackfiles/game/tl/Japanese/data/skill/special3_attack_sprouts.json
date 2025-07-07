@@ -1,0 +1,18 @@
+{
+    "id": "sprouts",
+    "kind": "attack",
+    "name": "Sprouts",
+    "desc": "Smelly vegetables.",
+    "skilltype": "skilltype_ground",
+    "pp": 3,
+    "image": "reaction_hit",
+    "sound": "battle/sprouts.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special3_attack",
+        "finalframe": "special3_attack_finalframe"
+    },
+    "base_hp": -1000,
+    "osd": 3.5,
+    "line": "_name_ tosses some stinky _skill_. _damage_"
+}

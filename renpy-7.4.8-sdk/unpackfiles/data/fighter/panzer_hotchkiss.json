@@ -1,0 +1,50 @@
+{
+    "name": "Hotkiss",
+    "unit": "panzer",
+    "image": "panzer_hotchkiss_profile",
+    
+    "walk_sprite": "panzer_hotchkiss_walk",
+    "receive_sprite": "panzer_hotchkiss_static",
+    "main1_attack_sprite": "panzer_hotchkiss_main1_attack",
+    "main2_attack_sprite": "panzer_hotchkiss_main2_attack",
+    "special1_attack_sprite": "panzer_hotchkiss_special1_attack", 
+    "special2_attack_sprite": "panzer_hotchkiss_special2_attack", 
+    "special3_attack_sprite": "panzer_hotchkiss_special3_attack", 
+    "main1_powerup_sprite": "panzer_hotchkiss_main1_powerup", 
+    "main2_powerup_sprite": "panzer_hotchkiss_main2_powerup", 
+    "heal_sprite": "panzer_hotchkiss_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_hotchkiss_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_hotchkiss_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_hotchkiss_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_hotchkiss_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_hotchkiss_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_hotchkiss_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_hotchkiss_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_hotchkiss_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_franzolibre.png",
+    "level": 38,
+    "cost": 340,
+    "hp": 3400,
+    "attack": 34,
+    "defense": 34,
+    "accuracy": 26,
+    "critical": 26,
+    "speed": 26,
+    "terrain": "ground",
+
+    "fullname": "Hotkiss H35",
+    "description": "This tank handles terrain badly, can't steer properly on a rough surface and poses a threat to friendly infantry. However, for political expedience, production continues.",
+    "primary_weapon": "Poutine L/21 gun",
+    "secondary_weapon": "Mitrailleuse 31 MG",
+    "motto": "Just give me a chance",
+    
+    "perks": ["perk_lightweight", "perk_firepower", "x", "x"],
+    "skill": [
+        "main1_attack_puteauxl21",
+        "main2_attack_reibelmg",
+        "heal_maintenance_heer3"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": "snowball",
+    "kind": "attack",
+    "name": "Snowballs",
+    "desc": "Fun in the snow.",
+    "skilltype": "skilltype_ice",
+    "pp": 3,
+    "image": "reaction_snow",
+    "sound": "battle/iceburst.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special2_attack",
+        "finalframe": "special2_attack_finalframe"
+    },
+    "base_hp": -1100,
+    "osd": 3.5,
+    "line": "_name_ throws some _skill_. _damage_"
+}

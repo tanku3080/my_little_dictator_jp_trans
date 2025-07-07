@@ -1,0 +1,51 @@
+{
+    "name": "Britannia Sailor",
+    "unit": "enemysection",
+    "image": "britannia_gunner_heer2_profile",
+
+    "walk_sprite": "britannia_gunner_heer2_walk",
+    "receive_sprite": "britannia_gunner_heer2_static",
+    "main1_attack_sprite": "britannia_gunner_heer2_main1_attack",
+    "main2_attack_sprite": "britannia_gunner_heer2_main2_attack",
+    "special1_attack_sprite": "britannia_gunner_heer2_special1_attack", 
+    "special2_attack_sprite": "britannia_gunner_heer2_special2_attack", 
+    "special3_attack_sprite": "britannia_gunner_heer2_special3_attack", 
+    "main1_powerup_sprite": "britannia_gunner_heer2_main1_powerup", 
+    "main2_powerup_sprite": "britannia_gunner_heer2_main2_powerup", 
+    "heal_sprite": "britannia_gunner_heer2_heal", 
+
+    "main1_attack_finalframe_sprite": "britannia_gunner_heer2_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "britannia_gunner_heer2_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "britannia_gunner_heer2_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "britannia_gunner_heer2_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "britannia_gunner_heer2_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "britannia_gunner_heer2_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "britannia_gunner_heer2_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "britannia_gunner_heer2_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 22,
+    "cost": 250,
+    "hp": 2500,
+    "attack": 25,
+    "defense": 25,
+    "accuracy": 25,
+    "critical": 25,
+    "speed": 25,
+    "terrain": "water",
+
+    "fullname": "Britannia Sailor",
+    "description": "Standard naval unit.",
+    "primary_weapon": "Langchester SMG",
+    "secondary_weapon": "Milly Bomb",
+    "motto": "Rule Britannia!",
+    
+    "perks": ["perk_slash", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_lanchester", 
+        "main2_attack_millsbomb", 
+        "heal_medikit_heer2"
+    ],
+    "ai": "True"
+}

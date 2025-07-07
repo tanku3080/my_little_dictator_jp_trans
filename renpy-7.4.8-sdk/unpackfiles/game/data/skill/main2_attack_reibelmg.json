@@ -1,0 +1,18 @@
+{
+    "id": "reibelmg",
+    "kind": "attack",
+    "name": "Mitrailleuse 31 MG",
+    "desc": "A gas-operated machine gun from Franzo.",
+    "skilltype": "skilltype_metal",
+    "pp": 150,
+    "image": "reaction_hit",
+    "sound": "battle/mg34.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -730,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

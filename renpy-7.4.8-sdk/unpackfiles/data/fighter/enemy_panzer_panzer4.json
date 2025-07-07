@@ -1,0 +1,54 @@
+{
+    "name": "Panzy IV",
+    "unit": "enemysection",
+    "image": "panzer_panzer4_profile",
+    
+    "walk_sprite": "panzer_panzer4_walk",
+    "receive_sprite": "panzer_panzer4_static",
+    "main1_attack_sprite": "panzer_panzer4_main1_attack",
+    "main2_attack_sprite": "panzer_panzer4_main2_attack",
+    "special1_attack_sprite": "panzer_panzer4_special1_attack", 
+    "special2_attack_sprite": "panzer_panzer4_special2_attack", 
+    "special3_attack_sprite": "panzer_panzer4_special3_attack", 
+    "main1_powerup_sprite": "panzer_panzer4_main1_powerup", 
+    "main2_powerup_sprite": "panzer_panzer4_main2_powerup", 
+    "heal_sprite": "panzer_panzer4_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_panzer4_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_panzer4_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_panzer4_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_panzer4_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_panzer4_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_panzer4_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_panzer4_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_panzer4_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 57,
+    "cost": 650,
+    "hp": 7500,
+    "attack": 65,
+    "defense": 65,
+    "accuracy": 50,
+    "critical": 53,
+    "speed": 52,
+    "terrain": "ground",
+
+    "fullname": "Panzykampfwagen IV",
+    "description": "A reliable and battle-ready tank, built on the success of its forebears. Intended as a support tank against fortifications, it's armed with a powerful gun.",
+    "primary_weapon": "75mm UwU 40 L/48",
+    "secondary_weapon": "7.92mm MG 34",
+    "motto": "For glory and honor",
+    
+    "perks": ["perk_firepower", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_kwk40l48", 
+        "main2_attack_mg34",
+        "special1_attack_germaniaanthem",
+        "special2_attack_rundown",
+        "main1_powerup_megacharm",
+        "heal_maintenance_heer5"
+    ],
+    "ai": "True"
+}

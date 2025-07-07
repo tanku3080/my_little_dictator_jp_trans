@@ -1,0 +1,19 @@
+{
+    "id": "walkingstick",
+    "kind": "attack",
+    "name": "Walking Stick",
+    "desc": "A walking stick. {color=#F35F5F}(Stun / 50% Chance){/color}",
+    "skilltype": "skilltype_ground",
+    "pp": 3,
+    "image": "reaction_none",
+    "sound": "battle/stielhandgranate.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special3_attack",
+        "finalframe": "special3_attack_finalframe"
+    },
+    "base_hp": -1500,
+    "status_enemy": "stun_status",
+    "osd": 3.5,
+    "line": "_name_ throws their _skill_. _damage_"
+}

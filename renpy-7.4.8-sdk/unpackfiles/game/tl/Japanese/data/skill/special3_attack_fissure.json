@@ -1,0 +1,19 @@
+{
+    "id": "fissure",
+    "kind": "attack",
+    "name": "Fissure",
+    "desc": "A dark xommunist mana attack.",
+    "skilltype": "skilltype_dark",
+    "pp": 3,
+    "image": "reaction_hit",
+    "sound": "battle/fissure.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special3_attack",
+        "finalframe": "special3_attack_finalframe",
+        "full_screen": ["fullscreen_fissure", 0.01]
+    },
+    "base_hp": -1200,
+    "osd": 3.5,
+    "line": "In a blinding rage, _name_ uses _skill_ to wipe out her enemies. _damage_"
+}

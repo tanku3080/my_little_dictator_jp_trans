@@ -1,0 +1,50 @@
+{
+    "name": "Horniness",
+    "unit": "antitank",
+    "image": "antitank_hornisse_profile",
+    
+    "walk_sprite": "antitank_hornisse_walk",
+    "receive_sprite": "antitank_hornisse_static",
+    "main1_attack_sprite": "antitank_hornisse_main1_attack",
+    "main2_attack_sprite": "antitank_hornisse_main2_attack",
+    "special1_attack_sprite": "antitank_hornisse_special1_attack", 
+    "special2_attack_sprite": "antitank_hornisse_special2_attack", 
+    "special3_attack_sprite": "antitank_hornisse_special3_attack", 
+    "main1_powerup_sprite": "antitank_hornisse_main1_powerup", 
+    "main2_powerup_sprite": "antitank_hornisse_main2_powerup", 
+    "heal_sprite": "antitank_hornisse_heal",
+
+    "main1_attack_finalframe_sprite": "antitank_hornisse_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "antitank_hornisse_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "antitank_hornisse_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "antitank_hornisse_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "antitank_hornisse_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "antitank_hornisse_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "antitank_hornisse_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "antitank_hornisse_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 57,
+    "cost": 740,
+    "hp": 5400,
+    "attack": 54,
+    "defense": 47,
+    "accuracy": 50,
+    "critical": 56,
+    "speed": 52,
+    "terrain": "urban",
+
+    "fullname": "Horniness (Rhinozeros)",
+    "description": "Though lightly armored with a high profile, this mobile and low-cost tank remains in high demand.",
+    "primary_weapon": "Panzyanklopfgerät 43",
+    "secondary_weapon": "7.92mm MG 34",
+    "motto": "I got the horn",
+    
+    "perks": ["perk_firepower", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_pak43", 
+        "main2_attack_mg34",
+        "heal_maintenance_heer5"
+    ]
+}

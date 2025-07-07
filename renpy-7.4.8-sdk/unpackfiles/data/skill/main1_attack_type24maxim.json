@@ -1,0 +1,18 @@
+{
+    "id": "type24maxim",
+    "kind": "attack",
+    "name": "Type 24 MG",
+    "desc": "A Zhinese standard heavy machine gun.",
+    "skilltype": "skilltype_metal",
+    "pp": 130,
+    "image": "reaction_hit",
+    "sound": "battle/m1918bar.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -430,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_ to unleash a torrent of bullets. _damage_"
+}

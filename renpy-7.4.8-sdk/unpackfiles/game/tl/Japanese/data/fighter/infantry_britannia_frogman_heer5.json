@@ -1,0 +1,50 @@
+{
+    "name": "Froggirl",
+    "unit": "infantry",
+    "image": "infantry_britannia_frogman_heer5_profile",
+
+    "walk_sprite": "britannia_frogman_heer5_walk",
+    "receive_sprite": "britannia_frogman_heer5_static",
+    "main1_attack_sprite": "britannia_frogman_heer5_main1_attack",
+    "main2_attack_sprite": "britannia_frogman_heer5_main2_attack",
+    "special1_attack_sprite": "britannia_frogman_heer5_special1_attack", 
+    "special2_attack_sprite": "britannia_frogman_heer5_special2_attack", 
+    "special3_attack_sprite": "britannia_frogman_heer5_special3_attack", 
+    "main1_powerup_sprite": "britannia_frogman_heer5_main1_powerup", 
+    "main2_powerup_sprite": "britannia_frogman_heer5_main2_powerup", 
+    "heal_sprite": "britannia_frogman_heer5_heal", 
+
+    "main1_attack_finalframe_sprite": "britannia_frogman_heer5_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "britannia_frogman_heer5_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "britannia_frogman_heer5_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "britannia_frogman_heer5_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "britannia_frogman_heer5_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "britannia_frogman_heer5_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "britannia_frogman_heer5_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "britannia_frogman_heer5_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 51,
+    "cost": 550,
+    "hp": 5500,
+    "attack": 55,
+    "defense": 35,
+    "accuracy": 15,
+    "critical": 30,
+    "speed": 45,
+    "terrain": "water",
+
+    "fullname": "Britannia Froggirl",
+    "description": "Special commandos from Britannia, trained to sabotage enemy shipping using mines and manned torpedoes.",
+    "primary_weapon": "Langchester SMG",
+    "secondary_weapon": "Limpet Mine",
+    "motto": "Rule Britannia!",
+    
+    "perks": ["perk_slash", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_lanchester", 
+        "main2_attack_limpetmine", 
+        "heal_medikit_heer5"
+    ]
+}

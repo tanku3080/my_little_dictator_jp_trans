@@ -1,0 +1,20 @@
+{
+    "id": "quickmarch",
+    "kind": "attack",
+    "name": "Quick March",
+    "desc": "A high-paced rushing attack. {color=#F35F5F}(Stun / 50% Chance){/color}",
+    "skilltype": "skilltype_ground",
+    "pp": 1,
+    "image": "reaction_hit",
+    "sound": "battle/quickmarch.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_quickmarch", 0.01]
+    },
+    "base_hp": -700,
+    "status_enemy": "stun_status",
+    "osd": 3.5,
+    "line": "_name_ begins a _skill_, rushing the enemy. _damage_"
+}

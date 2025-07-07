@@ -1,0 +1,19 @@
+{
+    "id": "fistsoffury",
+    "kind": "attack",
+    "name": "Fists of Fury",
+    "desc": "A speed-type attack.",
+    "skilltype": "skilltype_ground",
+    "pp": 35,
+    "image": "reaction_hit",
+    "sound": "battle/fistsoffury.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_fistsoffury", 0.01]
+    },
+    "base_hp": -1200,
+    "osd": 3.1,
+    "line": "Punches fly as _name_ uses _skill_. _damage_"
+}

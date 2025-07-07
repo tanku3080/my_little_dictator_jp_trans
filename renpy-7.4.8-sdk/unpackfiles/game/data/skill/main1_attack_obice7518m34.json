@@ -1,0 +1,18 @@
+{
+    "id": "obice7518m34",
+    "kind": "attack",
+    "name": "Orzo da 75/18",
+    "desc": "A Vitalian howitzer with high-explosive, anti-tank rounds.",
+    "skilltype": "skilltype_fire",
+    "pp": 25,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_med.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -930,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

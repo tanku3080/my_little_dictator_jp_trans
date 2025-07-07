@@ -1,0 +1,50 @@
+{
+    "name": "Jagdpanzy",
+    "unit": "antitank",
+    "image": "antitank_jagdpanzer_profile",
+    
+    "walk_sprite": "antitank_jagdpanzer_walk",
+    "receive_sprite": "antitank_jagdpanzer_static",
+    "main1_attack_sprite": "antitank_jagdpanzer_main1_attack",
+    "main2_attack_sprite": "antitank_jagdpanzer_main2_attack",
+    "special1_attack_sprite": "antitank_jagdpanzer_special1_attack", 
+    "special2_attack_sprite": "antitank_jagdpanzer_special2_attack", 
+    "special3_attack_sprite": "antitank_jagdpanzer_special3_attack", 
+    "main1_powerup_sprite": "antitank_jagdpanzer_main1_powerup", 
+    "main2_powerup_sprite": "antitank_jagdpanzer_main2_powerup", 
+    "heal_sprite": "antitank_jagdpanzer_heal",
+
+    "main1_attack_finalframe_sprite": "antitank_jagdpanzer_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "antitank_jagdpanzer_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "antitank_jagdpanzer_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "antitank_jagdpanzer_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "antitank_jagdpanzer_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "antitank_jagdpanzer_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "antitank_jagdpanzer_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "antitank_jagdpanzer_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 67,
+    "cost": 1040,
+    "hp": 6400,
+    "attack": 64,
+    "defense": 60,
+    "accuracy": 60,
+    "critical": 60,
+    "speed": 60,
+    "terrain": "ground",
+
+    "fullname": "Jagdpanzy (Scharfmacher)",
+    "description": "This reliable prototype tank hunter is affectionately named 'Scharfmacher' by the troops. Built on the chassis of a Panzy 38(t), its sloped casemate offers remarkable protection.",
+    "primary_weapon": "Panzyanklopfgerät 39",
+    "secondary_weapon": "7.92mm MG 34",
+    "motto": "Cowabunga!",
+    
+    "perks": ["perk_bruteforce", "perk_slopedarmor", "x", "x"],
+    "skill": [
+        "main1_attack_pak39",
+        "main2_attack_mg34",
+        "heal_maintenance_heer6"
+    ]
+}

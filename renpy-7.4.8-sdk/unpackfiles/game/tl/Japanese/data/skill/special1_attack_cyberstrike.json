@@ -1,0 +1,19 @@
+{
+    "id": "cyberstrike",
+    "kind": "attack",
+    "name": "Cyber Strike",
+    "desc": "A deadly robotic attack.",
+    "skilltype": "skilltype_metal",
+    "pp": 5,
+    "image": "reaction_hit",
+    "sound": "battle/cyberstrike.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_cyberstrike", 0.01]
+    },
+    "base_hp": -1400,
+    "osd": 3.5,
+    "line": "_name_ uses her robotic strength with a _skill_. _damage_"
+}

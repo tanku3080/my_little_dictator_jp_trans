@@ -1,0 +1,50 @@
+{
+    "name": "Gunner",
+    "unit": "special group",
+    "image": "specialgroup_zipangu_gunner_heer1_profile",
+
+    "walk_sprite": "specialgroup_zipangu_gunner_heer1_walk",
+    "receive_sprite": "specialgroup_zipangu_gunner_heer1_static",
+    "main1_attack_sprite": "specialgroup_zipangu_gunner_heer1_main1_attack",
+    "main2_attack_sprite": "specialgroup_zipangu_gunner_heer1_main2_attack", 
+    "special1_attack_sprite": "specialgroup_zipangu_gunner_heer1_special1_attack", 
+    "special2_attack_sprite": "specialgroup_zipangu_gunner_heer1_special2_attack", 
+    "special3_attack_sprite": "specialgroup_zipangu_gunner_heer1_special3_attack", 
+    "main1_powerup_sprite": "specialgroup_zipangu_gunner_heer1_main1_powerup", 
+    "main2_powerup_sprite": "specialgroup_zipangu_gunner_heer1_main2_powerup", 
+    "heal_sprite": "specialgroup_zipangu_gunner_heer1_heal", 
+
+    "main1_attack_finalframe_sprite": "specialgroup_zipangu_gunner_heer1_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "specialgroup_zipangu_gunner_heer1_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "specialgroup_zipangu_gunner_heer1_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "specialgroup_zipangu_gunner_heer1_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "specialgroup_zipangu_gunner_heer1_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "specialgroup_zipangu_gunner_heer1_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "specialgroup_zipangu_gunner_heer1_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "specialgroup_zipangu_gunner_heer1_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_zipangu.png",
+    "level": 15,
+    "cost": 90,
+    "hp": 1300,
+    "attack": 13,
+    "defense": 17,
+    "accuracy": 11,
+    "critical": 10,
+    "speed": 10,
+    "terrain": "ground",
+
+    "fullname": "Zipangu Gunner",
+    "description": "The backbone of the Zipanguese army, this unit forms the basis of squads in battle.",
+    "primary_weapon": "Hyakushiki SMG",
+    "secondary_weapon": "Teryudan Grenade",
+    "motto": "Bonsai!",
+    
+    "perks": ["perk_firepower", "perk_lightweight", "x", "x"],
+    "skill": [
+        "main1_attack_type100smg", 
+        "main2_attack_type97grenade", 
+        "heal_medikit_heer1"
+    ]
+}

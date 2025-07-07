@@ -1,0 +1,51 @@
+{
+    "name": "Sharpshooter",
+    "unit": "special group",
+    "image": "specialgroup_afrikaakorps_marksman_heer5_profile",
+
+    "walk_sprite": "specialgroup_afrikaakorps_marksman_heer5_walk",
+    "receive_sprite": "specialgroup_afrikaakorps_marksman_heer5_static",
+    "main1_attack_sprite": "specialgroup_afrikaakorps_marksman_heer5_main1_attack",
+    "main2_attack_sprite": "specialgroup_afrikaakorps_marksman_heer5_main2_attack", 
+    "special1_attack_sprite": "specialgroup_afrikaakorps_marksman_heer5_special1_attack", 
+    "special2_attack_sprite": "specialgroup_afrikaakorps_marksman_heer5_special2_attack", 
+    "special3_attack_sprite": "specialgroup_afrikaakorps_marksman_heer5_special3_attack", 
+    "main1_powerup_sprite": "specialgroup_afrikaakorps_marksman_heer5_main1_powerup", 
+    "main2_powerup_sprite": "specialgroup_afrikaakorps_marksman_heer5_main2_powerup", 
+    "heal_sprite": "specialgroup_afrikaakorps_marksman_heer5_heal", 
+
+    "main1_attack_finalframe_sprite": "specialgroup_afrikaakorps_marksman_heer5_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "specialgroup_afrikaakorps_marksman_heer5_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "specialgroup_afrikaakorps_marksman_heer5_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "specialgroup_afrikaakorps_marksman_heer5_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "specialgroup_afrikaakorps_marksman_heer5_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "specialgroup_afrikaakorps_marksman_heer5_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "specialgroup_afrikaakorps_marksman_heer5_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "specialgroup_afrikaakorps_marksman_heer5_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 13,
+    "cost": 500,
+    "hp": 5000,
+    "attack": 50,
+    "defense": 55,
+    "accuracy": 55,
+    "critical": 55,
+    "speed": 57,
+    "terrain": "desert",
+
+    "fullname": "Sharpshooter (D.A.K)",
+    "description": "A specialist soldier of the Afrikaa Korps, a marksman, this unit assists in stealth operations.",
+    "primary_weapon": "Kars Rifle",
+    "secondary_weapon": "Stylischhandgranate",
+    "motto": "All hail moe!",
+    
+    "perks": ["perk_firepower", "perk_stealth", "x", "x"],
+    "skill": [
+        "main1_attack_kar98k_heer5", 
+        "main2_attack_stielhandgranate", 
+        "special3_attack_moraleshock",
+        "heal_medikit_heer5"
+    ]
+}

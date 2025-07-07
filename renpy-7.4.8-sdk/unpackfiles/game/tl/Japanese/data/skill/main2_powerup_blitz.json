@@ -1,0 +1,19 @@
+{
+    "id": "blitz",
+    "kind": "boost",
+    "name": "電撃戦",
+    "desc": "最大4ターンの間、自身の攻撃力が2倍になる。{color=#F35F5F}(ブースト / 成功確率:50%){/color}",
+    "skilltype": "skilltype_boost",
+    "pp": 1,
+    "image": "reaction_none",
+    "sound": "battle/blitz.ogg",
+    "animation": {
+        "kind": "self",
+        "listing": "main2_powerup",
+        "finalframe": "main2_powerup_finalframe",
+        "full_screen": ["fullscreen_superup", 0.01]
+    },
+    "status_enemy": "blitz_status",
+    "osd": 3.0,
+    "line": "_name_ の _skill_！ 攻撃力が増加した。"
+}

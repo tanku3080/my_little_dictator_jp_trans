@@ -1,0 +1,53 @@
+{
+    "name": "Leclercia",
+    "unit": "commander",
+    "image": "commander_roijean_profile",
+
+    "walk_sprite": "commander_roijean_walk",
+    "receive_sprite": "commander_roijean_static",
+    "main1_attack_sprite": "commander_roijean_main1_attack",
+    "main2_attack_sprite": "commander_roijean_main2_attack",
+    "special1_attack_sprite": "commander_roijean_special1_attack", 
+    "special2_attack_sprite": "commander_roijean_special2_attack", 
+    "special3_attack_sprite": "commander_roijean_special3_attack", 
+    "main1_powerup_sprite": "commander_roijean_main1_powerup", 
+    "main2_powerup_sprite": "commander_roijean_main2_powerup", 
+    "heal_sprite": "commander_roijean_heal", 
+
+    "main1_attack_finalframe_sprite": "commander_roijean_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "commander_roijean_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "commander_roijean_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "commander_roijean_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "commander_roijean_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "commander_roijean_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "commander_roijean_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "commander_roijean_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_franzolibre.png",
+    "level": 49,
+    "cost": 1500,
+    "hp": 4900,
+    "attack": 49,
+    "defense": 49,
+    "accuracy": 30,
+    "critical": 20,
+    "speed": 39,
+    "terrain": "desert",
+
+    "fullname": "Commander Leclercia",
+    "description": "A noble and tenacious warrior, this fighter isn't afraid to get her hands dirty.",
+    "primary_weapon": "Beaufierté Rifle",
+    "secondary_weapon": "Bombardment",
+    "motto": "Viva la Franzo!",
+    
+    "perks": ["perk_flame", "perk_slash", "perk_stealth", "x"],
+    "skill": [
+        "main1_attack_mas36", 
+        "main2_attack_bombardment", 
+        "main1_powerup_xaccuracy", 
+        "special1_attack_fistsoffury",
+        "special2_attack_baguette",
+        "special3_attack_absorb"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "name": "Siemacotam",
+    "unit": "panzer",
+    "image": "panzer_7tp_profile",
+    
+    "walk_sprite": "panzer_7tp_walk",
+    "receive_sprite": "panzer_7tp_static",
+    "main1_attack_sprite": "panzer_7tp_main1_attack",
+    "main2_attack_sprite": "panzer_7tp_main2_attack",
+    "special1_attack_sprite": "panzer_7tp_special1_attack", 
+    "special2_attack_sprite": "panzer_7tp_special2_attack", 
+    "special3_attack_sprite": "panzer_7tp_special3_attack", 
+    "main1_powerup_sprite": "panzer_7tp_main1_powerup", 
+    "main2_powerup_sprite": "panzer_7tp_main2_powerup", 
+    "heal_sprite": "panzer_7tp_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_7tp_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_7tp_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_7tp_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_7tp_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_7tp_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_7tp_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_7tp_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_7tp_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_polix.png",
+    "level": 27,
+    "cost": 350,
+    "hp": 3500,
+    "attack": 18,
+    "defense": 18,
+    "accuracy": 7,
+    "critical": 7,
+    "speed": 7,
+    "terrain": "forest",
+
+    "fullname": "Siemacotam (7TP)",
+    "description": "The world's very first diesel-powered tank. Initially incorporating twin turret machine guns, its new anti-tank cannon can penetrate a Panzy IV's armor.",
+    "primary_weapon": "Bofink 37mm Gun",
+    "secondary_weapon": "-",
+    "motto": "The original",
+    
+    "perks": ["perk_lightweight", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_bofors37",
+        "special2_attack_rundown",
+        "main1_powerup_megaspeed",
+        "heal_maintenance_heer2"
+    ]
+}

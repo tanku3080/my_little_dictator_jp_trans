@@ -1,0 +1,51 @@
+{
+    "name": "Non-Tank",
+    "unit": "antitank",
+    "image": "antitank_t13_profile",
+    
+    "walk_sprite": "antitank_t13_walk",
+    "receive_sprite": "antitank_t13_static",
+    "main1_attack_sprite": "antitank_t13_main1_attack",
+    "main2_attack_sprite": "antitank_t13_main2_attack",
+    "special1_attack_sprite": "antitank_t13_special1_attack", 
+    "special2_attack_sprite": "antitank_t13_special2_attack", 
+    "special3_attack_sprite": "antitank_t13_special3_attack", 
+    "main1_powerup_sprite": "antitank_t13_main1_powerup", 
+    "main2_powerup_sprite": "antitank_t13_main2_powerup", 
+    "heal_sprite": "antitank_t13_heal",
+
+    "main1_attack_finalframe_sprite": "antitank_t13_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "antitank_t13_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "antitank_t13_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "antitank_t13_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "antitank_t13_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "antitank_t13_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "antitank_t13_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "antitank_t13_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_belgae.png",
+    "level": 36,
+    "cost": 635,
+    "hp": 3300,
+    "attack": 33,
+    "defense": 33,
+    "accuracy": 27,
+    "critical": 27,
+    "speed": 27,
+    "terrain": "forest",
+
+    "fullname": "Non-Tank (T-13 Tank Destroyer)",
+    "description": "A unique tank destroyer with a powerful cannon. While frontal armor offers protection, side armor is limited to minimize weight and the crew are vulnerable to small arms fire.",
+    "primary_weapon": "47mm Model 1931",
+    "secondary_weapon": "FN M1918 BAR",
+    "motto": "Practically a non-tank",
+    
+    "perks": ["perk_lightweight", "perk_firepower", "x", "x"],
+    "skill": [
+        "main1_attack_47model1931",
+        "main2_attack_m1918bar",
+        "main1_powerup_megapower",
+        "heal_maintenance_heer3"
+    ]
+}

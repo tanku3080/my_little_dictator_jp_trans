@@ -1,0 +1,50 @@
+{
+    "name": "Stinky Bishop",
+    "unit": "panzer",
+    "image": "panzer_bishopsph_profile",
+    
+    "walk_sprite": "panzer_bishopsph_walk",
+    "receive_sprite": "panzer_bishopsph_static",
+    "main1_attack_sprite": "panzer_bishopsph_main1_attack",
+    "main2_attack_sprite": "panzer_bishopsph_main2_attack",
+    "special1_attack_sprite": "panzer_bishopsph_special1_attack", 
+    "special2_attack_sprite": "panzer_bishopsph_special2_attack", 
+    "special3_attack_sprite": "panzer_bishopsph_special3_attack", 
+    "main1_powerup_sprite": "panzer_bishopsph_main1_powerup", 
+    "main2_powerup_sprite": "panzer_bishopsph_main2_powerup", 
+    "heal_sprite": "panzer_bishopsph_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_bishopsph_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_bishopsph_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_bishopsph_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_bishopsph_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_bishopsph_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_bishopsph_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_bishopsph_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_bishopsph_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 49,
+    "cost": 580,
+    "hp": 4800,
+    "attack": 48,
+    "defense": 42,
+    "accuracy": 26,
+    "critical": 25,
+    "speed": 21,
+    "terrain": "desert",
+
+    "fullname": "Stinky Bishop SP 25pdr",
+    "description": "Based on the Valentine tank, a rare example of a Britannian self-propelled artillery vehicle. Its powerful howitzer is let down by the tank's speed and blatant silhouette.",
+    "primary_weapon": "QF 25-pounder",
+    "secondary_weapon": "-",
+    "motto": "In the name of the father",
+    
+    "perks": ["perk_firepower", "perk_bruteforce", "x", "x"],
+    "skill": [
+        "main1_attack_qf25pounder",
+        "special1_attack_britanniaanthem",
+        "main1_powerup_megapower"
+    ]
+}

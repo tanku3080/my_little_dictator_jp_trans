@@ -1,0 +1,50 @@
+{
+    "name": "Gunner",
+    "unit": "infantry",
+    "image": "infantry_franzo_gunner_heer4_profile",
+
+    "walk_sprite": "franzo_gunner_heer4_walk",
+    "receive_sprite": "franzo_gunner_heer4_static",
+    "main1_attack_sprite": "franzo_gunner_heer4_main1_attack",
+    "main2_attack_sprite": "franzo_gunner_heer4_main2_attack",
+    "special1_attack_sprite": "franzo_gunner_heer4_special1_attack", 
+    "special2_attack_sprite": "franzo_gunner_heer4_special2_attack", 
+    "special3_attack_sprite": "franzo_gunner_heer4_special3_attack", 
+    "main1_powerup_sprite": "franzo_gunner_heer4_main1_powerup", 
+    "main2_powerup_sprite": "franzo_gunner_heer4_main2_powerup", 
+    "heal_sprite": "franzo_gunner_heer4_heal", 
+
+    "main1_attack_finalframe_sprite": "franzo_gunner_heer4_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "franzo_gunner_heer4_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "franzo_gunner_heer4_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "franzo_gunner_heer4_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "franzo_gunner_heer4_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "franzo_gunner_heer4_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "franzo_gunner_heer4_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "franzo_gunner_heer4_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_franzolibre.png",
+    "level": 43,
+    "cost": 690,
+    "hp": 3900,
+    "attack": 41,
+    "defense": 39,
+    "accuracy": 42,
+    "critical": 40,
+    "speed": 40,
+    "terrain": "desert",
+
+    "fullname": "Franzo Libre Gunner",
+    "description": "A regular soldier from the formerly free Franzo, fighting to liberate their homeland.",
+    "primary_weapon": "Tommy Gun",
+    "secondary_weapon": "Mlem Mine",
+    "motto": "Viva la Franzo!",
+    
+    "perks": ["perk_slash", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_thompson_heer3", 
+        "main2_attack_mle1939", 
+        "heal_medikit_heer4"
+    ]
+}

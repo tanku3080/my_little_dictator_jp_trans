@@ -1,0 +1,19 @@
+{
+    "id": "breakthrough",
+    "kind": "attack",
+    "name": "Break Through",
+    "desc": "Run down your enemies. {color=#F35F5F}(Extra Hit / 40% Chance){/color}",
+    "skilltype": "skilltype_ground",
+    "pp": 1,
+    "image": "reaction_hit",
+    "sound": "battle/breakthrough.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special2_attack",
+        "finalframe": "special2_attack_finalframe"
+    },
+    "base_hp": -1100,
+    "status_enemy": "breakthrough_status",
+    "osd": 3.5,
+    "line": "_name_ uses _skill_ to smash through the enemy lines. _damage_"
+}

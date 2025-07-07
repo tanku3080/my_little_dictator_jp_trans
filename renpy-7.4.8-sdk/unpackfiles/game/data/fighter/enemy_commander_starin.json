@@ -1,0 +1,56 @@
+{
+    "name": "Starin",
+    "unit": "enemyboss",
+    "image": "commander_starin_profile",
+
+    "walk_sprite": "commander_starin_walk",
+    "receive_sprite": "commander_starin_static",
+    "main1_attack_sprite": "commander_starin_main1_attack",
+    "main2_attack_sprite": "commander_starin_main2_attack",
+    "special1_attack_sprite": "commander_starin_special1_attack", 
+    "special2_attack_sprite": "commander_starin_special2_attack", 
+    "special3_attack_sprite": "commander_starin_special3_attack", 
+    "main1_powerup_sprite": "commander_starin_main1_powerup", 
+    "main2_powerup_sprite": "commander_starin_main2_powerup", 
+    "heal_sprite": "commander_starin_heal", 
+
+    "main1_attack_finalframe_sprite": "commander_starin_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "commander_starin_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "commander_starin_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "commander_starin_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "commander_starin_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "commander_starin_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "commander_starin_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "commander_starin_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_sovia.png",
+    "level": 99,
+    "cost": 1000,
+    "hp": 10000,
+    "attack": 100,
+    "defense": 100,
+    "accuracy": 10,
+    "critical": 30,
+    "speed": 100,
+    "terrain": "ground",
+
+    "fullname": "Iosefina Starin",
+    "description": "An extremely powerful dark witch, you don't want to fight this monstrous cutie. Weak against none.",
+    "primary_weapon": "Purge",
+    "secondary_weapon": "Handheld Katyusha Rocket",
+    "motto": "Girls of the world, unite!",
+    
+    "perks": ["perk_dark", "perk_ice", "perk_bruteforce", "perk_firepower"],
+    "skill": [
+        "main1_attack_purge",
+        "main2_attack_katyusha",
+        "main1_powerup_xpower",
+        "main2_powerup_bunkerin",
+        "special1_attack_sovianwinter",
+        "special2_attack_scarletrevolution",
+        "special3_attack_powerofrenin",
+        "heal_regeneration_starin"
+    ],
+    "ai": "True"
+}

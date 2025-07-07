@@ -1,0 +1,50 @@
+{
+    "name": "Gunner",
+    "unit": "infantry",
+    "image": "infantry_sovia_gunner_heer7_profile",
+
+    "walk_sprite": "sovia_gunner_heer7_walk",
+    "receive_sprite": "sovia_gunner_heer7_static",
+    "main1_attack_sprite": "sovia_gunner_heer7_main1_attack",
+    "main2_attack_sprite": "sovia_gunner_heer7_main2_attack", 
+    "special1_attack_sprite": "sovia_gunner_heer7_special1_attack", 
+    "special2_attack_sprite": "sovia_gunner_heer7_special2_attack", 
+    "special3_attack_sprite": "sovia_gunner_heer7_special3_attack", 
+    "main1_powerup_sprite": "sovia_gunner_heer7_main1_powerup", 
+    "main2_powerup_sprite": "sovia_gunner_heer7_main2_powerup", 
+    "heal_sprite": "sovia_gunner_heer7_heal", 
+
+    "main1_attack_finalframe_sprite": "sovia_gunner_heer7_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "sovia_gunner_heer7_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "sovia_gunner_heer7_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "sovia_gunner_heer7_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "sovia_gunner_heer7_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "sovia_gunner_heer7_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "sovia_gunner_heer7_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "sovia_gunner_heer7_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_sovia.png",
+    "level": 75,
+    "cost": 600,
+    "hp": 7000,
+    "attack": 71,
+    "defense": 72,
+    "accuracy": 68,
+    "critical": 70,
+    "speed": 72,
+    "terrain": "snow",
+
+    "fullname": "Sovia Gunner",
+    "description": "The backbone of the Sovian army, a footsoldier, this unit forms the basis of troops in battle.",
+    "primary_weapon": "Papasha SMG",
+    "secondary_weapon": "Limonka",
+    "motto": "Girls of the world, unite!",
+    
+    "perks": ["perk_firepower", "perk_lightweight", "x", "x"],
+    "skill": [
+        "main1_attack_ppsh41", 
+        "main2_attack_limonka", 
+        "heal_medikit_heer7"
+    ]
+}

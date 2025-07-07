@@ -1,0 +1,19 @@
+{
+    "id": "northexpedition",
+    "kind": "attack",
+    "name": "North Expedition",
+    "desc": "A dark Zhinese mana attack.",
+    "skilltype": "skilltype_dark",
+    "pp": 3,
+    "image": "reaction_hit",
+    "sound": "battle/northexpedition.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special3_attack",
+        "finalframe": "special3_attack_finalframe",
+        "full_screen": ["fullscreen_northexpedition", 0.01]
+    },
+    "base_hp": -1500,
+    "osd": 3.5,
+    "line": "_name_ uses _skill_, a deadly attack, to purge her enemies. _damage_"
+}

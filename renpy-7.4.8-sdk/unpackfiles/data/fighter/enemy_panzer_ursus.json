@@ -1,0 +1,51 @@
+{
+    "name": "Ursa",
+    "unit": "enemysection",
+    "image": "panzer_ursus_profile",
+    
+    "walk_sprite": "panzer_ursus_walk",
+    "receive_sprite": "panzer_ursus_static",
+    "main1_attack_sprite": "panzer_ursus_main1_attack",
+    "main2_attack_sprite": "panzer_ursus_main2_attack",
+    "special1_attack_sprite": "panzer_ursus_special1_attack", 
+    "special2_attack_sprite": "panzer_ursus_special2_attack", 
+    "special3_attack_sprite": "panzer_ursus_special3_attack", 
+    "main1_powerup_sprite": "panzer_ursus_main1_powerup", 
+    "main2_powerup_sprite": "panzer_ursus_main2_powerup", 
+    "heal_sprite": "panzer_ursus_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_ursus_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_ursus_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_ursus_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_ursus_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_ursus_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_ursus_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_ursus_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_ursus_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_polix.png",
+    "level": 15,
+    "cost": 150,
+    "hp": 1500,
+    "attack": 12,
+    "defense": 6,
+    "accuracy": 13,
+    "critical": 12,
+    "speed": 14,
+    "terrain": "urban",
+
+    "fullname": "Ursa",
+    "description": "An armored car built in Polix, its heavy shielding only slows it down. To compensate, it practically has barrels coming out of every opening.",
+    "primary_weapon": "37mm SA-18 Poutine L/21 gun",
+    "secondary_weapon": "7.92mm wz. 25 Hotkiss",
+    "motto": "Honestly, keep order, won't you?",
+    
+    "perks": ["perk_firepower", "perk_lightweight", "x", "x"],
+    "skill": [
+        "main1_attack_puteauxl21", 
+        "main2_attack_hotchkissm1914",
+        "heal_maintenance_heer1"
+    ],
+    "ai": "True"
+}

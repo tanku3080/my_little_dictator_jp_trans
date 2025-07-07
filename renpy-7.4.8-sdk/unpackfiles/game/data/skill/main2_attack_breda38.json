@@ -1,0 +1,18 @@
+{
+    "id": "breda38",
+    "kind": "attack",
+    "name": "Brodo 38",
+    "desc": "A magazine-fed, gas-operated, tank-pattern machine gun from Vitalia.",
+    "skilltype": "skilltype_metal",
+    "pp": 24,
+    "image": "reaction_hit",
+    "sound": "battle/breda38.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -710,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

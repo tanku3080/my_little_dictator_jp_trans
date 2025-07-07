@@ -1,0 +1,19 @@
+{
+    "id": "rainyseason",
+    "kind": "attack",
+    "name": "Rainy Season",
+    "desc": "A powerful rain attack.",
+    "skilltype": "skilltype_wind",
+    "pp": 1,
+    "image": "reaction_wind",
+    "sound": "battle/rainyseason.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special3_attack",
+        "finalframe": "special3_attack_finalframe",
+        "full_screen": ["fullscreen_rainyseason", 0.01]
+    },
+    "base_hp": -1100,
+    "osd": 3.5,
+    "line": "_name_ calls on a _skill_. Heavy monsoon rains begin to fall. _damage_"
+}

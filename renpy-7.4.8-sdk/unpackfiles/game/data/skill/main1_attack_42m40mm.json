@@ -1,0 +1,18 @@
+{
+    "id": "42m40mm",
+    "kind": "attack",
+    "name": "42M 40mm Gun",
+    "desc": "An accurate anti-tank gun with good muzzle velocity.",
+    "skilltype": "skilltype_fire",
+    "pp": 30,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_small.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1350,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

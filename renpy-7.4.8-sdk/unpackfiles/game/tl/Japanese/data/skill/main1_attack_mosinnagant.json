@@ -1,0 +1,18 @@
+{
+    "id": "mosinnagant",
+    "kind": "attack",
+    "name": "Muss-Nuga Rifle",
+    "desc": "A standard service bolt-action rifle of the Sovian army.",
+    "skilltype": "skilltype_metal",
+    "pp": 100,
+    "image": "reaction_hit",
+    "sound": "battle/kar98k.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1050,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

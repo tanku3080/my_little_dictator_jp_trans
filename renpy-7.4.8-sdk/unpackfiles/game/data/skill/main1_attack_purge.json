@@ -1,0 +1,19 @@
+{
+    "id": "purge",
+    "kind": "attack",
+    "name": "Purge",
+    "desc": "A fatal move to wipe out any enemies.",
+    "skilltype": "skilltype_dark",
+    "pp": 100,
+    "image": "reaction_skulls",
+    "sound": "battle/purge.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe",
+        "full_screen": ["fullscreen_purge", 0.01]
+    },
+    "base_hp": -650,
+    "osd": 3.5,
+    "line": "_name_ begins a deadly _skill_ of her enemies. _damage_"
+}

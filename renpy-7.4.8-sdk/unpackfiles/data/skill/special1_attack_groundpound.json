@@ -1,0 +1,19 @@
+{
+    "id": "groundpound",
+    "kind": "attack",
+    "name": "Ground Pound",
+    "desc": "A deadly ground attack.",
+    "skilltype": "skilltype_ground",
+    "pp": 3,
+    "image": "reaction_ground",
+    "sound": "battle/groundpound.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_groundpound", 0.01]
+    },
+    "base_hp": -1200,
+    "osd": 3.5,
+    "line": "_name_ uses _skill_. The earth beneath your feet begins to rumble. _damage_"
+}

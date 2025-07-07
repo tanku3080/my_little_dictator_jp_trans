@@ -1,0 +1,50 @@
+{
+    "name": "Jordehaubits",
+    "unit": "enemysection",
+    "image": "panzer_felthaubits_profile",
+    
+    "walk_sprite": "panzer_felthaubits_walk",
+    "receive_sprite": "panzer_felthaubits_static",
+    "main1_attack_sprite": "panzer_felthaubits_main1_attack",
+    "main2_attack_sprite": "panzer_felthaubits_main2_attack",
+    "special1_attack_sprite": "panzer_felthaubits_special1_attack", 
+    "special2_attack_sprite": "panzer_felthaubits_special2_attack", 
+    "special3_attack_sprite": "panzer_felthaubits_special3_attack", 
+    "main1_powerup_sprite": "panzer_felthaubits_main1_powerup", 
+    "main2_powerup_sprite": "panzer_felthaubits_main2_powerup", 
+    "heal_sprite": "panzer_felthaubits_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_felthaubits_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_felthaubits_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_felthaubits_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_felthaubits_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_felthaubits_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_felthaubits_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_felthaubits_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_felthaubits_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_norda.png",
+    "level": 22,
+    "cost": 330,
+    "hp": 3300,
+    "attack": 20,
+    "defense": 13,
+    "accuracy": 25,
+    "critical": 20,
+    "speed": 20,
+    "terrain": "snow",
+
+    "fullname": "Jordehaubits",
+    "description": "A field gun used by the Norda army.",
+    "primary_weapon": "120mm howitzer",
+    "secondary_weapon": "-",
+    "motto": "It's time to go!",
+    
+    "perks": ["perk_firepower", "x", "x", "x"],
+    "skill": [
+        "main1_attack_120mmhowitzer",
+        "heal_maintenance_heer2"
+    ],
+    "ai": "True"
+}

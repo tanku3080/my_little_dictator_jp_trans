@@ -1,0 +1,18 @@
+{
+    "id": "besamg",
+    "kind": "attack",
+    "name": "Bisa MG",
+    "desc": "A Britannian belt-fed, air-cooled machine gun based on a Czexa gun.",
+    "skilltype": "skilltype_metal",
+    "pp": 150,
+    "image": "reaction_hit",
+    "sound": "battle/besamg.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -780,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

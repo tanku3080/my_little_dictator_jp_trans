@@ -1,0 +1,53 @@
+{
+    "name": "Königintigerin",
+    "unit": "panzer",
+    "image": "panzer_konigstiger_profile",
+    
+    "walk_sprite": "panzer_konigstiger_walk",
+    "receive_sprite": "panzer_konigstiger_static",
+    "main1_attack_sprite": "panzer_konigstiger_main1_attack",
+    "main2_attack_sprite": "panzer_konigstiger_main2_attack",
+    "special1_attack_sprite": "panzer_konigstiger_special1_attack", 
+    "special2_attack_sprite": "panzer_konigstiger_special2_attack", 
+    "special3_attack_sprite": "panzer_konigstiger_special3_attack", 
+    "main1_powerup_sprite": "panzer_konigstiger_main1_powerup", 
+    "main2_powerup_sprite": "panzer_konigstiger_main2_powerup", 
+    "heal_sprite": "panzer_konigstiger_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_konigstiger_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_konigstiger_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_konigstiger_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_konigstiger_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_konigstiger_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_konigstiger_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_konigstiger_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_konigstiger_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 71,
+    "cost": 1140,
+    "hp": 7400,
+    "attack": 74,
+    "defense": 72,
+    "accuracy": 71,
+    "critical": 70,
+    "speed": 67,
+    "terrain": "ground",
+
+    "fullname": "Panzykampfwagen Tigerin II (Königintigerin)",
+    "description": "Taking inspiration from both the Puma and the Tigerin I, this prototype heavy tank makes use of thick, sloped armor and a huge cannon, weighing nearly 70 tonnes.",
+    "primary_weapon": "88mm UwU 43 L/71",
+    "secondary_weapon": "7.92mm MG 34",
+    "motto": "Ara ara~",
+    
+    "perks": ["perk_slopedarmor", "perk_firepower", "perk_explosive", "x"],
+    "skill": [
+        "main1_attack_kwk43l71",
+        "main2_attack_mg34",
+        "special2_attack_flatten",
+        "main1_powerup_megaarmor",
+        "main2_powerup_stukatablets",
+        "heal_maintenance_heer6"
+    ]
+}

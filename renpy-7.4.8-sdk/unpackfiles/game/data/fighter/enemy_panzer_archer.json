@@ -1,0 +1,52 @@
+{
+    "name": "Arch-Valentine",
+    "unit": "enemysection",
+    "image": "panzer_archer_profile",
+    
+    "walk_sprite": "panzer_archer_walk",
+    "receive_sprite": "panzer_archer_static",
+    "main1_attack_sprite": "panzer_archer_main1_attack",
+    "main2_attack_sprite": "panzer_archer_main2_attack",
+    "special1_attack_sprite": "panzer_archer_special1_attack", 
+    "special2_attack_sprite": "panzer_archer_special2_attack", 
+    "special3_attack_sprite": "panzer_archer_special3_attack", 
+    "main1_powerup_sprite": "panzer_archer_main1_powerup", 
+    "main2_powerup_sprite": "panzer_archer_main2_powerup", 
+    "heal_sprite": "panzer_archer_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_archer_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_archer_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_archer_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_archer_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_archer_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_archer_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_archer_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_archer_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 42,
+    "cost": 440,
+    "hp": 4400,
+    "attack": 44,
+    "defense": 40,
+    "accuracy": 40,
+    "critical": 40,
+    "speed": 40,
+    "terrain": "ground",
+
+    "fullname": "Arch-Valentine SP 17pdr",
+    "description": "A self propelled anti-tank gun, unusual in its mounted gun facing the rear of the chassis. Combined with a low silhouette, this makes for quick getaways and ambushes.",
+    "primary_weapon": "QF 17-pounder",
+    "secondary_weapon": "Breno LMG",
+    "motto": "Surprise!",
+    
+    "perks": ["perk_stealth", "perk_electric", "x", "x"],
+    "skill": [
+        "main1_attack_qf17pounder",
+        "main2_attack_brenlmg",
+        "main1_powerup_megapower",
+        "heal_maintenance_heer6"
+    ],
+    "ai": "True"
+}

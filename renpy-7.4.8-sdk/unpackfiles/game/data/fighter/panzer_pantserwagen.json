@@ -1,0 +1,50 @@
+{
+    "name": "Pantradodrie",
+    "unit": "panzer",
+    "image": "panzer_pantserwagen_profile",
+    
+    "walk_sprite": "panzer_pantserwagen_walk",
+    "receive_sprite": "panzer_pantserwagen_static",
+    "main1_attack_sprite": "panzer_pantserwagen_main1_attack",
+    "main2_attack_sprite": "panzer_pantserwagen_main2_attack",
+    "special1_attack_sprite": "panzer_pantserwagen_special1_attack", 
+    "special2_attack_sprite": "panzer_pantserwagen_special2_attack", 
+    "special3_attack_sprite": "panzer_pantserwagen_special3_attack", 
+    "main1_powerup_sprite": "panzer_pantserwagen_main1_powerup", 
+    "main2_powerup_sprite": "panzer_pantserwagen_main2_powerup", 
+    "heal_sprite": "panzer_pantserwagen_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_pantserwagen_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_pantserwagen_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_pantserwagen_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_pantserwagen_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_pantserwagen_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_pantserwagen_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_pantserwagen_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_pantserwagen_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_batavia.png",
+    "level": 32,
+    "cost": 310,
+    "hp": 3100,
+    "attack": 31,
+    "defense": 31,
+    "accuracy": 29,
+    "critical": 29,
+    "speed": 35,
+    "terrain": "urban",
+
+    "fullname": "Pantradodrie",
+    "description": "Armored cars based on a unique suspension system, giving it the edge when travelling cross-country. It also has a powerful cannon and sloped armor.",
+    "primary_weapon": "Bofink 37mm Gun",
+    "secondary_weapon": "Louisa MG",
+    "motto": "Wipe your clogs first",
+    
+    "perks": ["perk_lightweight", "perk_speed", "perk_slopedarmor", "x"],
+    "skill": [
+        "main1_attack_bofors37",
+        "main2_attack_lewismg",
+        "heal_maintenance_heer3"
+    ]
+}

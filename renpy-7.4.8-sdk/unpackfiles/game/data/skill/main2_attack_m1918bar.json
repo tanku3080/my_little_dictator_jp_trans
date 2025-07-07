@@ -1,0 +1,18 @@
+{
+    "id": "m1918bar",
+    "kind": "attack",
+    "name": "M1918 BAR",
+    "desc": "An Amerikan automatic rifle.",
+    "skilltype": "skilltype_metal",
+    "pp": 100,
+    "image": "reaction_hit",
+    "sound": "battle/m1918bar.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe"
+    },
+    "base_hp": -570,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

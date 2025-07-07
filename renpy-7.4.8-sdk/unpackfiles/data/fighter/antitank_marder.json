@@ -1,0 +1,50 @@
+{
+    "name": "Marten",
+    "unit": "antitank",
+    "image": "antitank_marder_profile",
+    
+    "walk_sprite": "antitank_marder_walk",
+    "receive_sprite": "antitank_marder_static",
+    "main1_attack_sprite": "antitank_marder_main1_attack",
+    "main2_attack_sprite": "antitank_marder_main2_attack",
+    "special1_attack_sprite": "antitank_marder_special1_attack", 
+    "special2_attack_sprite": "antitank_marder_special2_attack", 
+    "special3_attack_sprite": "antitank_marder_special3_attack", 
+    "main1_powerup_sprite": "antitank_marder_main1_powerup", 
+    "main2_powerup_sprite": "antitank_marder_main2_powerup", 
+    "heal_sprite": "antitank_marder_heal",
+
+    "main1_attack_finalframe_sprite": "antitank_marder_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "antitank_marder_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "antitank_marder_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "antitank_marder_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "antitank_marder_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "antitank_marder_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "antitank_marder_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "antitank_marder_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 31,
+    "cost": 580,
+    "hp": 3800,
+    "attack": 38,
+    "defense": 38,
+    "accuracy": 22,
+    "critical": 22,
+    "speed": 22,
+    "terrain": "urban",
+
+    "fullname": "Marten I",
+    "description": "Built using a Franzo tractor as its base, this prototype tank destroyer makes use of a powerful anti-tank gun, the 75mm Panzyanklopfgerät 40.",
+    "primary_weapon": "Panzyanklopfgerät 40",
+    "secondary_weapon": "-",
+    "motto": "There's been a Marten...",
+    
+    "perks": ["perk_bruteforce", "perk_firepower", "perk_explosive", "x"],
+    "skill": [
+        "main1_attack_pak40",
+        "special1_attack_germaniaanthem",
+        "heal_maintenance_heer3"
+    ]
+}

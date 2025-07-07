@@ -1,0 +1,18 @@
+{
+    "id": "vickersmg",
+    "kind": "attack",
+    "name": "Vicky MG",
+    "desc": "A water-cooled Britannian machine gun.",
+    "skilltype": "skilltype_metal",
+    "pp": 15,
+    "image": "reaction_hit",
+    "sound": "battle/vickersmg.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1010,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

@@ -1,0 +1,51 @@
+{
+    "name": "Panzy I",
+    "unit": "panzer",
+    "image": "panzer_panzer1_profile",
+    
+    "walk_sprite": "panzer_panzer1_walk",
+    "receive_sprite": "panzer_panzer1_static",
+    "main1_attack_sprite": "panzer_panzer1_main1_attack",
+    "main2_attack_sprite": "panzer_panzer1_main2_attack",
+    "special1_attack_sprite": "panzer_panzer1_special1_attack", 
+    "special2_attack_sprite": "panzer_panzer1_special2_attack", 
+    "special3_attack_sprite": "panzer_panzer1_special3_attack", 
+    "main1_powerup_sprite": "panzer_panzer1_main1_powerup", 
+    "main2_powerup_sprite": "panzer_panzer1_main2_powerup", 
+    "heal_sprite": "panzer_panzer1_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_panzer1_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_panzer1_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_panzer1_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_panzer1_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_panzer1_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_panzer1_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_panzer1_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_panzer1_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 13,
+    "cost": 200,
+    "hp": 2900,
+    "attack": 20,
+    "defense": 18,
+    "accuracy": 23,
+    "critical": 5,
+    "speed": 19,
+    "terrain": "ground",
+
+    "fullname": "Panzykampfwagen I (Brodo)",
+    "description": "A converted Germanian tank, this variation fought for the nationalist cause during the Iberian civil war.",
+    "primary_weapon": "20mm Brodo Modelo 1935 gun",
+    "secondary_weapon": "-",
+    "motto": "Glory to Iberia!",
+    
+    "perks": ["perk_firepower", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_breda20",
+        "special2_attack_breakthrough",
+        "main2_powerup_stukatablets",
+        "heal_maintenance_heer1"
+    ]
+}

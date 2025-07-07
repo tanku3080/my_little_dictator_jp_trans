@@ -1,0 +1,52 @@
+{
+    "name": "Rumanum Gunner",
+    "unit": "enemysection",
+    "image": "specialgroup_rumanum_gunner_heer7_profile",
+
+    "walk_sprite": "specialgroup_rumanum_gunner_heer7_walk",
+    "receive_sprite": "specialgroup_rumanum_gunner_heer7_static",
+    "main1_attack_sprite": "specialgroup_rumanum_gunner_heer7_main1_attack",
+    "main2_attack_sprite": "specialgroup_rumanum_gunner_heer7_main2_attack", 
+    "special1_attack_sprite": "specialgroup_rumanum_gunner_heer7_special1_attack", 
+    "special2_attack_sprite": "specialgroup_rumanum_gunner_heer7_special2_attack", 
+    "special3_attack_sprite": "specialgroup_rumanum_gunner_heer7_special3_attack", 
+    "main1_powerup_sprite": "specialgroup_rumanum_gunner_heer7_main1_powerup", 
+    "main2_powerup_sprite": "specialgroup_rumanum_gunner_heer7_main2_powerup", 
+    "heal_sprite": "specialgroup_rumanum_gunner_heer7_heal", 
+
+    "main1_attack_finalframe_sprite": "specialgroup_rumanum_gunner_heer7_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "specialgroup_rumanum_gunner_heer7_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "specialgroup_rumanum_gunner_heer7_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "specialgroup_rumanum_gunner_heer7_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "specialgroup_rumanum_gunner_heer7_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "specialgroup_rumanum_gunner_heer7_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "specialgroup_rumanum_gunner_heer7_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "specialgroup_rumanum_gunner_heer7_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_rumanum.png",
+    "level": 67,
+    "cost": 690,
+    "hp": 6900,
+    "attack": 69,
+    "defense": 70,
+    "accuracy": 70,
+    "critical": 70,
+    "speed": 70,
+    "terrain": "forest",
+
+    "fullname": "Rumanum Gunner",
+    "description": "The backbone of the Rumanum army, this unit forms the basis of squads in battle.",
+    "primary_weapon": "Papasha SMG",
+    "secondary_weapon": "Stylischhandgranate",
+    "motto": "God with us!",
+    
+    "perks": ["perk_firepower", "perk_lightweight", "x", "x"],
+    "skill": [
+        "main1_attack_ppsh41", 
+        "main2_attack_stielhandgranate", 
+        "special1_attack_quickmarch",
+        "heal_medikit_heer7"
+    ],
+    "ai": "True"
+}

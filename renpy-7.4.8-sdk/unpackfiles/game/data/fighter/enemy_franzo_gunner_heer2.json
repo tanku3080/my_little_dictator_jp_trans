@@ -1,0 +1,52 @@
+{
+    "name": "Franzo Gunner",
+    "unit": "enemysection",
+    "image": "franzo_gunner_heer2_profile",
+
+    "walk_sprite": "franzo_gunner_heer2_walk",
+    "receive_sprite": "franzo_gunner_heer2_static",
+    "main1_attack_sprite": "franzo_gunner_heer2_main1_attack",
+    "main2_attack_sprite": "franzo_gunner_heer2_main2_attack",
+    "special1_attack_sprite": "franzo_gunner_heer2_special1_attack", 
+    "special2_attack_sprite": "franzo_gunner_heer2_special2_attack", 
+    "special3_attack_sprite": "franzo_gunner_heer2_special3_attack", 
+    "main1_powerup_sprite": "franzo_gunner_heer2_main1_powerup", 
+    "main2_powerup_sprite": "franzo_gunner_heer2_main2_powerup", 
+    "heal_sprite": "franzo_gunner_heer2_heal", 
+
+    "main1_attack_finalframe_sprite": "franzo_gunner_heer2_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "franzo_gunner_heer2_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "franzo_gunner_heer2_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "franzo_gunner_heer2_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "franzo_gunner_heer2_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "franzo_gunner_heer2_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "franzo_gunner_heer2_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "franzo_gunner_heer2_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_franzo.png",
+    "level": 23,
+    "cost": 270,
+    "hp": 2700,
+    "attack": 26,
+    "defense": 23,
+    "accuracy": 27,
+    "critical": 25,
+    "speed": 26,
+    "terrain": "snow",
+
+    "fullname": "Franzo Gunner",
+    "description": "Standard infantry unit.",
+    "primary_weapon": "Tommy Gun",
+    "secondary_weapon": "Mlem Mine",
+    "motto": "Viva la Franzo!",
+    
+    "perks": ["perk_slash", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_thompson_heer1", 
+        "main2_attack_mle1939", 
+        "special2_attack_baguette",
+        "heal_medikit_heer2"
+    ],
+    "ai": "True"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "luger",
+    "kind": "attack",
+    "name": "Luger",
+    "desc": "The Germanian Pistole Parabellum, a semi-automatic pistol.",
+    "skilltype": "skilltype_metal",
+    "pp": 150,
+    "image": "reaction_hit",
+    "sound": "battle/luger.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -750,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

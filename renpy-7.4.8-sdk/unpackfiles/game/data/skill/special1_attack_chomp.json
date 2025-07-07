@@ -1,0 +1,19 @@
+{
+    "id": "chomp",
+    "kind": "attack",
+    "name": "Chomp",
+    "desc": "A deadly shark attack.",
+    "skilltype": "skilltype_ground",
+    "pp": 3,
+    "image": "reaction_hit",
+    "sound": "battle/chomp.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "walk",
+        "finalframe": "static",
+        "full_screen": ["fullscreen_chomp", 0.01]
+    },
+    "base_hp": -2000,
+    "osd": 3.5,
+    "line": "_name_ bares its teeth and uses _skill_. _damage_"
+}

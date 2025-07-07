@@ -1,0 +1,18 @@
+{
+    "id": "nkmwz38fk",
+    "kind": "attack",
+    "name": "Nkm Heaviest MG",
+    "desc": "A heavy machine gun produced in Polix, mounted on the TKS.",
+    "skilltype": "skilltype_metal",
+    "pp": 28,
+    "image": "reaction_hit",
+    "sound": "battle/cannon_heavy.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -580,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

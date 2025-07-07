@@ -1,0 +1,19 @@
+{
+    "id": "pose",
+    "kind": "attack",
+    "name": "Pose",
+    "desc": "A dramatic pose.",
+    "skilltype": "skilltype_mana",
+    "pp": 10,
+    "image": "reaction_hit",
+    "sound": "battle/pose.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe",
+        "full_screen": ["fullscreen_pose", 0.01]
+    },
+    "base_hp": -1380,
+    "osd": 3.2,
+    "line": "_name_ strikes a dramatic _skill_. The crowds go wild."
+}

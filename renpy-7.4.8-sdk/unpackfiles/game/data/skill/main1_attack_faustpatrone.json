@@ -1,0 +1,19 @@
+{
+    "id": "faustpatrone",
+    "kind": "attack",
+    "name": "Faustgretchen",
+    "desc": "A single shot Germanian grenade launcher that fires a high-explosive anti-tank warhead. {color=#F35F5F}(Burn / 10% Chance){/color}",
+    "skilltype": "skilltype_fire",
+    "pp": 15,
+    "image": "reaction_explo_small",
+    "sound": "battle/piat.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -850,
+    "status_enemy": "burn_status",
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. The heat burns. _damage_"
+}

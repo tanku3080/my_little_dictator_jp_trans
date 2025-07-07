@@ -1,0 +1,51 @@
+{
+    "name": "Polix Cavalry",
+    "unit": "enemysection",
+    "image": "polix_cavalry_heer1_profile",
+
+    "walk_sprite": "polix_cavalry_heer1_walk",
+    "receive_sprite": "polix_cavalry_heer1_static",
+    "main1_attack_sprite": "polix_cavalry_heer1_main1_attack",
+    "main2_attack_sprite": "polix_cavalry_heer1_main2_attack",
+    "special1_attack_sprite": "polix_cavalry_heer1_special1_attack", 
+    "special2_attack_sprite": "polix_cavalry_heer1_special2_attack", 
+    "special3_attack_sprite": "polix_cavalry_heer1_special3_attack", 
+    "main1_powerup_sprite": "polix_cavalry_heer1_main1_powerup", 
+    "main2_powerup_sprite": "polix_cavalry_heer1_main2_powerup", 
+    "heal_sprite": "polix_cavalry_heer1_heal", 
+
+    "main1_attack_finalframe_sprite": "polix_cavalry_heer1_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "polix_cavalry_heer1_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "polix_cavalry_heer1_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "polix_cavalry_heer1_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "polix_cavalry_heer1_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "polix_cavalry_heer1_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "polix_cavalry_heer1_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "polix_cavalry_heer1_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_polix.png",
+    "level": 18,
+    "cost": 150,
+    "hp": 1800,
+    "attack": 21,
+    "defense": 18,
+    "accuracy": 11,
+    "critical": 5,
+    "speed": 25,
+    "terrain": "forest",
+
+    "fullname": "Polix Cavalry",
+    "description": "Standard infantry unit.",
+    "primary_weapon": "Szabla Sabre",
+    "secondary_weapon": "Granat Defensywny",
+    "motto": "For Smigly and the gang!",
+    
+    "perks": ["perk_slash", "x", "x", "x"],
+    "skill": [
+        "main1_attack_szablasabre", 
+        "main2_attack_granatobronny", 
+        "heal_medikit_heer1"
+    ],
+    "ai": "True"
+}

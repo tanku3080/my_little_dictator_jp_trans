@@ -1,0 +1,56 @@
+{
+    "name": "Cyrano",
+    "unit": "enemyboss",
+    "image": "commander_cyrano_profile",
+
+    "walk_sprite": "commander_cyrano_walk",
+    "receive_sprite": "commander_cyrano_static",
+    "main1_attack_sprite": "commander_cyrano_main1_attack",
+    "main2_attack_sprite": "commander_cyrano_main2_attack",
+    "special1_attack_sprite": "commander_cyrano_special1_attack", 
+    "special2_attack_sprite": "commander_cyrano_special2_attack", 
+    "special3_attack_sprite": "commander_cyrano_special3_attack", 
+    "main1_powerup_sprite": "commander_cyrano_main1_powerup", 
+    "main2_powerup_sprite": "commander_cyrano_main2_powerup", 
+    "heal_sprite": "commander_cyrano_heal", 
+
+    "main1_attack_finalframe_sprite": "commander_cyrano_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "commander_cyrano_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "commander_cyrano_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "commander_cyrano_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "commander_cyrano_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "commander_cyrano_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "commander_cyrano_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "commander_cyrano_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_franzo.png",
+    "level": 45,
+    "cost": 390,
+    "hp": 7000,
+    "attack": 65,
+    "defense": 59,
+    "accuracy": 50,
+    "critical": 50,
+    "speed": 89,
+    "terrain": "urban",
+
+    "fullname": "Commander Gallia Cyrano",
+    "description": "A fierce fighter and a loyal patriot, this fiery tomboy is deadly in any one-on-one confrontation. Weak against ice types.",
+    "primary_weapon": "Mega Resister 9000",
+    "secondary_weapon": "Bombardment",
+    "motto": "Viva la Franzo!",
+    
+    "perks": ["perk_flame", "perk_speed", "perk_stealth", "x"],
+    "skill": [
+        "main1_attack_megaresister", 
+        "main2_attack_bombardment", 
+        "main1_powerup_xspeed", 
+        "main2_powerup_positivity",
+        "special1_attack_fireball", 
+        "special2_attack_flamesofwar",
+        "special3_attack_leech",
+        "heal_medikit_heer5"
+    ],
+    "ai": "True"
+}

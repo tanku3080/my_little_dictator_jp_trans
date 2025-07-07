@@ -1,0 +1,18 @@
+{
+    "id": "mg37",
+    "kind": "attack",
+    "name": "MG 37 Machine Gun",
+    "desc": "An extremely accurate and high-powered gun.",
+    "skilltype": "skilltype_metal",
+    "pp": 28,
+    "image": "reaction_hit",
+    "sound": "battle/mg34.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -710,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

@@ -1,0 +1,52 @@
+{
+    "name": "Semolina",
+    "unit": "enemysection",
+    "image": "panzer_semovente_profile",
+    
+    "walk_sprite": "panzer_semovente_walk",
+    "receive_sprite": "panzer_semovente_static",
+    "main1_attack_sprite": "panzer_semovente_main1_attack",
+    "main2_attack_sprite": "panzer_semovente_main2_attack",
+    "special1_attack_sprite": "panzer_semovente_special1_attack", 
+    "special2_attack_sprite": "panzer_semovente_special2_attack", 
+    "special3_attack_sprite": "panzer_semovente_special3_attack", 
+    "main1_powerup_sprite": "panzer_semovente_main1_powerup", 
+    "main2_powerup_sprite": "panzer_semovente_main2_powerup", 
+    "heal_sprite": "panzer_semovente_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_semovente_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_semovente_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_semovente_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_semovente_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_semovente_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_semovente_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_semovente_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_semovente_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_vitalia.png",
+    "level": 41,
+    "cost": 430,
+    "hp": 4300,
+    "attack": 43,
+    "defense": 46,
+    "accuracy": 25,
+    "critical": 21,
+    "speed": 26,
+    "terrain": "mountain",
+
+    "fullname": "Semolina da 75/18",
+    "description": "Deployed as divisional level mobile artillery, this tank is Vitalia's answer to the Sturmi. With a small compartment, it only requires a commander/gunner, driver and loader.",
+    "primary_weapon": "Orzo da 75/18",
+    "secondary_weapon": "-",
+    "motto": "That's a spicy shell!",
+    
+    "perks": ["perk_lightweight", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_obice7518m34",
+        "special1_attack_vitaliaanthem",
+        "special2_attack_breakthrough",
+        "heal_maintenance_heer4"
+    ],
+    "ai": "True"
+}

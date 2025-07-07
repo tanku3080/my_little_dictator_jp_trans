@@ -1,0 +1,19 @@
+{
+    "id": "polka",
+    "kind": "attack",
+    "name": "Finbardish Polka",
+    "desc": "A haunting melody to strike fear into the enemy.",
+    "skilltype": "skilltype_wind",
+    "pp": 1,
+    "image": "reaction_hit",
+    "sound": "battle/polka.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_polka", 0.01]
+    },
+    "base_hp": -2000,
+    "osd": 4.0,
+    "line": "The crew of the _name_ play a haunting _skill_. _damage_"
+}

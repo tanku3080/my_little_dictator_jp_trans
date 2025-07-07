@@ -1,0 +1,19 @@
+{
+    "id": "fistsoffury",
+    "kind": "attack",
+    "name": "Fists of Fury",
+    "desc": "A furious flurry of fists.",
+    "skilltype": "skilltype_ground",
+    "pp": 35,
+    "image": "reaction_hit",
+    "sound": "battle/fistsoffury.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main2_attack",
+        "finalframe": "main2_attack_finalframe",
+        "full_screen": ["fullscreen_fistsoffury", 0.01]
+    },
+    "base_hp": -920,
+    "osd": 3.1,
+    "line": "_name_ uses _skill_. _damage_"
+}

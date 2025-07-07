@@ -1,0 +1,19 @@
+{
+    "id": "crusade",
+    "kind": "attack",
+    "name": "Crusade",
+    "desc": "A powerful Britannian mana attack.",
+    "skilltype": "skilltype_mana",
+    "pp": 3,
+    "image": "reaction_hit",
+    "sound": "battle/crusade.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special3_attack",
+        "finalframe": "special3_attack_finalframe",
+        "full_screen": ["fullscreen_crusade", 0.01]
+    },
+    "base_hp": -1200,
+    "osd": 3.5,
+    "line": "_name_ embarks on a deadly _skill_. Imperialism intensifies. _damage_"
+}

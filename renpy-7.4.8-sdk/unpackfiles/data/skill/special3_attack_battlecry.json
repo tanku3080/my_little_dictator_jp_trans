@@ -1,0 +1,20 @@
+{
+    "id": "battlecry",
+    "kind": "attack",
+    "name": "Battle Cry",
+    "desc": "A haunting war chant. {color=#F35F5F}(Stun / 50% Chance){/color}",
+    "skilltype": "skilltype_ground",
+    "pp": 1,
+    "image": "reaction_hit",
+    "sound": "battle/battlecry.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "walk",
+        "finalframe": "static",
+        "full_screen": ["fullscreen_battlecry", 0.01]
+    },
+    "base_hp": -1300,
+    "status_enemy": "stun_status",
+    "osd": 3.5,
+    "line": "_name_ begins a haunting _skill_. _damage_"
+}

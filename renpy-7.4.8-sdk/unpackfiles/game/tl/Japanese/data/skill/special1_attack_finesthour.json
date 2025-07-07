@@ -1,0 +1,19 @@
+{
+    "id": "finesthour",
+    "kind": "attack",
+    "name": "Finest Hour",
+    "desc": "A glorious resistant mana attack.",
+    "skilltype": "skilltype_mana",
+    "pp": 5,
+    "image": "reaction_hit",
+    "sound": "battle/finesthour.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe",
+        "full_screen": ["fullscreen_finesthour", 0.01]
+    },
+    "base_hp": -2000,
+    "osd": 3.5,
+    "line": "_name_ inspires the nation with a spell, _skill_. _damage_"
+}

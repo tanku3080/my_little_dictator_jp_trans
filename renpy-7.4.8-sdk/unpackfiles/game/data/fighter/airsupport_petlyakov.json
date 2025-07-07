@@ -1,0 +1,50 @@
+{
+    "name": "Petlyakov",
+    "unit": "airsupport",
+    "image": "airsupport_petlyakov_profile",
+
+    "walk_sprite": "airsupport_petlyakov_walk",
+    "receive_sprite": "airsupport_petlyakov_static",
+    "main1_attack_sprite": "airsupport_petlyakov_main1_attack",
+    "main2_attack_sprite": "airsupport_petlyakov_main2_attack", 
+    "special1_attack_sprite": "airsupport_petlyakov_special1_attack", 
+    "special2_attack_sprite": "airsupport_petlyakov_special2_attack", 
+    "special3_attack_sprite": "airsupport_petlyakov_special3_attack", 
+    "main1_powerup_sprite": "airsupport_petlyakov_main1_powerup", 
+    "main2_powerup_sprite": "airsupport_petlyakov_main2_powerup", 
+    "heal_sprite": "airsupport_petlyakov_heal", 
+
+    "main1_attack_finalframe_sprite": "airsupport_petlyakov_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "airsupport_petlyakov_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "airsupport_petlyakov_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "airsupport_petlyakov_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "airsupport_petlyakov_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "airsupport_petlyakov_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "airsupport_petlyakov_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "airsupport_petlyakov_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_sovia.png",
+    "level": 74,
+    "cost": 780,
+    "hp": 7800,
+    "attack": 78,
+    "defense": 60,
+    "accuracy": 25,
+    "critical": 15,
+    "speed": 55,
+    "terrain": "sky",
+
+    "fullname": "Sovian Petlyakov Medium Bomber",
+    "description": "A respected frontline Sovian medium bomber.",
+    "primary_weapon": "ShKAS Machine Gun",
+    "secondary_weapon": "RRAB-3",
+    "motto": "Girls of the world, unite!",
+    
+    "perks": ["perk_flame", "perk_explosive", "x", "x"],
+    "skill": [
+        "main1_attack_shkas", 
+        "main2_attack_rrab3",
+        "heal_maintenance_heer7"
+    ]
+}

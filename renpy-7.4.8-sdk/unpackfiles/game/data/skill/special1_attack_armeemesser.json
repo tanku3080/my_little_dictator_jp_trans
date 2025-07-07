@@ -1,0 +1,18 @@
+{
+    "id": "armeemesser",
+    "kind": "attack",
+    "name": "Armeemesser",
+    "desc": "A standard issue bayonet and combat knife.",
+    "skilltype": "skilltype_ground",
+    "pp": 3,
+    "image": "reaction_none",
+    "sound": "battle/bayonet.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special1_attack",
+        "finalframe": "special1_attack_finalframe"
+    },
+    "base_hp": -1200,
+    "osd": 3.0,
+    "line": "_name_ throws an _skill_ combat knife. _damage_"
+}

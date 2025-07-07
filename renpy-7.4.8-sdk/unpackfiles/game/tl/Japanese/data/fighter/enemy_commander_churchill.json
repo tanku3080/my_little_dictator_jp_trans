@@ -1,0 +1,54 @@
+{
+    "name": "Churchill",
+    "unit": "enemyboss",
+    "image": "commander_churchill_profile",
+
+    "walk_sprite": "commander_churchill_walk",
+    "receive_sprite": "commander_churchill_static",
+    "main1_attack_sprite": "commander_churchill_main1_attack",
+    "main2_attack_sprite": "commander_churchill_main2_attack",
+    "special1_attack_sprite": "commander_churchill_special1_attack", 
+    "special2_attack_sprite": "commander_churchill_special2_attack", 
+    "special3_attack_sprite": "commander_churchill_special3_attack", 
+    "main1_powerup_sprite": "commander_churchill_main1_powerup", 
+    "main2_powerup_sprite": "commander_churchill_main2_powerup", 
+    "heal_sprite": "commander_churchill_heal", 
+
+    "main1_attack_finalframe_sprite": "commander_churchill_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "commander_churchill_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "commander_churchill_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "commander_churchill_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "commander_churchill_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "commander_churchill_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "commander_churchill_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "commander_churchill_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_britannia.png",
+    "level": 70,
+    "cost": 680,
+    "hp": 8800,
+    "attack": 73,
+    "defense": 74,
+    "accuracy": 50,
+    "critical": 50,
+    "speed": 55,
+    "terrain": "snow",
+
+    "fullname": "Winstefina Churchill",
+    "description": "A mage witch and an inventor, this mana-wielding maniac combines magic with advanced weaponry. Weak against earth types.",
+    "primary_weapon": "Prism Blast",
+    "secondary_weapon": "Milly Bomb",
+    "motto": "Rule Britannia!",
+    
+    "perks": ["perk_stealth", "perk_electric", "perk_angel", "x"],
+    "skill": [
+        "main1_attack_prismblast", 
+        "main2_attack_millsbomb", 
+        "special1_attack_finesthour", 
+        "special2_attack_mustardgas", 
+        "special3_attack_crusade", 
+        "heal_medikit_heer6"
+    ],
+    "ai": "True"
+}

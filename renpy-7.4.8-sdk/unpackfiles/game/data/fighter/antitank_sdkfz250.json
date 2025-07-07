@@ -1,0 +1,49 @@
+{
+    "name": "Panzyspahwagen",
+    "unit": "antitank",
+    "image": "antitank_sdkfz250_profile",
+    
+    "walk_sprite": "antitank_sdkfz250_walk",
+    "receive_sprite": "antitank_sdkfz250_static",
+    "main1_attack_sprite": "antitank_sdkfz250_main1_attack",
+    "main2_attack_sprite": "antitank_sdkfz250_main2_attack",
+    "special1_attack_sprite": "antitank_sdkfz250_special1_attack", 
+    "special2_attack_sprite": "antitank_sdkfz250_special2_attack", 
+    "special3_attack_sprite": "antitank_sdkfz250_special3_attack", 
+    "main1_powerup_sprite": "antitank_sdkfz250_main1_powerup", 
+    "main2_powerup_sprite": "antitank_sdkfz250_main2_powerup", 
+    "heal_sprite": "antitank_sdkfz250_heal",
+
+    "main1_attack_finalframe_sprite": "antitank_sdkfz250_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "antitank_sdkfz250_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "antitank_sdkfz250_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "antitank_sdkfz250_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "antitank_sdkfz250_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "antitank_sdkfz250_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "antitank_sdkfz250_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "antitank_sdkfz250_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 44,
+    "cost": 500,
+    "hp": 4000,
+    "attack": 41,
+    "defense": 39,
+    "accuracy": 40,
+    "critical": 38,
+    "speed": 60,
+    "terrain": "ground",
+
+    "fullname": "Panzyspähwagen",
+    "description": "A modified armored halftrack, developed and built in Germania.",
+    "primary_weapon": "UwU 30 L/55",
+    "secondary_weapon": "-",
+    "motto": "My butt isn't that big!",
+    
+    "perks": ["perk_firepower", "perk_speed", "x", "x"],
+    "skill": [
+        "main1_attack_kwk30l55",
+        "heal_maintenance_heer5"
+    ]
+}

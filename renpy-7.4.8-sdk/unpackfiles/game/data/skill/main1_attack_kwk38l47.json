@@ -1,0 +1,18 @@
+{
+    "id": "kwk38l47",
+    "kind": "attack",
+    "name": "UwU 38 L/47",
+    "desc": "An extremely accurate and high-powered gun.",
+    "skilltype": "skilltype_fire",
+    "pp": 28,
+    "image": "reaction_fire",
+    "sound": "battle/tank_shell_big.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -1060,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}

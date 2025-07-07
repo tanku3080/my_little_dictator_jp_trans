@@ -1,0 +1,51 @@
+{
+    "name": "Char de Bataille",
+    "unit": "panzer",
+    "image": "panzer_charb1_profile",
+    
+    "walk_sprite": "panzer_charb1_walk",
+    "receive_sprite": "panzer_charb1_static",
+    "main1_attack_sprite": "panzer_charb1_main1_attack",
+    "main2_attack_sprite": "panzer_charb1_main2_attack",
+    "special1_attack_sprite": "panzer_charb1_special1_attack", 
+    "special2_attack_sprite": "panzer_charb1_special2_attack", 
+    "special3_attack_sprite": "panzer_charb1_special3_attack", 
+    "main1_powerup_sprite": "panzer_charb1_main1_powerup", 
+    "main2_powerup_sprite": "panzer_charb1_main2_powerup", 
+    "heal_sprite": "panzer_charb1_heal",
+
+    "main1_attack_finalframe_sprite": "panzer_charb1_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "panzer_charb1_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "panzer_charb1_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "panzer_charb1_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "panzer_charb1_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "panzer_charb1_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "panzer_charb1_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "panzer_charb1_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_franzolibre.png",
+    "level": 33,
+    "cost": 340,
+    "hp": 3400,
+    "attack": 34,
+    "defense": 35,
+    "accuracy": 26,
+    "critical": 25,
+    "speed": 24,
+    "terrain": "forest",
+
+    "fullname": "Char de Bataille",
+    "description": "A specialized Franzo battle tank, intended for breakthroughs. Despite being well-armed with thick armor, it also has high fuel consumption and a deathly low speed.",
+    "primary_weapon": "75mm ABS SA 35 howitzer",
+    "secondary_weapon": "47mm SA 35",
+    "motto": "Ooh la la~",
+    
+    "perks": ["perk_firepower", "perk_bruteforce", "x", "x"],
+    "skill": [
+        "main1_attack_sa35", 
+        "main2_attack_sa35",
+        "main1_powerup_megaspeed",
+        "heal_maintenance_heer3"
+    ]
+}

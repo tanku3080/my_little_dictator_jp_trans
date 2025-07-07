@@ -1,0 +1,18 @@
+{
+    "id": "heal_medikit_heer8",
+    "kind": "heal",
+    "name": "Medikit",
+    "desc": "Perform some basic first aid.",
+    "skilltype": "skilltype_heal",
+    "pp": 1,
+    "image": "reaction_heal",
+    "sound": "battle/heal.ogg",
+    "animation": {
+        "kind": "self",
+        "listing": "heal",
+        "finalframe": "heal_finalframe"
+    },
+    "base_hp": 4600,
+    "osd": 3.2,
+    "line": "_name_ uses _skill_ to heal their wounds."
+}

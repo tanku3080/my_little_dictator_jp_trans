@@ -1,0 +1,20 @@
+{
+    "id": "flamesofwar",
+    "kind": "attack",
+    "name": "Flames of War",
+    "desc": "An extremely powerful flame attack. {color=#F35F5F}(Burn / 10% Chance){/color}",
+    "skilltype": "skilltype_fire",
+    "pp": 5,
+    "image": "reaction_fire",
+    "sound": "battle/flamesofwar.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "special2_attack",
+        "finalframe": "special2_attack_finalframe",
+        "full_screen": ["fullscreen_flamesofwar", 0.01]
+    },
+    "base_hp": -1300,
+    "status_enemy": "burn_status",
+    "osd": 3.8,
+    "line": "_name_ launches _skill_. A wall of fire engulfs the scene. _damage_"
+}

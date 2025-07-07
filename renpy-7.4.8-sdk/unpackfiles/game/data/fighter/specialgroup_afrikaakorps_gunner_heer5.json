@@ -1,0 +1,50 @@
+{
+    "name": "Gunner",
+    "unit": "special group",
+    "image": "specialgroup_afrikaakorps_gunner_heer5_profile",
+
+    "walk_sprite": "specialgroup_afrikaakorps_gunner_heer5_walk",
+    "receive_sprite": "specialgroup_afrikaakorps_gunner_heer5_static",
+    "main1_attack_sprite": "specialgroup_afrikaakorps_gunner_heer5_main1_attack",
+    "main2_attack_sprite": "specialgroup_afrikaakorps_gunner_heer5_main2_attack", 
+    "special1_attack_sprite": "specialgroup_afrikaakorps_gunner_heer5_special1_attack", 
+    "special2_attack_sprite": "specialgroup_afrikaakorps_gunner_heer5_special2_attack", 
+    "special3_attack_sprite": "specialgroup_afrikaakorps_gunner_heer5_special3_attack", 
+    "main1_powerup_sprite": "specialgroup_afrikaakorps_gunner_heer5_main1_powerup", 
+    "main2_powerup_sprite": "specialgroup_afrikaakorps_gunner_heer5_main2_powerup", 
+    "heal_sprite": "specialgroup_afrikaakorps_gunner_heer5_heal", 
+
+    "main1_attack_finalframe_sprite": "specialgroup_afrikaakorps_gunner_heer5_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "specialgroup_afrikaakorps_gunner_heer5_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "specialgroup_afrikaakorps_gunner_heer5_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "specialgroup_afrikaakorps_gunner_heer5_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "specialgroup_afrikaakorps_gunner_heer5_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "specialgroup_afrikaakorps_gunner_heer5_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "specialgroup_afrikaakorps_gunner_heer5_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "specialgroup_afrikaakorps_gunner_heer5_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_germania.png",
+    "level": 52,
+    "cost": 490,
+    "hp": 4900,
+    "attack": 49,
+    "defense": 50,
+    "accuracy": 50,
+    "critical": 50,
+    "speed": 50,
+    "terrain": "desert",
+
+    "fullname": "Gunner (D.A.K)",
+    "description": "The backbone of the Afrikaa Korps, a footsoldier, this unit forms the basis of squads in battle.",
+    "primary_weapon": "Schmeisser SMG",
+    "secondary_weapon": "Stylischhandgranate",
+    "motto": "All hail moe!",
+    
+    "perks": ["perk_firepower", "perk_lightweight", "x", "x"],
+    "skill": [
+        "main1_attack_mp40_heer5", 
+        "main2_attack_stielhandgranate", 
+        "heal_medikit_heer5"
+    ]
+}

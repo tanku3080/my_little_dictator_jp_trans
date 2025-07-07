@@ -1,0 +1,55 @@
+{
+    "name": "Zhukky",
+    "unit": "enemyboss",
+    "image": "commander_zhukky_profile",
+
+    "walk_sprite": "commander_zhukky_walk",
+    "receive_sprite": "commander_zhukky_static",
+    "main1_attack_sprite": "commander_zhukky_main1_attack",
+    "main2_attack_sprite": "commander_zhukky_main2_attack",
+    "special1_attack_sprite": "commander_zhukky_special1_attack", 
+    "special2_attack_sprite": "commander_zhukky_special2_attack", 
+    "special3_attack_sprite": "commander_zhukky_special3_attack", 
+    "main1_powerup_sprite": "commander_zhukky_main1_powerup", 
+    "main2_powerup_sprite": "commander_zhukky_main2_powerup", 
+    "heal_sprite": "commander_zhukky_heal", 
+
+    "main1_attack_finalframe_sprite": "commander_zhukky_main1_attack_finalframe",
+    "main2_attack_finalframe_sprite": "commander_zhukky_main2_attack_finalframe",
+    "special1_attack_finalframe_sprite": "commander_zhukky_special1_attack_finalframe", 
+    "special2_attack_finalframe_sprite": "commander_zhukky_special2_attack_finalframe", 
+    "special3_attack_finalframe_sprite": "commander_zhukky_special3_attack_finalframe", 
+    "main1_powerup_finalframe_sprite": "commander_zhukky_main1_powerup_finalframe", 
+    "main2_powerup_finalframe_sprite": "commander_zhukky_main2_powerup_finalframe", 
+    "heal_finalframe_sprite": "commander_zhukky_heal_finalframe",
+
+    "animation": "",
+    "map_icon": "gui/flag_sovia.png",
+    "level": 79,
+    "cost": 800,
+    "hp": 16000,
+    "attack": 80,
+    "defense": 79,
+    "accuracy": 60,
+    "critical": 40,
+    "speed": 85,
+    "terrain": "snow",
+
+    "fullname": "Marshal Iorgina Zhukky",
+    "description": "Known for crushing the skulls of her enemies, this icy commander shouldn't be messed with. Weak against ground types.",
+    "primary_weapon": "Purge",
+    "secondary_weapon": "Molotov Cocktail",
+    "motto": "Girls of the world, unite!",
+    
+    "perks": ["perk_dark", "perk_ice", "perk_bruteforce", "x"],
+    "skill": [
+        "main1_attack_purge", 
+        "main2_attack_molotovcocktail", 
+        "main1_powerup_xpower", 
+        "special1_attack_iceburst", 
+        "special2_attack_frozenwinter", 
+        "special3_attack_fissure", 
+        "heal_medikit_heer7"
+    ],
+    "ai": "True"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "heal_maintenance_heer2",
+    "kind": "heal",
+    "name": "Maintenance",
+    "desc": "Perform some basic repairs.",
+    "skilltype": "skilltype_heal",
+    "pp": 1,
+    "image": "reaction_heal",
+    "sound": "battle/maintenance.ogg",
+    "animation": {
+        "kind": "self",
+        "listing": "heal",
+        "finalframe": "heal_finalframe"
+    },
+    "base_hp": 2200,
+    "osd": 3.2,
+    "line": "_name_ uses _skill_. Engineers begin making repairs."
+}

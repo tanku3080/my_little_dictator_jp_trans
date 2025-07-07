@@ -1,0 +1,20 @@
+{
+    "id": "stukatablets",
+    "kind": "boost",
+    "name": "Ztuka Tablets",
+    "desc": "Double boost your Speed for up to 4 Turns. {color=#F35F5F}(Boost / 50% Chance){/color}",
+    "skilltype": "skilltype_boost",
+    "pp": 1,
+    "image": "reaction_none",
+    "sound": "battle/stukatablets.ogg",
+    "animation": {
+        "kind": "self",
+        "listing": "main2_powerup",
+        "finalframe": "main2_powerup_finalframe",
+        "full_screen": ["fullscreen_superup", 0.01]
+    },
+    "status_enemy": "stukatablets_status",
+    "osd": 3.2,
+    "line": "_name_'s crew take some _skill_. They feel a huge boost of adrenaline."
+}
+

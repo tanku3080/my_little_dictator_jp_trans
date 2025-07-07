@@ -1,0 +1,18 @@
+{
+    "id": "piat",
+    "kind": "attack",
+    "name": "Jefferis Shoulder Gun",
+    "desc": "A Britannian portable anti-tank weapon with a range of 115 yards.",
+    "skilltype": "skilltype_fire",
+    "pp": 100,
+    "image": "reaction_explo_small",
+    "sound": "battle/piat.ogg",
+    "animation": {
+        "kind": "attack",
+        "listing": "main1_attack",
+        "finalframe": "main1_attack_finalframe"
+    },
+    "base_hp": -650,
+    "osd": 3.2,
+    "line": "_name_ uses their _skill_. _damage_"
+}
