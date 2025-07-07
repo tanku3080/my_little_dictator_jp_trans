@@ -142,77 +142,77 @@ translate Japanese bad_ending2_cb4ba8c9:
 translate Japanese bad_ending2_56bc6aab:
 
     # "The Füühbar's lust for power knows no bounds."
-    "The Füühbar's lust for power knows no bounds."
+    "総統の権力欲はとどまることを知らない"
 
 # game/endings.rpy:71
 translate Japanese bad_ending2_05effd1a:
 
     # me "I can't go on like this. If I stay here, I'll be forced to chew on a cyanide capsule before the end . . ."
-    me "I can't go on like this. If I stay here, I'll be forced to chew on a cyanide capsule before the end . . ."
+    me "こんなのもう無理だ。このままじゃ、最期には青酸カプセルを噛まされる羽目になる……"
 
 # game/endings.rpy:72
 translate Japanese bad_ending2_a1227f19:
 
     # "This is the Germanian empire I started to fight for . . . the one for which I was summoned to spy on."
-    "This is the Germanian empire I started to fight for . . . the one for which I was summoned to spy on."
+    "これが俺が戦うことになったゲルマニア帝国……スパイとして召喚された理由だ。"
 
 # game/endings.rpy:73
 translate Japanese bad_ending2_2dfbdfbd:
 
     # "I didn't realize the extent of its evil. And now I've had a hand in it. But no longer."
-    "I didn't realize the extent of its evil. And now I've had a hand in it. But no longer."
+    "その邪悪さの深さに気づいていなかった。そして今ではその一端を担ってしまった。でも、もうやめだ。"
 
 # game/endings.rpy:74
 translate Japanese bad_ending2_bd804606:
 
     # "Not being able to stand the shame of it . . . not being able to stomach the fight or the duplicity."
-    "Not being able to stand the shame of it . . . not being able to stomach the fight or the duplicity."
+    "その恥に耐えられず……戦いや欺瞞に耐えきれなくなった。"
 
 # game/endings.rpy:75
 translate Japanese bad_ending2_cb721a84:
 
     # "In a cowardly manner, I resign my post and buy a one-way ticket back to Zipangu."
-    "In a cowardly manner, I resign my post and buy a one-way ticket back to Zipangu."
+    "俺は臆病にも任務を放棄し、片道切符でジパングへ帰ることを決めた。"
 
 # game/endings.rpy:76
 translate Japanese bad_ending2_302ba474:
 
     # "Sneaking aboard a ferry bound for Edooh, I feel the weight slipping from my shoulders as we steam across the oceans."
-    "Sneaking aboard a ferry bound for Edooh, I feel the weight slipping from my shoulders as we steam across the oceans."
+    "江戸行きのフェリーに忍び込み、海を越えていく中で、肩の荷が少しずつ下りていくのを感じた。"
 
 # game/endings.rpy:77
 translate Japanese bad_ending2_2ee78234:
 
     # "Perhaps my homeland will survive this global conquest yet . . ."
-    "Perhaps my homeland will survive this global conquest yet . . ."
+    "もしかすると、俺の故郷はこの世界征服の波を生き延びるかもしれない……"
 
 # game/endings.rpy:97
 translate Japanese bad_ending3_c19cc7ee:
 
     # "Unable to fulfill my original duty and my mission, I leave for Zipangu."
-    "Unable to fulfill my original duty and my mission, I leave for Zipangu."
+    "本来の任務も使命も果たせず、俺はジパングへと向かった。"
 
 # game/endings.rpy:98
 translate Japanese bad_ending3_597fcad3:
 
     # "Whatever happens to Sovia, to Germania or to the dictators . . . who cares. It's not my responsibility any more."
-    "Whatever happens to Sovia, to Germania or to the dictators . . . who cares. It's not my responsibility any more."
+    "ソヴィア、ゲルマニア、独裁者たちがどうなろうと……知ったことか。もう俺の責任じゃない。"
 
 # game/endings.rpy:99
 translate Japanese bad_ending3_cca3687c:
 
     # "I soon learn about the attack on Amerika and the new world war about to begin."
-    "I soon learn about the attack on Amerika and the new world war about to begin."
+    "やがて、アメリカへの攻撃と新たな世界大戦の始まりを知ることになる。"
 
 # game/endings.rpy:100
 translate Japanese bad_ending3_1bd6910d:
 
     # "Climbing aboard a train bound for the east, I feel the weight slipping from my shoulders."
-    "Climbing aboard a train bound for the east, I feel the weight slipping from my shoulders."
+    "東へ向かう列車に乗り込みながら、肩の荷が少しずつ軽くなるのを感じていた。"
 
 # game/endings.rpy:101
 translate Japanese bad_ending3_2ee78234:
 
     # "Perhaps my homeland will survive this global conquest yet . . ."
-    "Perhaps my homeland will survive this global conquest yet . . ."
+    "もしかすると、俺の故郷はこの世界征服の波を生き延びるかもしれない……"
 
