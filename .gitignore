@@ -1,0 +1,5 @@
+*
+!.gitignore
+!renpy-7.4.8-sdk/
+!renpy-7.4.8-sdk/unpackfiles/
+!renpy-7.4.8-sdk/unpackfiles/**
